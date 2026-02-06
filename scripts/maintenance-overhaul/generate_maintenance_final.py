@@ -667,11 +667,23 @@ def format_authorities(auth_data, is_unmaintained=False):
         'guidelines': auth_data.get('guidelines')
     }
 
+def get_feature_wiki_link(component_name):
+    """Erstelle Feature Wiki Link für eine Komponente"""
+    # Basis-URL für Feature Wiki Overview
+    base_url = "https://docu.ilias.de/go/wiki/wpage_1_1357"
+    # Erstelle einen Link zur Overview-Seite (die einzelnen Komponenten haben keine direkten Links in der HTML)
+    # Wir verlinken zur Overview-Seite, da die einzelnen Komponenten-Seiten dynamisch sind
+    return base_url
+
 def format_component_section(component_name, folders, authorities_dict, is_unmaintained=False):
     """Formatiere eine Komponenten-Sektion"""
-    # Mache Component-Ordner anklickbar (Links zu GitHub)
+    # Mache Component-Ordner anklickbar (Links zu GitHub) - kleiner formatieren
     github_base = "https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS"
     folders_str = ', '.join([f'[`{f}`]({github_base}/{f})' for f in sorted(folders)])
+    
+    # Feature Wiki Link für die Komponente
+    feature_wiki_link = get_feature_wiki_link(component_name)
+    component_name_with_link = f"[{component_name}]({feature_wiki_link})"
     
     # Erstelle Kommentar-Namen für die Komponente (verwende ersten folder oder component_name)
     comment_name = folders[0] if folders else component_name.replace(' ', '').replace('&', '').replace(',', '')
@@ -686,8 +698,8 @@ def format_component_section(component_name, folders, authorities_dict, is_unmai
         
         result = f"""[//]: # (BEGIN {comment_name})
 
-#### {component_name}
-{status_line}**Component Ordner:** {folders_str}
+#### {component_name_with_link}
+{status_line}*Component Ordner:* {folders_str}
 
 * Authority to Sign off on Conceptual Changes: {formatted['conceptual'] or 'NONE'}
 * Authority to Sign off on Code Changes: {formatted['code'] or 'NONE'}
@@ -713,9 +725,9 @@ def format_component_section(component_name, folders, authorities_dict, is_unmai
         
         sections = [f"""[//]: # (BEGIN {comment_name})
 
-#### {component_name}
+#### {component_name_with_link}
 
-**Component Ordner:** {folders_str}
+*Component Ordner:* {folders_str}
 """]
         
         for folder in sorted(folders):
