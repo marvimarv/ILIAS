@@ -1667,3 +1667,3225 @@ The following directories are currently unmaintained:
 * ILIAS/CSV
 * ILIAS/EventHandling
 
+## Current Maintainerships
+
+Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](https://docu.ilias.de/go/wiki/wpage_1_1357).
+
+**Statistik:** 140 maintained Components, 40 unmaintained Components, 320 NONE Authority-Einträge
+
+### 1. [General Topics](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#1_General_Topics)
+
+[//]: # (BEGIN PrivacyTermsofServiceandDataProtectionincl.TermsofService)
+
+#### [Privacy, Terms of Service and Data Protection (incl. Terms of Service)](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Privacy%2C_Terms_of_Service_and_Data_Protection&from_page=Overview)
+
+*Component Ordner:* [`DataProtection`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/DataProtection), [`PrivacySecurity`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/PrivacySecurity), [`TermsOfService`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/TermsOfService)
+
+
+[//]: # (BEGIN DataProtection)
+
+##### DataProtection
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
+* Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END DataProtection)
+
+
+[//]: # (BEGIN PrivacySecurity)
+
+##### PrivacySecurity
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END PrivacySecurity)
+
+
+[//]: # (BEGIN TermsOfService)
+
+##### TermsOfService
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
+* Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END TermsOfService)
+
+
+[//]: # (END PrivacyTermsofServiceandDataProtectionincl.TermsofService)
+
+[//]: # (BEGIN WebAccessChecker)
+
+#### [Security (incl. Web Access Checker)](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Security&from_page=Overview)
+*Component Ordner:* [`WebAccessChecker`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/WebAccessChecker)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: [ukohnle](https://docu.ilias.de/go/usr/21855)
+* Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END WebAccessChecker)
+
+
+### 2. [Accessibility, Usability and User Interface](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#2_Accessibility_Usability_and_User_Interface)
+
+[//]: # (BEGIN Accessibility)
+
+#### [Accessibility](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Accessibility&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Accessibility`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Accessibility)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Accessibility)
+
+
+[//]: # (BEGIN UserInterface)
+
+#### [User Interface](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=User_Interface&from_page=Overview)
+
+*Component Ordner:* [`UI`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/UI), [`UIComponent`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/UIComponent), [`UICore`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/UICore), [`UI_`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/UI_)
+
+
+[//]: # (BEGIN UI)
+
+##### UI
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END UI)
+
+
+[//]: # (BEGIN UIComponent)
+
+##### UIComponent
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END UIComponent)
+
+
+[//]: # (BEGIN UICore)
+
+##### UICore
+* Authority to Sign off on Conceptual Changes: [tfuhrer](https://docu.ilias.de/go/usr/81947)
+* Authority to Sign off on Code Changes: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Curate Test Cases: [tfuhrer](https://docu.ilias.de/go/usr/81947)
+* Authority to (De-)Assign Authorities: [tfuhrer](https://docu.ilias.de/go/usr/81947)
+* Tester: NONE
+* Assignee for Issues: [tfuhrer](https://docu.ilias.de/go/usr/81947)
+* Assignee for Security Reports: [tfuhrer](https://docu.ilias.de/go/usr/81947)
+* Assignee for Security Issues: NONE
+* Unit-specific Guidelines, Rules, and Regulations: [Guidelines](https://github.com/ILIAS-eLearning/ILIAS/blob/trunk/components/ILIAS/UI/docs/COMMUNITY.md)
+
+[//]: # (END UICore)
+
+
+[//]: # (BEGIN UI_)
+
+##### UI_
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END UI_)
+
+
+[//]: # (END UserInterface)
+
+### 3. [ILIAS core](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#3_ILIAS_core)
+
+[//]: # (BEGIN Accordion)
+
+#### [Accordion](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Accordion&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Accordion`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Accordion)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Accordion)
+
+
+[//]: # (BEGIN ActiveRecord)
+
+#### [ActiveRecord](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=ActiveRecord&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`ActiveRecord`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ActiveRecord)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END ActiveRecord)
+
+
+[//]: # (BEGIN App)
+
+#### [App](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=App&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`App`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/App)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END App)
+
+
+[//]: # (BEGIN Benchmark)
+
+#### [Benchmark](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Benchmark&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Benchmark`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Benchmark)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Benchmark)
+
+
+[//]: # (BEGIN CSV)
+
+#### [CSV](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=CSV&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`CSV`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/CSV)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END CSV)
+
+
+[//]: # (BEGIN Cache)
+
+#### [Cache](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Cache&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Cache`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Cache)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Cache)
+
+
+[//]: # (BEGIN Chart)
+
+#### [Chart](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Chart&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Chart`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Chart)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Chart)
+
+
+[//]: # (BEGIN Cloud)
+
+#### [Cloud](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Cloud&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Cloud`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Cloud)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Cloud)
+
+
+[//]: # (BEGIN Component)
+
+#### [Components Framework](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Components_Framework&from_page=Overview)
+*Component Ordner:* [`Component`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Component)
+
+* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [tfuhrer](https://docu.ilias.de/go/usr/81947)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [tfuhrer](https://docu.ilias.de/go/usr/81947)
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087), [tfuhrer](https://docu.ilias.de/go/usr/81947)
+* Tester: NONE
+* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Component)
+
+
+[//]: # (BEGIN Context)
+
+#### [Context](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Context&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Context`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Context)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Context)
+
+
+[//]: # (BEGIN Cron)
+
+#### [Cron Service](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Cron_Service&from_page=Overview)
+*Component Ordner:* [`Cron`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Cron)
+
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Cron)
+
+
+[//]: # (BEGIN DI)
+
+#### [DI](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=DI&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`DI`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/DI)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END DI)
+
+
+[//]: # (BEGIN Data)
+
+#### [Data](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Data&from_page=Overview)
+*Component Ordner:* [`Data`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Data)
+
+* Authority to Sign off on Conceptual Changes: [lscharmer](https://docu.ilias.de/go/usr/87863), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [lscharmer](https://docu.ilias.de/go/usr/87863), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: [lscharmer](https://docu.ilias.de/go/usr/87863), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [lscharmer](https://docu.ilias.de/go/usr/87863)
+* Assignee for Security Reports: [lscharmer](https://docu.ilias.de/go/usr/87863)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Data)
+
+
+[//]: # (BEGIN Database)
+
+#### [Database](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Database&from_page=Overview)
+*Component Ordner:* [`Database`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Database)
+
+* Authority to Sign off on Conceptual Changes: [lscharmer](https://docu.ilias.de/go/usr/87863), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [lscharmer](https://docu.ilias.de/go/usr/87863), [mjansen](https://docu.ilias.de/go/usr/8784), [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: [lscharmer](https://docu.ilias.de/go/usr/87863)
+* Tester: NONE
+* Assignee for Issues: [lscharmer](https://docu.ilias.de/go/usr/87863)
+* Assignee for Security Reports: [lscharmer](https://docu.ilias.de/go/usr/87863)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Database)
+
+
+[//]: # (BEGIN Environment)
+
+#### [Environment](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Environment&from_page=Overview)
+*Component Ordner:* [`Environment`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Environment)
+
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+
+[//]: # (END Environment)
+
+
+[//]: # (BEGIN EventHandling)
+
+#### [EventHandling](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=EventHandling&from_page=Overview)
+*Component Ordner:* [`EventHandling`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/EventHandling)
+
+* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Tester: NONE
+* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Security Issues: NONE
+
+[//]: # (END EventHandling)
+
+
+[//]: # (BEGIN Excel)
+
+#### [Excel](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Excel&from_page=Overview)
+*Component Ordner:* [`Excel`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Excel)
+
+* Authority to Sign off on Conceptual Changes: [dstrassner](https://docu.ilias.de/goto_docu_usr_48931.html)
+* Authority to Sign off on Code Changes: [skergomard](https://docu.ilias.de/goto_docu_usr_44474.html)
+* Authority to Curate Test Cases: [dstrassner](https://docu.ilias.de/goto_docu_usr_48931.html)
+* Authority to (De-)Assign Authorities: [dstrassner](https://docu.ilias.de/goto_docu_usr_48931.html)
+* Tester: NONE
+* Assignee for Issues: [dstrassner](https://docu.ilias.de/goto_docu_usr_48931.html)
+* Assignee for Security Reports: [dstrassner](https://docu.ilias.de/goto_docu_usr_48931.html)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Excel)
+
+
+[//]: # (BEGIN Exceptions)
+
+#### [Exceptions](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Exceptions&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Exceptions`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Exceptions)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Exceptions)
+
+
+[//]: # (BEGIN FileDelivery)
+
+#### [FileDelivery](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=FileDelivery&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`FileDelivery`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/FileDelivery)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END FileDelivery)
+
+
+[//]: # (BEGIN FileServices)
+
+#### [FileServices](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=FileServices&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`FileServices`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/FileServices)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END FileServices)
+
+
+[//]: # (BEGIN FileUpload)
+
+#### [FileUpload](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=FileUpload&from_page=Overview)
+*Component Ordner:* [`FileUpload`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/FileUpload)
+
+* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Security Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+
+[//]: # (END FileUpload)
+
+
+[//]: # (BEGIN Filesystem)
+
+#### [Filesystem](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Filesystem&from_page=Overview)
+*Component Ordner:* [`Filesystem`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Filesystem)
+
+* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Security Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+
+[//]: # (END Filesystem)
+
+
+[//]: # (BEGIN Form)
+
+#### [Form](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Form&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Form`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Form)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Form)
+
+
+[//]: # (BEGIN HTTP)
+
+#### [HTTP](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=HTTP&from_page=Overview)
+*Component Ordner:* [`HTTP`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/HTTP)
+
+* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Security Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+
+[//]: # (END HTTP)
+
+
+[//]: # (BEGIN History)
+
+#### [History](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=History&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`History`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/History)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END History)
+
+
+[//]: # (BEGIN Http_)
+
+#### [Http_](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Http_&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Http_`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Http_)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Http_)
+
+
+[//]: # (BEGIN ResourceStorage)
+
+#### [ILIAS Resource Storage Service](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=ILIAS_Resource_Storage_Service&from_page=Overview)
+*Component Ordner:* [`ResourceStorage`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ResourceStorage)
+
+* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Security Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+
+[//]: # (END ResourceStorage)
+
+
+[//]: # (BEGIN ILIASObject)
+
+#### [ILIASObject](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=ILIASObject&from_page=Overview)
+*Component Ordner:* [`ILIASObject`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ILIASObject)
+
+* Authority to Sign off on Conceptual Changes: [fawinike](https://docu.ilias.de/go/usr/44474)
+* Authority to Sign off on Code Changes: [fawinike](https://docu.ilias.de/go/usr/44474)
+* Authority to Curate Test Cases: [fawinike](https://docu.ilias.de/go/usr/44474)
+* Authority to (De-)Assign Authorities: [fawinike](https://docu.ilias.de/go/usr/44474)
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [fawinike](https://docu.ilias.de/go/usr/44474)
+* Assignee for Security Issues: [fawinike](https://docu.ilias.de/go/usr/44474)
+
+[//]: # (END ILIASObject)
+
+
+[//]: # (BEGIN Imprint)
+
+#### [Imprint](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Imprint&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Imprint`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Imprint)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Imprint)
+
+
+[//]: # (BEGIN JavaScript)
+
+#### [JavaScript](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=JavaScript&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`JavaScript`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/JavaScript)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END JavaScript)
+
+
+[//]: # (BEGIN KioskMode)
+
+#### [KioskMode](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=KioskMode&from_page=Overview)
+*Component Ordner:* [`KioskMode`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/KioskMode)
+
+* Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Curate Test Cases: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to (De-)Assign Authorities: [rklees](https://docu.ilias.de/go/usr/34047)
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [rklees](https://docu.ilias.de/go/usr/34047)
+* Assignee for Security Issues: [rklees](https://docu.ilias.de/go/usr/34047)
+
+[//]: # (END KioskMode)
+
+
+[//]: # (BEGIN KioskMode_)
+
+#### [KioskMode_](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=KioskMode_&from_page=Overview)
+*Component Ordner:* [`KioskMode_`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/KioskMode_)
+
+* Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Curate Test Cases: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to (De-)Assign Authorities: [rklees](https://docu.ilias.de/go/usr/34047)
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [rklees](https://docu.ilias.de/go/usr/34047)
+* Assignee for Security Issues: [rklees](https://docu.ilias.de/go/usr/34047)
+
+[//]: # (END KioskMode_)
+
+
+[//]: # (BEGIN LTIConsumer)
+
+#### [LTI Consumer](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=LTI_Consumer&from_page=Overview)
+*Component Ordner:* [`LTIConsumer`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/LTIConsumer)
+
+* Authority to Sign off on Conceptual Changes: [sergiosantiago02](https://docu.ilias.de/go/usr/110174)
+* Authority to Sign off on Code Changes: [Zallax](https://docu.ilias.de/go/usr/101102), [sdiaz](https://docu.ilias.de/go/usr/105654), [sergiosantiago02](https://docu.ilias.de/go/usr/110174)
+* Authority to Curate Test Cases: [jcop](https://docu.ilias.de/go/usr/30511)
+* Authority to (De-)Assign Authorities: [jcop](https://docu.ilias.de/go/usr/30511)
+* Tester: NONE
+* Assignee for Issues: [jcop](https://docu.ilias.de/go/usr/30511)
+* Assignee for Security Reports: [jcop](https://docu.ilias.de/go/usr/30511)
+* Assignee for Security Issues: NONE
+
+[//]: # (END LTIConsumer)
+
+
+[//]: # (BEGIN Language)
+
+#### [Language Handling](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Language_Handling&from_page=Overview)
+*Component Ordner:* [`Language`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Language)
+
+* Authority to Sign off on Conceptual Changes: [mkunkel](https://docu.ilias.de/go/usr/115)
+* Authority to Sign off on Code Changes: [mkunkel](https://docu.ilias.de/go/usr/115), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [ChrisPotter](https://docu.ilias.de/go/usr/90855), [keven.clausen](https://docu.ilias.de/go/usr/100316), [cknof](https://docu.ilias.de/go/usr/90890)
+* Authority to Curate Test Cases: [ChrisPotter](https://docu.ilias.de/go/usr/90855)
+* Authority to (De-)Assign Authorities: [mkunkel](https://docu.ilias.de/go/usr/115)
+* Tester: NONE
+* Assignee for Issues: [mkunkel](https://docu.ilias.de/go/usr/115)
+* Assignee for Security Reports: [mkunkel](https://docu.ilias.de/go/usr/115)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Language)
+
+
+[//]: # (BEGIN LegalDocuments)
+
+#### [LegalDocuments](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=LegalDocuments&from_page=Overview)
+*Component Ordner:* [`LegalDocuments`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/LegalDocuments)
+
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
+* Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/34047)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END LegalDocuments)
+
+
+[//]: # (BEGIN Like)
+
+#### [Like](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Like&from_page=Overview)
+*Component Ordner:* [`Like`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Like)
+
+* Authority to Sign off on Conceptual Changes: [oliver.samoila](https://docu.ilias.de/go/usr/26160)
+* Authority to Sign off on Code Changes: [fhelfer](https://docu.ilias.de/go/usr/93367), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Curate Test Cases: [fhelfer](https://docu.ilias.de/go/usr/93367), [tjoussen](https://docu.ilias.de/go/usr/103745), [oliver.samoila](https://docu.ilias.de/go/usr/26160)
+* Authority to (De-)Assign Authorities: [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
+* Tester: NONE
+* Assignee for Issues: [fhelfer](https://docu.ilias.de/go/usr/93367)
+* Assignee for Security Reports: [fhelfer](https://docu.ilias.de/go/usr/93367)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Like)
+
+
+[//]: # (BEGIN Link)
+
+#### [Link](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Link&from_page=Overview)
+*Component Ordner:* [`Link`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Link)
+
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [nadine.bauser](https://docu.ilias.de/go/usr/34662)
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Link)
+
+
+[//]: # (BEGIN Locator)
+
+#### [Locator](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Locator&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Locator`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Locator)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Locator)
+
+
+[//]: # (BEGIN Logging)
+
+#### [Logging](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Logging&from_page=Overview)
+*Component Ordner:* [`Logging`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Logging)
+
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Logging)
+
+
+[//]: # (BEGIN Math)
+
+#### [Math](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Math&from_page=Overview)
+*Component Ordner:* [`Math`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Math)
+
+* Authority to Sign off on Conceptual Changes: [fneumann](https://docu.ilias.de/go/usr/1560)
+* Authority to Sign off on Code Changes: [fneumann](https://docu.ilias.de/go/usr/1560)
+* Authority to Curate Test Cases: [fneumann](https://docu.ilias.de/go/usr/1560)
+* Authority to (De-)Assign Authorities: [fneumann](https://docu.ilias.de/go/usr/1560)
+* Tester: NONE
+* Assignee for Issues: [fneumann](https://docu.ilias.de/go/usr/1560)
+* Assignee for Security Reports: [fneumann](https://docu.ilias.de/go/usr/1560)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Math)
+
+
+[//]: # (BEGIN Membership)
+
+#### [Membership](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Membership&from_page=Overview)
+*Component Ordner:* [`Membership`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Membership)
+
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Membership)
+
+
+[//]: # (BEGIN Migration)
+
+#### [Migration](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Migration&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Migration`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Migration)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Migration)
+
+
+[//]: # (BEGIN Multilingualism)
+
+#### [Multilingualism](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Multilingualism&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Multilingualism`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Multilingualism)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Multilingualism)
+
+
+[//]: # (BEGIN DidacticTemplate)
+
+#### [Object Templates](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Object_Templates&from_page=Overview)
+*Component Ordner:* [`DidacticTemplate`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/DidacticTemplate)
+
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END DidacticTemplate)
+
+
+[//]: # (BEGIN Password)
+
+#### [Password](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Password&from_page=Overview)
+*Component Ordner:* [`Password`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Password)
+
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+
+[//]: # (END Password)
+
+
+[//]: # (BEGIN PermanentLink)
+
+#### [Permanent Links](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Permanent_Links&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`PermanentLink`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/PermanentLink)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END PermanentLink)
+
+
+[//]: # (BEGIN AccessControl)
+
+#### [RBAC and Permissions](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=RBAC_and_Permissions&from_page=Overview)
+*Component Ordner:* [`AccessControl`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/AccessControl)
+
+* Authority to Sign off on Conceptual Changes: [skergomard](https://docu.ilias.de/go/usr/44474)
+* Authority to Sign off on Code Changes: [skergomard](https://docu.ilias.de/go/usr/44474)
+* Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
+* Authority to (De-)Assign Authorities: [skergomard](https://docu.ilias.de/go/usr/44474)
+* Tester: NONE
+* Assignee for Issues: [skergomard](https://docu.ilias.de/go/usr/44474)
+* Assignee for Security Reports: [skergomard](https://docu.ilias.de/go/usr/44474)
+* Assignee for Security Issues: NONE
+
+[//]: # (END AccessControl)
+
+
+[//]: # (BEGIN RTE)
+
+#### [RTE](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=RTE&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`RTE`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RTE)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END RTE)
+
+
+[//]: # (BEGIN Refinery)
+
+#### [Refinery](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Refinery&from_page=Overview)
+*Component Ordner:* [`Refinery`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Refinery)
+
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
+* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Refinery)
+
+
+[//]: # (BEGIN Saml)
+
+#### [SAML](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=SAML&from_page=Overview)
+*Component Ordner:* [`Saml`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Saml)
+
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Saml)
+
+
+[//]: # (BEGIN AuthSOAP)
+
+#### [SOAP](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=SOAP&from_page=Overview)
+*Component Ordner:* [`AuthSOAP`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/AuthSOAP)
+
+* Authority to Sign off on Conceptual Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Assignee for Security Issues: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+
+[//]: # (END AuthSOAP)
+
+
+[//]: # (BEGIN AuthShibboleth)
+
+#### [Shibboleth Authentication](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Shibboleth_Authentication&from_page=Overview)
+*Component Ordner:* [`AuthShibboleth`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/AuthShibboleth)
+
+* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Tester: NONE
+* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Security Issues: NONE
+
+[//]: # (END AuthShibboleth)
+
+
+[//]: # (BEGIN StaticURL)
+
+#### [StaticURL](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=StaticURL&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`StaticURL`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/StaticURL)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END StaticURL)
+
+
+[//]: # (BEGIN Style)
+
+#### [Style](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Style&from_page=Overview)
+*Component Ordner:* [`Style`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Style)
+
+* Authority to Sign off on Conceptual Changes: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
+* Authority to Sign off on Code Changes: [BettyFromHH](https://docu.ilias.de/go/usr/96573), [rotegras](https://docu.ilias.de/go/usr/88399), [padvincenzo](https://docu.ilias.de/go/usr/87189)
+* Authority to Curate Test Cases: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
+* Authority to (De-)Assign Authorities: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
+* Tester: NONE
+* Assignee for Issues: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
+* Assignee for Security Reports: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Style)
+
+
+[//]: # (BEGIN Table)
+
+#### [Table](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Table&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Table`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Table)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Table)
+
+
+[//]: # (BEGIN Tree)
+
+#### [Tree](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Tree&from_page=Overview)
+*Component Ordner:* [`Tree`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Tree)
+
+* Authority to Sign off on Conceptual Changes: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
+* Authority to Sign off on Code Changes: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
+* Authority to Curate Test Cases: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
+* Authority to (De-)Assign Authorities: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
+* Tester: NONE
+* Assignee for Issues: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
+* Assignee for Security Reports: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Tree)
+
+
+[//]: # (BEGIN Utilities)
+
+#### [Utilities](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Utilities&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Utilities`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Utilities)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Utilities)
+
+
+[//]: # (BEGIN Verification)
+
+#### [Verification](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Verification&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Verification`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Verification)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Verification)
+
+
+[//]: # (BEGIN VirusScanner)
+
+#### [VirusScanner](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=VirusScanner&from_page=Overview)
+*Component Ordner:* [`VirusScanner`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/VirusScanner)
+
+* Authority to Sign off on Conceptual Changes: [rschenk](https://docu.ilias.de/go/usr/18065)
+* Authority to Sign off on Code Changes: [rschenk](https://docu.ilias.de/go/usr/18065)
+* Authority to Curate Test Cases: [rschenk](https://docu.ilias.de/go/usr/18065)
+* Authority to (De-)Assign Authorities: [rschenk (Databay AG)](https://docu.ilias.de/go/usr/18065)
+* Tester: NONE
+* Assignee for Issues: [rschenk](https://docu.ilias.de/go/usr/18065)
+* Assignee for Security Reports: [rschenk](https://docu.ilias.de/go/usr/18065)
+* Assignee for Security Issues: NONE
+
+[//]: # (END VirusScanner)
+
+
+[//]: # (BEGIN WOPI)
+
+#### [WOPI](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=WOPI&from_page=Overview)
+*Component Ordner:* [`WOPI`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/WOPI)
+
+* Authority to Sign off on Conceptual Changes: fschmid
+* Authority to Sign off on Code Changes: fschmid
+* Authority to Curate Test Cases: fschmid
+* Authority to (De-)Assign Authorities: fschmid
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: fschmid
+* Assignee for Security Issues: fschmid
+
+[//]: # (END WOPI)
+
+
+[//]: # (BEGIN WebServices)
+
+#### [Web Services Overview: SOAP, REST, ...](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Web_Services_Overview%3A_SOAP%2C_REST%2C_...&from_page=Overview)
+*Component Ordner:* [`WebServices`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/WebServices)
+
+* Authority to Sign off on Conceptual Changes: [githamo](https://docu.ilias.de/go/usr/115389)
+* Authority to Sign off on Code Changes: [githamo](https://docu.ilias.de/go/usr/115389), [sKarki999](https://docu.ilias.de/go/usr/112949)
+* Authority to Curate Test Cases: [sKarki999](https://docu.ilias.de/go/usr/112949)
+* Authority to (De-)Assign Authorities: [TimoScheuer](https://docu.ilias.de/go/usr/102976)
+* Tester: NONE
+* Assignee for Issues: [sKarki999](https://docu.ilias.de/go/usr/112949)
+* Assignee for Security Reports: [sKarki999](https://docu.ilias.de/go/usr/112949)
+* Assignee for Security Issues: NONE
+
+[//]: # (END WebServices)
+
+
+[//]: # (BEGIN Xml)
+
+#### [Xml](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Xml&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Xml`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Xml)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Xml)
+
+
+[//]: # (BEGIN jQuery)
+
+#### [jQuery](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=jQuery&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`jQuery`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/jQuery)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END jQuery)
+
+
+[//]: # (BEGIN setup_)
+
+#### [setup_](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=setup_&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`setup_`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/setup_)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END setup_)
+
+
+[//]: # (BEGIN soap)
+
+#### [soap](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=soap&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`soap`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/soap)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END soap)
+
+
+### 4. [General Services](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#4_General_Services)
+
+[//]: # (BEGIN BackgroundTasks)
+
+#### [Background Tasks](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Background_Tasks&from_page=Overview)
+
+*Component Ordner:* [`BackgroundTasks`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/BackgroundTasks), [`BackgroundTasks_`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/BackgroundTasks_)
+
+
+[//]: # (BEGIN BackgroundTasks)
+
+##### BackgroundTasks
+* Authority to Sign off on Conceptual Changes: [tjoussen](https://docu.ilias.de/go/usr/103745), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [tjoussen](https://docu.ilias.de/go/usr/103745), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: [tjoussen (Databay AG)](https://docu.ilias.de/go/usr/103745)
+* Tester: NONE
+* Assignee for Issues: [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Assignee for Security Reports: [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Assignee for Security Issues: NONE
+
+[//]: # (END BackgroundTasks)
+
+
+[//]: # (BEGIN BackgroundTasks_)
+
+##### BackgroundTasks_
+* Authority to Sign off on Conceptual Changes: [tjoussen](https://docu.ilias.de/go/usr/103745), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [tjoussen](https://docu.ilias.de/go/usr/103745), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: [tjoussen (Databay AG)](https://docu.ilias.de/go/usr/103745)
+* Tester: NONE
+* Assignee for Issues: [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Assignee for Security Reports: [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Assignee for Security Issues: NONE
+
+[//]: # (END BackgroundTasks_)
+
+
+[//]: # (END BackgroundTasks)
+
+[//]: # (BEGIN Badge)
+
+#### [Badges](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Badges&from_page=Overview)
+*Component Ordner:* [`Badge`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Badge)
+
+* Authority to Sign off on Conceptual Changes: [fhelfer](https://docu.ilias.de/go/usr/93367)
+* Authority to Sign off on Code Changes: [fhelfer](https://docu.ilias.de/go/usr/93367), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [fhelfer](https://docu.ilias.de/go/usr/93367)
+* Assignee for Security Reports: [fhelfer](https://docu.ilias.de/go/usr/93367)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Badge)
+
+
+[//]: # (BEGIN Calendar)
+
+#### [Calendar](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Calendar&from_page=Overview)
+*Component Ordner:* [`Calendar`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Calendar)
+
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Calendar)
+
+
+[//]: # (BEGIN Certificate)
+
+#### [Certificate](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Certificate&from_page=Overview)
+*Component Ordner:* [`Certificate`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Certificate)
+
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784), [ChrisPotter](https://docu.ilias.de/go/usr/90855)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Certificate)
+
+
+[//]: # (BEGIN Skill)
+
+#### [Competence Management](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Competence_Management&from_page=Overview)
+*Component Ordner:* [`Skill`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Skill)
+
+* Authority to Sign off on Conceptual Changes: [cludolf](https://docu.ilias.de/go/usr/97658)
+* Authority to Sign off on Code Changes: [cludolf](https://docu.ilias.de/go/usr/97658), [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
+* Authority to (De-)Assign Authorities: [cludolf](https://docu.ilias.de/go/usr/97658)
+* Tester: NONE
+* Assignee for Issues: [cludolf](https://docu.ilias.de/go/usr/97658)
+* Assignee for Security Reports: [cludolf](https://docu.ilias.de/go/usr/97658)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Skill)
+
+
+[//]: # (BEGIN Contact)
+
+#### [Contacts](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Contacts&from_page=Overview)
+*Component Ordner:* [`Contact`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Contact)
+
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Contact)
+
+
+[//]: # (BEGIN Dashboard)
+
+#### [Dashboard](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Dashboard&from_page=Overview)
+*Component Ordner:* [`Dashboard`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Dashboard)
+
+* Authority to Sign off on Conceptual Changes: [iszmais](https://docu.ilias.de/go/usr/65630), [lscharmer](https://docu.ilias.de/go/usr/87863)
+* Authority to Sign off on Code Changes: [iszmais](https://docu.ilias.de/go/usr/65630), [lscharmer](https://docu.ilias.de/go/usr/87863), [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
+* Authority to (De-)Assign Authorities: [iszmais (Databay AG)](https://docu.ilias.de/go/usr/65630), [lscharmer (Databay AG)](https://docu.ilias.de/go/usr/87863)
+* Tester: NONE
+* Assignee for Issues: [iszmais](https://docu.ilias.de/go/usr/65630)
+* Assignee for Security Reports: [iszmais](https://docu.ilias.de/go/usr/65630)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Dashboard)
+
+
+[//]: # (BEGIN ECSInterface)
+
+#### [ECS Interface](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=ECS_Interface&from_page=Overview)
+
+*Component Ordner:* [`RemoteCategory`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RemoteCategory), [`RemoteCourse`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RemoteCourse), [`RemoteFile`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RemoteFile), [`RemoteGlossary`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RemoteGlossary), [`RemoteGroup`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RemoteGroup), [`RemoteLearningModule`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RemoteLearningModule), [`RemoteTest`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RemoteTest), [`RemoteWiki`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RemoteWiki)
+
+
+[//]: # (BEGIN RemoteCategory)
+
+##### RemoteCategory
+* Authority to Sign off on Conceptual Changes: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
+* Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
+* Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
+* Tester: NONE
+* Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Assignee for Security Issues: NONE
+
+[//]: # (END RemoteCategory)
+
+
+[//]: # (BEGIN RemoteCourse)
+
+##### RemoteCourse
+* Authority to Sign off on Conceptual Changes: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
+* Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
+* Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
+* Tester: NONE
+* Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Assignee for Security Issues: NONE
+
+[//]: # (END RemoteCourse)
+
+
+[//]: # (BEGIN RemoteFile)
+
+##### RemoteFile
+* Authority to Sign off on Conceptual Changes: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
+* Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
+* Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
+* Tester: NONE
+* Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Assignee for Security Issues: NONE
+
+[//]: # (END RemoteFile)
+
+
+[//]: # (BEGIN RemoteGlossary)
+
+##### RemoteGlossary
+* Authority to Sign off on Conceptual Changes: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
+* Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
+* Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
+* Tester: NONE
+* Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Assignee for Security Issues: NONE
+
+[//]: # (END RemoteGlossary)
+
+
+[//]: # (BEGIN RemoteGroup)
+
+##### RemoteGroup
+* Authority to Sign off on Conceptual Changes: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
+* Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
+* Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
+* Tester: NONE
+* Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Assignee for Security Issues: NONE
+
+[//]: # (END RemoteGroup)
+
+
+[//]: # (BEGIN RemoteLearningModule)
+
+##### RemoteLearningModule
+* Authority to Sign off on Conceptual Changes: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
+* Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
+* Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
+* Tester: NONE
+* Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Assignee for Security Issues: NONE
+
+[//]: # (END RemoteLearningModule)
+
+
+[//]: # (BEGIN RemoteTest)
+
+##### RemoteTest
+* Authority to Sign off on Conceptual Changes: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
+* Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
+* Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
+* Tester: NONE
+* Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Assignee for Security Issues: NONE
+
+[//]: # (END RemoteTest)
+
+
+[//]: # (BEGIN RemoteWiki)
+
+##### RemoteWiki
+* Authority to Sign off on Conceptual Changes: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
+* Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
+* Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
+* Tester: NONE
+* Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Assignee for Security Issues: NONE
+
+[//]: # (END RemoteWiki)
+
+
+[//]: # (END ECSInterface)
+
+[//]: # (BEGIN Export)
+
+#### [Export](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Export&from_page=Overview)
+*Component Ordner:* [`Export`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Export)
+
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [Fabian](https://docu.ilias.de/go/usr/27631)
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Export)
+
+
+[//]: # (BEGIN GlobalScreen)
+
+#### [Global Screen Service](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Global_Screen_Service&from_page=Overview)
+*Component Ordner:* [`GlobalScreen`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/GlobalScreen)
+
+* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Tester: NONE
+* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Security Issues: NONE
+
+[//]: # (END GlobalScreen)
+
+
+[//]: # (BEGIN COPage)
+
+#### [ILIAS Page Editor](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=ILIAS_Page_Editor&from_page=Overview)
+*Component Ordner:* [`COPage`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/COPage)
+
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END COPage)
+
+
+[//]: # (BEGIN InfoScreen)
+
+#### [Info Page](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Info_Page&from_page=Overview)
+*Component Ordner:* [`InfoScreen`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/InfoScreen)
+
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END InfoScreen)
+
+
+[//]: # (BEGIN LearningHistory)
+
+#### [Learning History](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Learning_History&from_page=Overview)
+*Component Ordner:* [`LearningHistory`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/LearningHistory)
+
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END LearningHistory)
+
+
+[//]: # (BEGIN MainMenu)
+
+#### [Main Menu](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Main_Menu&from_page=Overview)
+*Component Ordner:* [`MainMenu`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/MainMenu)
+
+* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Tester: NONE
+* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Security Issues: NONE
+
+[//]: # (END MainMenu)
+
+
+[//]: # (BEGIN Maps)
+
+#### [Maps](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Maps&from_page=Overview)
+*Component Ordner:* [`Maps`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Maps)
+
+* Authority to Sign off on Conceptual Changes: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
+* Authority to Sign off on Code Changes: [keven.clausen](https://docu.ilias.de/go/usr/100316), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
+* Authority to Curate Test Cases: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
+* Authority to (De-)Assign Authorities: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
+* Tester: NONE
+* Assignee for Issues: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
+* Assignee for Security Reports: [keven.clausen](https://docu.ilias.de/go/usr/100316)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Maps)
+
+
+[//]: # (BEGIN Metadata)
+
+#### [Metadata](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Metadata&from_page=Overview)
+
+*Component Ordner:* [`ADT`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ADT), [`AdvancedMetaData`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/AdvancedMetaData), [`MetaData`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/MetaData)
+
+
+[//]: # (BEGIN ADT)
+
+##### ADT
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to Curate Test Cases: [Alexandra Tödt](https://docu.ilias.de/go/usr/3139)
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END ADT)
+
+
+[//]: # (BEGIN AdvancedMetaData)
+
+##### AdvancedMetaData
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to Curate Test Cases: [Alexandra Tödt](https://docu.ilias.de/go/usr/3139)
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END AdvancedMetaData)
+
+
+[//]: # (BEGIN MetaData)
+
+##### MetaData
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to Curate Test Cases: [Alexandra Tödt](https://docu.ilias.de/go/usr/3139)
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END MetaData)
+
+
+[//]: # (END Metadata)
+
+[//]: # (BEGIN Notes)
+
+#### [Notes and Comments](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Notes_and_Comments&from_page=Overview)
+*Component Ordner:* [`Notes`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Notes)
+
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [skaiser](https://docu.ilias.de/go/usr/17260)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Notes)
+
+
+[//]: # (BEGIN Help)
+
+#### [Online Help](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Online_Help&from_page=Overview)
+*Component Ordner:* [`Help`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Help)
+
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Help)
+
+
+[//]: # (BEGIN OrgUnit)
+
+#### [Organisational Units](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Organisational_Units&from_page=Overview)
+*Component Ordner:* [`OrgUnit`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/OrgUnit)
+
+* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [lschmidt-tf](https://docu.ilias.de/go/usr/120143)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [maalers](https://docu.ilias.de/go/usr/119188)
+* Authority to Curate Test Cases: [wischniak](https://docu.ilias.de/go/usr/21896)
+* Authority to (De-)Assign Authorities: [maalers](https://docu.ilias.de/go/usr/119188)
+* Tester: NONE
+* Assignee for Issues: [maalers](https://docu.ilias.de/go/usr/119188)
+* Assignee for Security Reports: [maalers](https://docu.ilias.de/go/usr/119188)
+* Assignee for Security Issues: NONE
+
+[//]: # (END OrgUnit)
+
+
+[//]: # (BEGIN PersonalandSharedResources)
+
+#### [Personal and Shared Resources](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Personal_and_Shared_Resources&from_page=Overview)
+
+*Component Ordner:* [`PersonalWorkspace`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/PersonalWorkspace), [`WorkspaceFolder`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/WorkspaceFolder), [`WorkspaceRootFolder`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/WorkspaceRootFolder)
+
+
+[//]: # (BEGIN PersonalWorkspace)
+
+##### PersonalWorkspace
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END PersonalWorkspace)
+
+
+[//]: # (BEGIN WorkspaceFolder)
+
+##### WorkspaceFolder
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END WorkspaceFolder)
+
+
+[//]: # (BEGIN WorkspaceRootFolder)
+
+##### WorkspaceRootFolder
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END WorkspaceRootFolder)
+
+
+[//]: # (END PersonalandSharedResources)
+
+[//]: # (BEGIN Portfolio)
+
+#### [Portfolio](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Portfolio&from_page=Overview)
+*Component Ordner:* [`Portfolio`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Portfolio)
+
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Portfolio)
+
+
+[//]: # (BEGIN Conditions)
+
+#### [Precondition Handling](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Precondition_Handling&from_page=Overview)
+*Component Ordner:* [`Conditions`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Conditions)
+
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Conditions)
+
+
+[//]: # (BEGIN Rating)
+
+#### [Rating](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Rating&from_page=Overview)
+*Component Ordner:* [`Rating`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Rating)
+
+* Authority to Sign off on Conceptual Changes: [oliver.samoila](https://docu.ilias.de/go/usr/26160)
+* Authority to Sign off on Code Changes: [fhelfer](https://docu.ilias.de/go/usr/93367)
+* Authority to Curate Test Cases: [fhelfer](https://docu.ilias.de/go/usr/93367), [oliver.samoila](https://docu.ilias.de/go/usr/26160)
+* Authority to (De-)Assign Authorities: [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
+* Tester: NONE
+* Assignee for Issues: [fhelfer](https://docu.ilias.de/go/usr/93367)
+* Assignee for Security Reports: [fhelfer](https://docu.ilias.de/go/usr/93367)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Rating)
+
+
+[//]: # (BEGIN Search)
+
+#### [Search](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Search&from_page=Overview)
+*Component Ordner:* [`Search`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Search)
+
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Search)
+
+
+[//]: # (BEGIN MyStaff)
+
+#### [Staff](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Staff&from_page=Overview)
+*Component Ordner:* [`MyStaff`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/MyStaff)
+
+* Authority to Sign off on Conceptual Changes: [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to Sign off on Code Changes: [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to Curate Test Cases: [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to (De-)Assign Authorities: [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Tester: NONE
+* Assignee for Issues: [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Assignee for Security Reports: [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Assignee for Security Issues: NONE
+
+[//]: # (END MyStaff)
+
+
+[//]: # (BEGIN Tracking)
+
+#### [Statistics and Learning Progress](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Statistics_and_Learning_Progress&from_page=Overview)
+*Component Ordner:* [`Tracking`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Tracking)
+
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Tracking)
+
+
+[//]: # (BEGIN Tagging)
+
+#### [Tagging](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Tagging&from_page=Overview)
+*Component Ordner:* [`Tagging`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Tagging)
+
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [skaiser](https://docu.ilias.de/go/usr/17260)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Tagging)
+
+
+[//]: # (BEGIN Tasks)
+
+#### [Task Service](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Task_Service&from_page=Overview)
+*Component Ordner:* [`Tasks`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Tasks)
+
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Tasks)
+
+
+[//]: # (BEGIN Taxonomy)
+
+#### [Taxonomy Service](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Taxonomy_Service&from_page=Overview)
+*Component Ordner:* [`Taxonomy`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Taxonomy)
+
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Taxonomy)
+
+
+[//]: # (BEGIN User)
+
+#### [User Service](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=User_Service&from_page=Overview)
+*Component Ordner:* [`User`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/User)
+
+* Authority to Sign off on Conceptual Changes: [skergomard](https://docu.ilias.de/go/usr/44474)
+* Authority to Sign off on Code Changes: [skergomard](https://docu.ilias.de/go/usr/44474)
+* Authority to Curate Test Cases: [skergomard](https://docu.ilias.de/go/usr/44474)
+* Authority to (De-)Assign Authorities: [skergomard](https://docu.ilias.de/go/usr/44474)
+* Tester: NONE
+* Assignee for Issues: [skergomard](https://docu.ilias.de/go/usr/44474)
+* Assignee for Security Reports: [skergomard](https://docu.ilias.de/go/usr/44474)
+* Assignee for Security Issues: NONE
+
+[//]: # (END User)
+
+
+[//]: # (BEGIN WebDAV)
+
+#### [WebDAV](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=WebDAV&from_page=Overview)
+*Component Ordner:* [`WebDAV`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/WebDAV)
+
+* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Tester: NONE
+* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Security Issues: NONE
+
+[//]: # (END WebDAV)
+
+
+[//]: # (BEGIN Awareness)
+
+#### [Who is online?](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Who_is_online%3F&from_page=Overview)
+*Component Ordner:* [`Awareness`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Awareness)
+
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Awareness)
+
+
+### 5. [Container Objects](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#5_Container_Objects)
+
+[//]: # (BEGIN CategoryandRepository)
+
+#### [Category and Repository](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Category_and_Repository&from_page=Overview)
+
+*Component Ordner:* [`Category`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Category), [`CategoryReference`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/CategoryReference), [`Container`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Container), [`ContainerReference`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ContainerReference), [`Folder`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Folder), [`Repository`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Repository), [`RootFolder`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RootFolder)
+
+
+[//]: # (BEGIN Category)
+
+##### Category
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Category)
+
+
+[//]: # (BEGIN CategoryReference)
+
+##### CategoryReference
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END CategoryReference)
+
+
+[//]: # (BEGIN Container)
+
+##### Container
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Container)
+
+
+[//]: # (BEGIN ContainerReference)
+
+##### ContainerReference
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END ContainerReference)
+
+
+[//]: # (BEGIN Folder)
+
+##### Folder
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Folder)
+
+
+[//]: # (BEGIN Repository)
+
+##### Repository
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Repository)
+
+
+[//]: # (BEGIN RootFolder)
+
+##### RootFolder
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END RootFolder)
+
+
+[//]: # (END CategoryandRepository)
+
+[//]: # (BEGIN CourseManagement)
+
+#### [Course Management](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Course_Management&from_page=Overview)
+
+*Component Ordner:* [`Course`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Course), [`CourseReference`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/CourseReference)
+
+
+[//]: # (BEGIN Course)
+
+##### Course
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Course)
+
+
+[//]: # (BEGIN CourseReference)
+
+##### CourseReference
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END CourseReference)
+
+
+[//]: # (END CourseManagement)
+
+[//]: # (BEGIN Group)
+
+#### [Group](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Group&from_page=Overview)
+
+*Component Ordner:* [`Group`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Group), [`GroupReference`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/GroupReference)
+
+
+[//]: # (BEGIN Group)
+
+##### Group
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Group)
+
+
+[//]: # (BEGIN GroupReference)
+
+##### GroupReference
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END GroupReference)
+
+
+[//]: # (END Group)
+
+[//]: # (BEGIN ItemGroup)
+
+#### [Item Groups](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Item_Groups&from_page=Overview)
+*Component Ordner:* [`ItemGroup`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ItemGroup)
+
+* Authority to Sign off on Conceptual Changes: [oliver.samoila](https://docu.ilias.de/go/usr/26160)
+* Authority to Sign off on Code Changes: [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Curate Test Cases: [oliver.samoila](https://docu.ilias.de/go/usr/26160), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to (De-)Assign Authorities: [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
+* Tester: NONE
+* Assignee for Issues: [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Assignee for Security Reports: [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Assignee for Security Issues: NONE
+
+[//]: # (END ItemGroup)
+
+
+[//]: # (BEGIN LearningSequence)
+
+#### [Learning Sequence](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Learning_Sequence&from_page=Overview)
+*Component Ordner:* [`LearningSequence`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/LearningSequence)
+
+* Authority to Sign off on Conceptual Changes: [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
+* Authority to Sign off on Code Changes: [keven.clausen](https://docu.ilias.de/go/usr/100316), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
+* Authority to Curate Test Cases: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
+* Authority to (De-)Assign Authorities: [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
+* Tester: NONE
+* Assignee for Issues: [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
+* Assignee for Security Reports: [keven.clausen](https://docu.ilias.de/go/usr/100316)
+* Assignee for Security Issues: NONE
+
+[//]: # (END LearningSequence)
+
+
+[//]: # (BEGIN Session)
+
+#### [Session](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Session_%28Course_%26_Group%29&from_page=Overview)
+*Component Ordner:* [`Session`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Session)
+
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Session)
+
+
+[//]: # (BEGIN StudyProgramme)
+
+#### [Study Programme](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Study_Programme&from_page=Overview)
+
+*Component Ordner:* [`StudyProgramme`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/StudyProgramme), [`StudyProgrammeReference`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/StudyProgrammeReference)
+
+
+[//]: # (BEGIN StudyProgramme)
+
+##### StudyProgramme
+* Authority to Sign off on Conceptual Changes: [lschmidt-tf](https://docu.ilias.de/go/usr/120143)
+* Authority to Sign off on Code Changes: [maalers](https://docu.ilias.de/go/usr/119188)
+* Authority to Curate Test Cases: [maalers](https://docu.ilias.de/go/usr/119188)
+* Authority to (De-)Assign Authorities: [maalers](https://docu.ilias.de/go/usr/119188)
+* Tester: NONE
+* Assignee for Issues: [maalers](https://docu.ilias.de/go/usr/119188)
+* Assignee for Security Reports: [maalers](https://docu.ilias.de/go/usr/119188)
+* Assignee for Security Issues: NONE
+
+[//]: # (END StudyProgramme)
+
+
+[//]: # (BEGIN StudyProgrammeReference)
+
+##### StudyProgrammeReference
+* Authority to Sign off on Conceptual Changes: [lschmidt-tf](https://docu.ilias.de/go/usr/120143)
+* Authority to Sign off on Code Changes: [maalers](https://docu.ilias.de/go/usr/119188)
+* Authority to Curate Test Cases: [maalers](https://docu.ilias.de/go/usr/119188)
+* Authority to (De-)Assign Authorities: [maalers](https://docu.ilias.de/go/usr/119188)
+* Tester: NONE
+* Assignee for Issues: [maalers](https://docu.ilias.de/go/usr/119188)
+* Assignee for Security Reports: [maalers](https://docu.ilias.de/go/usr/119188)
+* Assignee for Security Issues: NONE
+
+[//]: # (END StudyProgrammeReference)
+
+
+[//]: # (END StudyProgramme)
+
+### 6. [Communication and Syndication](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#6_Communication_and_Syndication)
+
+[//]: # (BEGIN AdministrativeNotification)
+
+#### [Administrative Notifications](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Administrative_Notifications&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`AdministrativeNotification`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/AdministrativeNotification)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END AdministrativeNotification)
+
+
+[//]: # (BEGIN Chat)
+
+#### [Chat](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Chat&from_page=Overview)
+
+*Component Ordner:* [`Chatroom`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Chatroom), [`Notifications`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Notifications), [`OnScreenChat`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/OnScreenChat)
+
+
+[//]: # (BEGIN Chatroom)
+
+##### Chatroom
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [mbecker](https://docu.ilias.de/go/usr/27266)
+* Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Chatroom)
+
+
+[//]: # (BEGIN Notifications)
+
+##### Notifications
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [mbecker](https://docu.ilias.de/go/usr/27266)
+* Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Notifications)
+
+
+[//]: # (BEGIN OnScreenChat)
+
+##### OnScreenChat
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [mbecker](https://docu.ilias.de/go/usr/27266)
+* Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END OnScreenChat)
+
+
+[//]: # (END Chat)
+
+[//]: # (BEGIN Forum)
+
+#### [Forum](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Forum&from_page=Overview)
+
+*Component Ordner:* [`Forum`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Forum), [`Html`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Html)
+
+
+[//]: # (BEGIN Forum)
+
+##### Forum
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Forum)
+
+
+[//]: # (BEGIN Html)
+
+##### Html
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Html)
+
+
+[//]: # (END Forum)
+
+[//]: # (BEGIN Mail)
+
+#### [Mail](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Mail&from_page=Overview)
+*Component Ordner:* [`Mail`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Mail)
+
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Mail)
+
+
+[//]: # (BEGIN News)
+
+#### [News](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=News_-_RSS_-_Webfeeds&from_page=Overview)
+*Component Ordner:* [`News`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/News)
+
+* Authority to Sign off on Conceptual Changes: [oliver.samoila](https://docu.ilias.de/go/usr/26160)
+* Authority to Sign off on Code Changes: [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Curate Test Cases: [tjoussen](https://docu.ilias.de/go/usr/103745), [oliver.samoila](https://docu.ilias.de/go/usr/26160)
+* Authority to (De-)Assign Authorities: [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
+* Tester: NONE
+* Assignee for Issues: [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Assignee for Security Reports: [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Assignee for Security Issues: NONE
+
+[//]: # (END News)
+
+
+[//]: # (BEGIN Feeds)
+
+#### [News - RSS - Webfeeds](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=News_-_RSS_-_Webfeeds&from_page=Overview)
+*Component Ordner:* [`Feeds`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Feeds)
+
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Feeds)
+
+
+[//]: # (BEGIN Notification)
+
+#### [Notifications](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Notifications&from_page=Overview)
+*Component Ordner:* [`Notification`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Notification)
+
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [iszmais](https://docu.ilias.de/go/usr/65630)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [iszmais](https://docu.ilias.de/go/usr/65630)
+* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784), [iszmais](https://docu.ilias.de/go/usr/65630)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Notification)
+
+
+### 7. [Learning and Content Objects](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#7_Learning_and_Content_Objects)
+
+[//]: # (BEGIN Bibliographic)
+
+#### [Bibliographic List Item](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Bibliographic_List_Item&from_page=Overview)
+*Component Ordner:* [`Bibliographic`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Bibliographic)
+
+* Authority to Sign off on Conceptual Changes: [lschmidt-tf](https://docu.ilias.de/go/usr/120143)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [maalers](https://docu.ilias.de/go/usr/119188)
+* Authority to Curate Test Cases: [maalers](https://docu.ilias.de/go/usr/119188)
+* Authority to (De-)Assign Authorities: [maalers](https://docu.ilias.de/go/usr/119188)
+* Tester: NONE
+* Assignee for Issues: [maalers](https://docu.ilias.de/go/usr/119188)
+* Assignee for Security Reports: [maalers](https://docu.ilias.de/go/usr/119188)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Bibliographic)
+
+
+[//]: # (BEGIN Blog)
+
+#### [Blog](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Blog&from_page=Overview)
+*Component Ordner:* [`Blog`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Blog)
+
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Blog)
+
+
+[//]: # (BEGIN BookingManager)
+
+#### [Booking Pool](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Booking_Pool&from_page=Overview)
+*Component Ordner:* [`BookingManager`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/BookingManager)
+
+* Authority to Sign off on Conceptual Changes: [simon.lowe](https://docu.ilias.de/go/usr/79091), [oliver.samoila](https://docu.ilias.de/go/usr/26160)
+* Authority to Sign off on Code Changes: [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Curate Test Cases: [simon.lowe](https://docu.ilias.de/go/usr/79091), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to (De-)Assign Authorities: [simon.lowe (Databay AG)](https://docu.ilias.de/go/usr/79091), [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
+* Tester: NONE
+* Assignee for Issues: [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Assignee for Security Reports: [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Assignee for Security Issues: NONE
+
+[//]: # (END BookingManager)
+
+
+[//]: # (BEGIN ContentPage)
+
+#### [Content Page](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Content_Page&from_page=Overview)
+*Component Ordner:* [`ContentPage`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ContentPage)
+
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END ContentPage)
+
+
+[//]: # (BEGIN DataCollection)
+
+#### [Data Collection](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Data_Collection&from_page=Overview)
+*Component Ordner:* [`DataCollection`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/DataCollection)
+
+* Authority to Sign off on Conceptual Changes: [oliver.samoila](https://docu.ilias.de/go/usr/26160)
+* Authority to Sign off on Code Changes: [iszmais](https://docu.ilias.de/go/usr/65630)
+* Authority to Curate Test Cases: [oliver.samoila](https://docu.ilias.de/go/usr/26160)
+* Authority to (De-)Assign Authorities: [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
+* Tester: NONE
+* Assignee for Issues: [iszmais](https://docu.ilias.de/go/usr/65630)
+* Assignee for Security Reports: [iszmais](https://docu.ilias.de/go/usr/65630)
+* Assignee for Security Issues: NONE
+
+[//]: # (END DataCollection)
+
+
+[//]: # (BEGIN File)
+
+#### [File](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=File&from_page=Overview)
+*Component Ordner:* [`File`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/File)
+
+* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Tester: NONE
+* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Security Issues: NONE
+
+[//]: # (END File)
+
+
+[//]: # (BEGIN Glossary)
+
+#### [Glossary](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Glossary&from_page=Overview)
+*Component Ordner:* [`Glossary`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Glossary)
+
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Glossary)
+
+
+[//]: # (BEGIN LTIProvider)
+
+#### [LTI](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=LTI&from_page=Overview)
+*Component Ordner:* [`LTIProvider`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/LTIProvider)
+
+* Authority to Sign off on Conceptual Changes: [sergiosantiago02](https://docu.ilias.de/go/usr/110174)
+* Authority to Sign off on Code Changes: [Zallax](https://docu.ilias.de/go/usr/101102), [sdiaz](https://docu.ilias.de/go/usr/105654), [smeyer](https://docu.ilias.de/goto_docu_usr_191.html), [sergiosantiago02](https://docu.ilias.de/go/usr/110174)
+* Authority to Curate Test Cases: [jcop](https://docu.ilias.de/go/usr/30511)
+* Authority to (De-)Assign Authorities: [jcop](https://docu.ilias.de/go/usr/30511)
+* Tester: NONE
+* Assignee for Issues: [jcop](https://docu.ilias.de/go/usr/30511)
+* Assignee for Security Reports: [jcop](https://docu.ilias.de/go/usr/30511)
+* Assignee for Security Issues: NONE
+
+[//]: # (END LTIProvider)
+
+
+[//]: # (BEGIN HTMLLearningModule)
+
+#### [Learning Module HTML](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Learning_Module_HTML&from_page=Overview)
+*Component Ordner:* [`HTMLLearningModule`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/HTMLLearningModule)
+
+* Authority to Sign off on Conceptual Changes: [mbecker](https://docu.ilias.de/go/usr/27266)
+* Authority to Sign off on Code Changes: [mbecker](https://docu.ilias.de/go/usr/27266)
+* Authority to Curate Test Cases: [mbecker](https://docu.ilias.de/go/usr/27266)
+* Authority to (De-)Assign Authorities: [mbecker](https://docu.ilias.de/go/usr/27266)
+* Tester: NONE
+* Assignee for Issues: [mbecker](https://docu.ilias.de/go/usr/27266)
+* Assignee for Security Reports: [mbecker](https://docu.ilias.de/go/usr/27266)
+* Assignee for Security Issues: NONE
+
+[//]: # (END HTMLLearningModule)
+
+
+[//]: # (BEGIN LearningModule)
+
+#### [Learning Module ILIAS](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Learning_Module_ILIAS&from_page=Overview)
+*Component Ordner:* [`LearningModule`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/LearningModule)
+
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [Balliel](https://docu.ilias.de/go/usr/18365)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END LearningModule)
+
+
+[//]: # (BEGIN LearningModuleSCORM)
+
+#### [Learning Module SCORM](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Learning_Module_SCORM&from_page=Overview)
+
+*Component Ordner:* [`Scorm2004`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Scorm2004), [`ScormAicc`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ScormAicc)
+
+
+[//]: # (BEGIN Scorm2004)
+
+##### Scorm2004
+* Authority to Sign off on Conceptual Changes: [wischniak](https://docu.ilias.de/go/usr/21896)
+* Authority to Sign off on Code Changes: [qualitus.dahme](https://docu.ilias.de/go/usr/99160), [qualitus.hartwig](https://docu.ilias.de/go/usr/104063)
+* Authority to Curate Test Cases: [emix](https://docu.ilias.de/go/usr/57311)
+* Authority to (De-)Assign Authorities: [wischniak](https://docu.ilias.de/go/usr/21896)
+* Tester: NONE
+* Assignee for Issues: [wischniak](https://docu.ilias.de/go/usr/21896)
+* Assignee for Security Reports: [wischniak](https://docu.ilias.de/go/usr/21896)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Scorm2004)
+
+
+[//]: # (BEGIN ScormAicc)
+
+##### ScormAicc
+* Authority to Sign off on Conceptual Changes: [wischniak](https://docu.ilias.de/go/usr/21896)
+* Authority to Sign off on Code Changes: [qualitus.dahme](https://docu.ilias.de/go/usr/99160), [qualitus.hartwig](https://docu.ilias.de/go/usr/104063)
+* Authority to Curate Test Cases: [emix](https://docu.ilias.de/go/usr/57311)
+* Authority to (De-)Assign Authorities: [wischniak](https://docu.ilias.de/go/usr/21896)
+* Tester: NONE
+* Assignee for Issues: [wischniak](https://docu.ilias.de/go/usr/21896)
+* Assignee for Security Reports: [wischniak](https://docu.ilias.de/go/usr/21896)
+* Assignee for Security Issues: NONE
+
+[//]: # (END ScormAicc)
+
+
+[//]: # (END LearningModuleSCORM)
+
+[//]: # (BEGIN MediaPoolsandMediaObjects)
+
+#### [Media Pools and Media Objects](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Media_Pools_and_Media_Objects&from_page=Overview)
+
+*Component Ordner:* [`MediaObjects`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/MediaObjects), [`MediaPool`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/MediaPool)
+
+
+[//]: # (BEGIN MediaObjects)
+
+##### MediaObjects
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END MediaObjects)
+
+
+[//]: # (BEGIN MediaPool)
+
+##### MediaPool
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END MediaPool)
+
+
+[//]: # (END MediaPoolsandMediaObjects)
+
+[//]: # (BEGIN MediaCast)
+
+#### [Mediacast](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Mediacast&from_page=Overview)
+*Component Ordner:* [`MediaCast`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/MediaCast)
+
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [berggold](https://docu.ilias.de/go/usr/22199)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END MediaCast)
+
+
+[//]: # (BEGIN WebResource)
+
+#### [Weblink](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Weblink&from_page=Overview)
+*Component Ordner:* [`WebResource`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/WebResource)
+
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [nadine.bauser](https://docu.ilias.de/go/usr/34662)
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END WebResource)
+
+
+[//]: # (BEGIN Wiki)
+
+#### [Wiki](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Wiki&from_page=Overview)
+*Component Ordner:* [`Wiki`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Wiki)
+
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Wiki)
+
+
+[//]: # (BEGIN CmiXapi)
+
+#### [xAPI](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=xAPI&from_page=Overview)
+*Component Ordner:* [`CmiXapi`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/CmiXapi)
+
+* Authority to Sign off on Conceptual Changes: [ukohnle](https://docu.ilias.de/go/usr/21855)
+* Authority to Sign off on Code Changes: [ukohnle](https://docu.ilias.de/go/usr/21855)
+* Authority to Curate Test Cases: [ukohnle](https://docu.ilias.de/go/usr/21855)
+* Authority to (De-)Assign Authorities: [ukohnle](https://docu.ilias.de/go/usr/21855)
+* Tester: NONE
+* Assignee for Issues: [ukohnle](https://docu.ilias.de/go/usr/21855)
+* Assignee for Security Reports: [ukohnle](https://docu.ilias.de/go/usr/21855)
+* Assignee for Security Issues: NONE
+
+[//]: # (END CmiXapi)
+
+
+### 8. [Evaluation, Feedback and Testing](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#8_Evaluation_Feedback_and_Testing)
+
+[//]: # (BEGIN EmployeeTalk)
+
+#### [Employee Talk](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Employee_Talk&from_page=Overview)
+*Component Ordner:* [`EmployeeTalk`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/EmployeeTalk)
+
+* Authority to Sign off on Conceptual Changes: [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to Sign off on Code Changes: [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to Curate Test Cases: [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to (De-)Assign Authorities: [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Tester: NONE
+* Assignee for Issues: [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Assignee for Security Reports: [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Assignee for Security Issues: NONE
+
+[//]: # (END EmployeeTalk)
+
+
+[//]: # (BEGIN Exercise)
+
+#### [Exercise](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Exercise&from_page=Overview)
+*Component Ordner:* [`Exercise`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Exercise)
+
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Tester: NONE
+* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Exercise)
+
+
+[//]: # (BEGIN IndividualAssessment)
+
+#### [Individual Assessment](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Individual_Assessment&from_page=Overview)
+*Component Ordner:* [`IndividualAssessment`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/IndividualAssessment)
+
+* Authority to Sign off on Conceptual Changes: [mbecker](https://docu.ilias.de/go/usr/27266)
+* Authority to Sign off on Code Changes: [mbecker](https://docu.ilias.de/go/usr/27266)
+* Authority to Curate Test Cases: [mbecker](https://docu.ilias.de/go/usr/27266)
+* Authority to (De-)Assign Authorities: [mbecker](https://docu.ilias.de/go/usr/27266)
+* Tester: NONE
+* Assignee for Issues: [mbecker](https://docu.ilias.de/go/usr/27266)
+* Assignee for Security Reports: [mbecker](https://docu.ilias.de/go/usr/27266)
+* Assignee for Security Issues: NONE
+
+[//]: # (END IndividualAssessment)
+
+
+[//]: # (BEGIN Poll)
+
+#### [Poll](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Poll&from_page=Overview)
+*Component Ordner:* [`Poll`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Poll)
+
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Poll)
+
+
+[//]: # (BEGIN Survey)
+
+#### [Survey](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Survey&from_page=Overview)
+
+*Component Ordner:* [`Survey`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Survey), [`SurveyQuestionPool`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/SurveyQuestionPool)
+
+
+[//]: # (BEGIN Survey)
+
+##### Survey
+* Authority to Sign off on Conceptual Changes: [sergiosant02](https://docu.ilias.de/go/usr/110174)
+* Authority to Sign off on Code Changes: [sergiosant02](https://docu.ilias.de/go/usr/110174), [abrahammordev](https://docu.ilias.de/go/usr/110909), [juanma1331](https://docu.ilias.de/go/usr/107249)
+* Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
+* Authority to (De-)Assign Authorities: [jcopado](https://docu.ilias.de/go/usr/30511)
+* Tester: NONE
+* Assignee for Issues: [jcopado](https://docu.ilias.de/go/usr/30511)
+* Assignee for Security Reports: [jcopado](https://docu.ilias.de/go/usr/30511)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Survey)
+
+
+[//]: # (BEGIN SurveyQuestionPool)
+
+##### SurveyQuestionPool
+* Authority to Sign off on Conceptual Changes: [sergiosant02](https://docu.ilias.de/go/usr/110174)
+* Authority to Sign off on Code Changes: [sergiosant02](https://docu.ilias.de/go/usr/110174), [abrahammordev](https://docu.ilias.de/go/usr/110909), [juanma1331](https://docu.ilias.de/go/usr/107249)
+* Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
+* Authority to (De-)Assign Authorities: [jcopado](https://docu.ilias.de/go/usr/30511)
+* Tester: NONE
+* Assignee for Issues: [jcopado](https://docu.ilias.de/go/usr/30511)
+* Assignee for Security Reports: [jcopado](https://docu.ilias.de/go/usr/30511)
+* Assignee for Security Issues: NONE
+
+[//]: # (END SurveyQuestionPool)
+
+
+[//]: # (END Survey)
+
+[//]: # (BEGIN TestAssessment)
+
+#### [Test & Assessment](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Test_%26_Assessment&from_page=Overview)
+
+*Component Ordner:* [`Test`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Test), [`TestQuestionPool`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/TestQuestionPool)
+
+
+[//]: # (BEGIN Test)
+
+##### Test
+* Authority to Sign off on Conceptual Changes: [dstrassner](https://docu.ilias.de/go/usr/48931)
+* Authority to Sign off on Code Changes: [mbecker](https://docu.ilias.de/go/usr/27266), [skergomard](https://docu.ilias.de/go/usr/44474), [dstrassner](https://docu.ilias.de/go/usr/48931), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Curate Test Cases: [dstrassner](https://docu.ilias.de/go/usr/48931)
+* Authority to (De-)Assign Authorities: [dstrassner](https://docu.ilias.de/go/usr/48931)
+* Tester: NONE
+* Assignee for Issues: [dstrassner](https://docu.ilias.de/go/usr/48931)
+* Assignee for Security Reports: [dstrassner](https://docu.ilias.de/go/usr/48931)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Test)
+
+
+[//]: # (BEGIN TestQuestionPool)
+
+##### TestQuestionPool
+* Authority to Sign off on Conceptual Changes: [dstrassner](https://docu.ilias.de/go/usr/48931)
+* Authority to Sign off on Code Changes: [mbecker](https://docu.ilias.de/go/usr/27266), [skergomard](https://docu.ilias.de/go/usr/44474), [dstrassner](https://docu.ilias.de/go/usr/48931), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Curate Test Cases: [dstrassner](https://docu.ilias.de/go/usr/48931)
+* Authority to (De-)Assign Authorities: [dstrassner](https://docu.ilias.de/go/usr/48931)
+* Tester: NONE
+* Assignee for Issues: [dstrassner](https://docu.ilias.de/go/usr/48931)
+* Assignee for Security Reports: [dstrassner](https://docu.ilias.de/go/usr/48931)
+* Assignee for Security Issues: NONE
+
+[//]: # (END TestQuestionPool)
+
+
+[//]: # (END TestAssessment)
+
+### 9. [Administration](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#9_Administration)
+
+[//]: # (BEGIN Administration)
+
+#### [Administration](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Administration&from_page=Overview)
+
+*Component Ordner:* [`Administration`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Administration), [`SystemFolder`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/SystemFolder)
+
+
+[//]: # (BEGIN Administration)
+
+##### Administration
+* Authority to Sign off on Conceptual Changes: [fneumann](https://docu.ilias.de/go/usr/1560)
+* Authority to Sign off on Code Changes: [fneumann](https://docu.ilias.de/go/usr/1560), [lscharmer](https://docu.ilias.de/go/usr/87863)
+* Authority to Curate Test Cases: [fneumann](https://docu.ilias.de/go/usr/1560), [kunkel](https://docu.ilias.de/go/usr/115)
+* Authority to (De-)Assign Authorities: [fneumann (Databay AG)](https://docu.ilias.de/go/usr/1560), [lscharmer (Databay AG)](https://docu.ilias.de/go/usr/87863)
+* Tester: NONE
+* Assignee for Issues: [fneumann](https://docu.ilias.de/go/usr/1560)
+* Assignee for Security Reports: [fneumann](https://docu.ilias.de/go/usr/1560)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Administration)
+
+
+[//]: # (BEGIN SystemFolder)
+
+##### SystemFolder
+* Authority to Sign off on Conceptual Changes: [fneumann](https://docu.ilias.de/go/usr/1560)
+* Authority to Sign off on Code Changes: [fneumann](https://docu.ilias.de/go/usr/1560), [lscharmer](https://docu.ilias.de/go/usr/87863)
+* Authority to Curate Test Cases: [fneumann](https://docu.ilias.de/go/usr/1560), [kunkel](https://docu.ilias.de/go/usr/115)
+* Authority to (De-)Assign Authorities: [fneumann (Databay AG)](https://docu.ilias.de/go/usr/1560), [lscharmer (Databay AG)](https://docu.ilias.de/go/usr/87863)
+* Tester: NONE
+* Assignee for Issues: [fneumann](https://docu.ilias.de/go/usr/1560)
+* Assignee for Security Reports: [fneumann](https://docu.ilias.de/go/usr/1560)
+* Assignee for Security Issues: NONE
+
+[//]: # (END SystemFolder)
+
+
+[//]: # (END Administration)
+
+[//]: # (BEGIN LoginAuthRegistration)
+
+#### [Login, Auth & Registration](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Login%2C_Auth_%26_Registration&from_page=Overview)
+
+*Component Ordner:* [`AuthApache`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/AuthApache), [`Authentication`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Authentication), [`Init`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Init), [`LDAP`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/LDAP), [`OpenIdConnect`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/OpenIdConnect), [`Registration`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Registration)
+
+
+[//]: # (BEGIN AuthApache)
+
+##### AuthApache
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END AuthApache)
+
+
+[//]: # (BEGIN Authentication)
+
+##### Authentication
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Authentication)
+
+
+[//]: # (BEGIN Init)
+
+##### Init
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Init)
+
+
+[//]: # (BEGIN LDAP)
+
+##### LDAP
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END LDAP)
+
+
+[//]: # (BEGIN OpenIdConnect)
+
+##### OpenIdConnect
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END OpenIdConnect)
+
+
+[//]: # (BEGIN Registration)
+
+##### Registration
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Tester: NONE
+* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Security Issues: NONE
+
+[//]: # (END Registration)
+
+
+[//]: # (END LoginAuthRegistration)
+
+[//]: # (BEGIN Setup)
+
+#### [Setup](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Setup&from_page=Overview)
+
+**Status:** Unmaintained / NONE
+*Component Ordner:* [`Setup`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Setup)
+
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Tester: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
+* Assignee for Security Issues: NONE
+
+[//]: # (END Setup)
+
+
+[//]: # (BEGIN SystemCheck)
+
+#### [System Check](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=System_Check&from_page=Overview)
+*Component Ordner:* [`SystemCheck`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/SystemCheck)
+
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
+* Tester: NONE
+* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Security Issues: NONE
+
+[//]: # (END SystemCheck)
+
+
+## Unmaintained Components
+
+The following directories are currently unmaintained:
+
+* ILIAS/AdministrativeNotification
+* ILIAS/App
+* ILIAS/Benchmark
+* ILIAS/Cache
+* ILIAS/Cloud
+* ILIAS/FileDelivery
+* ILIAS/FileServices
+* ILIAS/History
+* ILIAS/Multilingualism
+* ILIAS/PermanentLink
+* ILIAS/Setup
+* ILIAS/StaticURL
+* ILIAS/StudyProgrammeReference
+* ILIAS/SystemFolder
+* ILIAS/UI_
+* ILIAS/setup_
+* ILIAS/soap
