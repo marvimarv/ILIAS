@@ -260,6 +260,16 @@ def parse_maintenance_json(file_path):
     except Exception:
         return None
 
+def normalize_name(name):
+    """Normalisiere einen Component-Namen für flexiblen Vergleich"""
+    if not name:
+        return ""
+    # Konvertiere zu lowercase, entferne Leerzeichen und Sonderzeichen
+    normalized = name.lower().strip()
+    # Entferne häufige Sonderzeichen und normalisiere Leerzeichen
+    normalized = re.sub(r'[_\s\-\.]+', '', normalized)
+    return normalized
+
 def extract_component_from_md(md_content):
     """Extrahiere alle Components aus der maintenance.md"""
     components = {}
@@ -285,6 +295,7 @@ def extract_component_from_md(md_content):
             'test_cases': [],
             'assign_authorities': [],
             'tester': None,
+            'issues': None,
             'security_reports': None,
             'security_issues': None,
             'guidelines': "[LINK MISSING]('')"
@@ -327,6 +338,11 @@ def extract_component_from_md(md_content):
                 text_only = re.sub(r'\s+', ' ', text_only).strip()
                 auth_data['tester'] = text_only if text_only else None
         
+        # Issues (muss VOR Security Reports/Issues kommen, da beide mit "Assignee" beginnen)
+        issues_match = re.search(r'\* Assignee for Issues:(.*?)(?=\* Authority|\* Tester|\* Assignee for Security|\* Unit-specific|$)', full_text, re.DOTALL)
+        if issues_match:
+            auth_data['issues'] = extract_single_link(issues_match.group(1))
+        
         # Security Reports
         security_reports_match = re.search(r'\* Assignee for Security Reports:(.*?)(?=\* Authority|\* Assignee|\* Unit-specific|$)', full_text, re.DOTALL)
         if security_reports_match:
@@ -347,6 +363,8 @@ def extract_component_from_md(md_content):
         
         components[comment_name] = {
             'component_name': component_name,
+            'component_name_normalized': normalize_name(component_name),
+            'comment_name_normalized': normalize_name(comment_name),
             'authorities': auth_data
         }
     
@@ -671,6 +689,7 @@ def format_authorities(auth_data, is_unmaintained=False):
             'test_cases': 'NONE',
             'assign_authorities': 'NONE',
             'tester': 'NONE',
+            'issues': 'NONE',
             'security_reports': 'NONE',
             'security_issues': 'NONE',
             'guidelines': None  # Keine Guidelines für unmaintained
@@ -692,19 +711,21 @@ def format_authorities(auth_data, is_unmaintained=False):
         'test_cases': format_list(auth_data.get('test_cases', [])),
         'assign_authorities': format_list(auth_data.get('assign_authorities', [])),
         'tester': auth_data.get('tester') or None,
+        'issues': auth_data.get('issues'),
         'security_reports': auth_data.get('security_reports'),
         'security_issues': auth_data.get('security_issues'),
         'guidelines': auth_data.get('guidelines')
     }
     
     # Wenn alle formatierten Werte None sind, setze sie auf 'NONE'
-    if all(formatted.get(k) is None for k in ['conceptual', 'code', 'test_cases', 'assign_authorities', 'tester', 'security_reports', 'security_issues']):
+    if all(formatted.get(k) is None for k in ['conceptual', 'code', 'test_cases', 'assign_authorities', 'tester', 'issues', 'security_reports', 'security_issues']):
         formatted.update({
             'conceptual': 'NONE',
             'code': 'NONE',
             'test_cases': 'NONE',
             'assign_authorities': 'NONE',
             'tester': 'NONE',
+            'issues': 'NONE',
             'security_reports': 'NONE',
             'security_issues': 'NONE'
         })
@@ -793,6 +814,7 @@ def format_component_section(component_name, folders, authorities_dict, is_unmai
 * Authority to Curate Test Cases: {formatted['test_cases'] or 'NONE'}
 * Authority to (De-)Assign Authorities: {formatted['assign_authorities'] or 'NONE'}
 * Tester: {formatted['tester'] or 'NONE'}
+* Assignee for Issues: {formatted['issues'] or 'NONE'}
 * Assignee for Security Reports: {formatted['security_reports'] or 'NONE'}
 * Assignee for Security Issues: {formatted['security_issues'] or 'NONE'}"""
         
@@ -833,6 +855,7 @@ def format_component_section(component_name, folders, authorities_dict, is_unmai
 * Authority to Curate Test Cases: {formatted['test_cases'] or 'NONE'}
 * Authority to (De-)Assign Authorities: {formatted['assign_authorities'] or 'NONE'}
 * Tester: {formatted['tester'] or 'NONE'}
+* Assignee for Issues: {formatted['issues'] or 'NONE'}
 * Assignee for Security Reports: {formatted['security_reports'] or 'NONE'}
 * Assignee for Security Issues: {formatted['security_issues'] or 'NONE'}"""
             
@@ -931,16 +954,64 @@ def main():
         component_name = folder_to_component_name.get(folder_name, folder_name)
         
         # Suche in md_components nach passendem Eintrag
-        # Versuche zuerst über component_name
+        # Priorität: 1. belong_to_component (normalisiert), 2. component_name (normalisiert), 3. folder_name (normalisiert)
         found_authorities = None
-        for comment_name, md_data in md_components.items():
-            if md_data['component_name'] == component_name:
-                found_authorities = md_data['authorities'].copy()
-                break
         
-        # Wenn nicht gefunden, versuche über comment_name (falls gleich folder_name)
+        # Normalisiere Suchbegriffe
+        belong_to_normalized = normalize_name(belong_to) if belong_to and belong_to != 'None' else ""
+        component_name_normalized = normalize_name(component_name)
+        folder_name_normalized = normalize_name(folder_name)
+        
+        # 1. Versuche zuerst über belong_to_component (hat höchste Priorität, da es explizit in maintenance.json steht)
+        if belong_to_normalized:
+            for comment_name, md_data in md_components.items():
+                # Prüfe ob component_name oder comment_name mit belong_to übereinstimmt (normalisiert)
+                md_component_normalized = md_data.get('component_name_normalized', normalize_name(md_data['component_name']))
+                md_comment_normalized = md_data.get('comment_name_normalized', normalize_name(comment_name))
+                
+                if (md_component_normalized == belong_to_normalized or 
+                    md_comment_normalized == belong_to_normalized or
+                    md_data['component_name'].lower().strip() == belong_to.lower().strip() or
+                    comment_name.lower().strip() == belong_to.lower().strip()):
+                    found_authorities = md_data['authorities'].copy()
+                    break
+        
+        # 2. Wenn nicht gefunden, versuche über component_name (normalisiert und exakt)
+        if not found_authorities:
+            for comment_name, md_data in md_components.items():
+                md_component_normalized = md_data.get('component_name_normalized', normalize_name(md_data['component_name']))
+                # Exakte Übereinstimmung (case-insensitive)
+                if (md_data['component_name'].lower().strip() == component_name.lower().strip() or
+                    md_component_normalized == component_name_normalized):
+                    found_authorities = md_data['authorities'].copy()
+                    break
+        
+        # 3. Wenn nicht gefunden, versuche über comment_name (falls gleich folder_name)
         if not found_authorities and folder_name in md_components:
             found_authorities = md_components[folder_name]['authorities'].copy()
+        
+        # 4. Wenn nicht gefunden, versuche über normalisierten comment_name
+        if not found_authorities:
+            for comment_name, md_data in md_components.items():
+                md_comment_normalized = md_data.get('comment_name_normalized', normalize_name(comment_name))
+                if (comment_name.lower().strip() == folder_name.lower().strip() or
+                    md_comment_normalized == folder_name_normalized):
+                    found_authorities = md_data['authorities'].copy()
+                    break
+        
+        # 5. Wenn immer noch nicht gefunden, versuche Teilstring-Matching (falls folder_name Teil von component_name ist oder umgekehrt)
+        if not found_authorities:
+            for comment_name, md_data in md_components.items():
+                md_component_name = md_data['component_name'].lower().strip()
+                md_comment_name = comment_name.lower().strip()
+                search_component = component_name.lower().strip()
+                search_folder = folder_name.lower().strip()
+                
+                # Prüfe ob einer der Namen im anderen enthalten ist (mindestens 3 Zeichen für sinnvolle Matches)
+                if (len(search_folder) >= 3 and (search_folder in md_component_name or search_folder in md_comment_name)) or \
+                   (len(search_component) >= 3 and (search_component in md_component_name or search_component in md_comment_name)):
+                    found_authorities = md_data['authorities'].copy()
+                    break
         
         # Wenn gefunden, setze Authorities und suche Guidelines
         if found_authorities:
@@ -1061,7 +1132,7 @@ def main():
         auth_data = authorities_dict.get(folder_name, {})
         is_unmaintained = components.get(folder_name, {}).get('is_unmaintained', False) or not components.get(folder_name, {}).get('has_json', False)
         formatted = format_authorities(auth_data, is_unmaintained)
-        for key in ['conceptual', 'code', 'test_cases', 'assign_authorities', 'tester', 'security_reports', 'security_issues']:
+        for key in ['conceptual', 'code', 'test_cases', 'assign_authorities', 'tester', 'issues', 'security_reports', 'security_issues']:
             if formatted.get(key) == 'NONE':
                 none_count += 1
     
