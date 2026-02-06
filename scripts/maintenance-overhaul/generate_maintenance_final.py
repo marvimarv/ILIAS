@@ -807,7 +807,7 @@ def format_component_section(component_name, folders, authorities_dict, is_unmai
         result = f"""[//]: # (BEGIN {comment_name})
 
 #### {component_name_with_link}
-{status_line}*Component Ordner:* {folders_str}
+{status_line}*Component Folders:* {folders_str}
 
 * Authority to Sign off on Conceptual Changes: {formatted['conceptual'] or 'NONE'}
 * Authority to Sign off on Code Changes: {formatted['code'] or 'NONE'}
@@ -836,7 +836,7 @@ def format_component_section(component_name, folders, authorities_dict, is_unmai
 
 #### {component_name_with_link}
 
-*Component Ordner:* {folders_str}
+*Component Folders:* {folders_str}
 """]
         
         for folder in sorted(folders):
@@ -1140,9 +1140,9 @@ def main():
     # Entferne "## Current Maintainerships" aus intro falls vorhanden
     intro_clean = re.sub(r'\n## Current Maintainerships\s*\n', '\n', intro.rstrip())
     output_lines = [intro_clean, "", "## Current Maintainerships", ""]
-    output_lines.append(f"Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](https://docu.ilias.de/go/wiki/wpage_1_1357).")
+    output_lines.append(f"The following structure is based on the [official ILIAS component structure](https://docu.ilias.de/go/wiki/wpage_1_1357).")
     output_lines.append("")
-    output_lines.append(f"**Statistik:** {maintained_count} maintained Components, {unmaintained_count} unmaintained Components, {none_count} NONE Authority-Einträge")
+    output_lines.append(f"**Statistics:** {maintained_count} maintained Components, {unmaintained_count} unmaintained Components, {none_count} NONE Authority entries")
     output_lines.append("")
     
     # Sortiere Kategorien
