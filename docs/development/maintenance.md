@@ -175,7 +175,7 @@ of ILIAS. The file contains the following fields:
 
 Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](https://docu.ilias.de/go/wiki/wpage_1_1357).
 
-**Statistik:** 163 maintained Components, 17 unmaintained Components, 308 NONE Authority-Einträge
+**Statistik:** 133 maintained Components, 47 unmaintained Components, 329 NONE Authority-Einträge
 
 ### 1. [General Topics](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#1_General_Topics)
 
@@ -251,6 +251,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Accessibility)
 
 #### [Accessibility](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Accessibility&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Accessibility`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Accessibility)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -260,7 +262,6 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 * Tester: NONE
 * Assignee for Security Reports: NONE
 * Assignee for Security Issues: NONE
-* Unit-specific Guidelines, Rules, and Regulations: [Guidelines](https://github.com/ILIAS-eLearning/ILIAS/blob/trunk/docs/development/accessibility.md)
 
 [//]: # (END Accessibility)
 
@@ -282,7 +283,6 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 * Tester: NONE
 * Assignee for Security Reports: NONE
 * Assignee for Security Issues: NONE
-* Unit-specific Guidelines, Rules, and Regulations: [Guidelines](https://github.com/ILIAS-eLearning/ILIAS/blob/trunk/components/ILIAS/UI/docs/COMMUNITY.md)
 
 [//]: # (END UI)
 
@@ -297,7 +297,6 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 * Tester: NONE
 * Assignee for Security Reports: NONE
 * Assignee for Security Issues: NONE
-* Unit-specific Guidelines, Rules, and Regulations: [Guidelines](https://github.com/ILIAS-eLearning/ILIAS/blob/trunk/components/ILIAS/UI/docs/COMMUNITY.md)
 
 [//]: # (END UIComponent)
 
@@ -339,6 +338,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Accordion)
 
 #### [Accordion](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Accordion&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Accordion`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Accordion)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -407,6 +408,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN CSV)
 
 #### [CSV](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=CSV&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`CSV`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/CSV)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -441,6 +444,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Chart)
 
 #### [Chart](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Chart&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Chart`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Chart)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -491,6 +496,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Context)
 
 #### [Context](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Context&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Context`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Context)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -523,6 +530,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN DI)
 
 #### [DI](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=DI&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`DI`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/DI)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -587,6 +596,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN EventHandling)
 
 #### [EventHandling](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=EventHandling&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`EventHandling`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/EventHandling)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -603,6 +614,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Excel)
 
 #### [Excel](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Excel&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Excel`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Excel)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -619,6 +632,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Exceptions)
 
 #### [Exceptions](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Exceptions&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Exceptions`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Exceptions)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -703,6 +718,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Form)
 
 #### [Form](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Form&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Form`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Form)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -753,6 +770,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Http_)
 
 #### [Http_](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Http_&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Http_`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Http_)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -801,6 +820,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Imprint)
 
 #### [Imprint](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Imprint&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Imprint`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Imprint)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -817,6 +838,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN JavaScript)
 
 #### [JavaScript](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=JavaScript&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`JavaScript`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/JavaScript)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -929,6 +952,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Link)
 
 #### [Link](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Link&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Link`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Link)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -945,6 +970,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Locator)
 
 #### [Locator](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Locator&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Locator`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Locator)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -977,6 +1004,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Math)
 
 #### [Math](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Math&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Math`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Math)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -1009,6 +1038,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Migration)
 
 #### [Migration](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Migration&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Migration`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Migration)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -1109,6 +1140,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN RTE)
 
 #### [RTE](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=RTE&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`RTE`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RTE)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -1125,6 +1158,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Refinery)
 
 #### [Refinery](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Refinery&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Refinery`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Refinery)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -1223,6 +1258,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Table)
 
 #### [Table](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Table&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Table`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Table)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -1239,6 +1276,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Tree)
 
 #### [Tree](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Tree&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Tree`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Tree)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -1255,6 +1294,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Utilities)
 
 #### [Utilities](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Utilities&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Utilities`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Utilities)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -1271,6 +1312,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Verification)
 
 #### [Verification](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Verification&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Verification`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Verification)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -1335,6 +1378,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Xml)
 
 #### [Xml](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Xml&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Xml`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Xml)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -1351,6 +1396,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN jQuery)
 
 #### [jQuery](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=jQuery&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`jQuery`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/jQuery)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -2537,6 +2584,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN Notification)
 
 #### [Notifications](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Notifications&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`Notification`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Notification)
 
 * Authority to Sign off on Conceptual Changes: NONE
@@ -2619,6 +2668,8 @@ Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](ht
 [//]: # (BEGIN DataCollection)
 
 #### [Data Collection](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn&cmdClass=ilobjwikigui&cmd=gotoPage&ref_id=1357&page=Data_Collection&from_page=Overview)
+
+**Status:** Unmaintained / NONE
 *Component Ordner:* [`DataCollection`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/DataCollection)
 
 * Authority to Sign off on Conceptual Changes: NONE

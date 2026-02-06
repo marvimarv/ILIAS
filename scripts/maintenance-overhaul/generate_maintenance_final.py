@@ -632,6 +632,36 @@ def get_category_for_component(component_name):
     # (wird später implementiert)
     return 3  # Default: ILIAS core
 
+def all_authorities_none(auth_data):
+    """Prüfe ob alle Authorities NONE sind"""
+    if not auth_data:
+        return True
+    
+    def is_none_or_empty(value):
+        if value is None:
+            return True
+        if isinstance(value, list):
+            # Prüfe ob Liste leer ist oder nur leere Strings enthält
+            if len(value) == 0:
+                return True
+            # Filtere leere Strings und prüfe ob Liste dann leer ist
+            filtered = [item for item in value if item and str(item).strip()]
+            return len(filtered) == 0
+        if isinstance(value, str):
+            return value.strip() == '' or value.strip().upper() == 'NONE'
+        return False
+    
+    # Prüfe alle relevanten Authorities
+    return (
+        is_none_or_empty(auth_data.get('conceptual')) and
+        is_none_or_empty(auth_data.get('code')) and
+        is_none_or_empty(auth_data.get('test_cases')) and
+        is_none_or_empty(auth_data.get('assign_authorities')) and
+        is_none_or_empty(auth_data.get('tester')) and
+        is_none_or_empty(auth_data.get('security_reports')) and
+        is_none_or_empty(auth_data.get('security_issues'))
+    )
+
 def format_authorities(auth_data, is_unmaintained=False):
     """Formatiere Authorities für Markdown"""
     if is_unmaintained or not auth_data:
@@ -656,7 +686,7 @@ def format_authorities(auth_data, is_unmaintained=False):
             return filtered[0]
         return ', '.join(filtered)
     
-    return {
+    formatted = {
         'conceptual': format_list(auth_data.get('conceptual', [])),
         'code': format_list(auth_data.get('code', [])),
         'test_cases': format_list(auth_data.get('test_cases', [])),
@@ -666,6 +696,20 @@ def format_authorities(auth_data, is_unmaintained=False):
         'security_issues': auth_data.get('security_issues'),
         'guidelines': auth_data.get('guidelines')
     }
+    
+    # Wenn alle formatierten Werte None sind, setze sie auf 'NONE'
+    if all(formatted.get(k) is None for k in ['conceptual', 'code', 'test_cases', 'assign_authorities', 'tester', 'security_reports', 'security_issues']):
+        formatted.update({
+            'conceptual': 'NONE',
+            'code': 'NONE',
+            'test_cases': 'NONE',
+            'assign_authorities': 'NONE',
+            'tester': 'NONE',
+            'security_reports': 'NONE',
+            'security_issues': 'NONE'
+        })
+    
+    return formatted
 
 def get_feature_wiki_link(component_name):
     """Erstelle Feature Wiki Link für eine Komponente"""
@@ -933,15 +977,18 @@ def main():
             if second_maintainer:
                 code_changes.append(parse_user(second_maintainer))
             
-            if code_changes:
+            # Prüfe ob code_changes tatsächlich Werte enthält (nicht nur leere Strings)
+            code_changes_filtered = [c for c in code_changes if c and str(c).strip()]
+            
+            if code_changes_filtered:
                 auth_data = {
-                    'conceptual': code_changes if model == 'Classic' else code_changes,
-                    'code': code_changes,
-                    'test_cases': [parse_user(testcase_writer)] if testcase_writer else code_changes if model == 'Classic' else [],
-                    'assign_authorities': code_changes if model == 'Classic' else code_changes,
-                    'tester': tester if tester else None,
-                    'security_reports': code_changes[0] if code_changes else None,
-                    'security_issues': code_changes[0] if code_changes else None,
+                    'conceptual': code_changes_filtered if model == 'Classic' else code_changes_filtered,
+                    'code': code_changes_filtered,
+                    'test_cases': [parse_user(testcase_writer)] if testcase_writer and testcase_writer.strip() else code_changes_filtered if model == 'Classic' else [],
+                    'assign_authorities': code_changes_filtered if model == 'Classic' else code_changes_filtered,
+                    'tester': tester if tester and tester.strip() else None,
+                    'security_reports': code_changes_filtered[0] if code_changes_filtered else None,
+                    'security_issues': code_changes_filtered[0] if code_changes_filtered else None,
                     'guidelines': None
                 }
                 # Suche nach Guidelines-Datei
@@ -949,6 +996,10 @@ def main():
                 if guidelines_link:
                     auth_data['guidelines'] = f"[Guidelines]({guidelines_link})"
                 authorities_dict[folder_name] = auth_data
+            else:
+                # Auch wenn maintenance.json existiert, aber alle Felder leer sind, setze Authorities auf None
+                # (wird später als unmaintained erkannt)
+                authorities_dict[folder_name] = {}
     
     # Gruppiere Components nach Komponenten-Namen
     grouped_by_component = defaultdict(list)
@@ -963,8 +1014,18 @@ def main():
         # Bestimme Kategorie
         category = get_category_for_component(component_name)
         
-        # Prüfe ob unmaintained
-        is_unmaintained = all(not components.get(f, {}).get('has_json', False) for f in folders)
+        # Prüfe ob unmaintained: keine maintenance.json ODER alle Authorities sind NONE
+        has_no_json = all(not components.get(f, {}).get('has_json', False) for f in folders)
+        
+        # Prüfe ob alle Authorities NONE sind (auch wenn maintenance.json existiert)
+        all_authorities_are_none = True
+        for folder in folders:
+            auth_data = authorities_dict.get(folder, {})
+            if not all_authorities_none(auth_data):
+                all_authorities_are_none = False
+                break
+        
+        is_unmaintained = has_no_json or all_authorities_are_none
         
         categories[category][component_name] = {
             'folders': folders,
@@ -972,8 +1033,19 @@ def main():
         }
     
     # Zähle maintained und unmaintained Components
-    maintained_count = sum(1 for c in components.values() if c['has_json'])
-    unmaintained_count = len(components) - maintained_count
+    # Ein Component ist maintained, wenn es eine maintenance.json hat UND nicht alle Authorities NONE sind
+    maintained_count = 0
+    unmaintained_count = 0
+    
+    for folder_name, data in components.items():
+        has_json = data.get('has_json', False)
+        auth_data = authorities_dict.get(folder_name, {})
+        all_none = all_authorities_none(auth_data)
+        
+        if has_json and not all_none:
+            maintained_count += 1
+        else:
+            unmaintained_count += 1
     
     # Zähle alle "NONE" Einträge in den Authorities
     none_count = 0
