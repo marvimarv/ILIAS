@@ -294,10 +294,8 @@ def extract_component_from_md(md_content):
             'code': [],
             'test_cases': [],
             'assign_authorities': [],
-            'tester': None,
             'issues': None,
             'security_reports': None,
-            'security_issues': None,
             'guidelines': "[LINK MISSING]('')"
         }
         
@@ -325,20 +323,7 @@ def extract_component_from_md(md_content):
         if assign_match:
             auth_data['assign_authorities'] = extract_links_from_line(assign_match.group(1))
         
-        # Tester
-        tester_match = re.search(r'\* (?:Tester|Testcases):(.*?)(?=\* Authority|\* Assignee|\* Unit-specific|$)', full_text, re.DOTALL)
-        if tester_match:
-            tester_text = tester_match.group(1)
-            links = extract_links_from_line(tester_text)
-            if links:
-                auth_data['tester'] = ', '.join(links)
-            else:
-                # Extrahiere Text ohne Links
-                text_only = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', tester_text)
-                text_only = re.sub(r'\s+', ' ', text_only).strip()
-                auth_data['tester'] = text_only if text_only else None
-        
-        # Issues (muss VOR Security Reports/Issues kommen, da beide mit "Assignee" beginnen)
+        # Issues (muss VOR Security Reports kommen, da beide mit "Assignee" beginnen)
         issues_match = re.search(r'\* Assignee for Issues:(.*?)(?=\* Authority|\* Tester|\* Assignee for Security|\* Unit-specific|$)', full_text, re.DOTALL)
         if issues_match:
             auth_data['issues'] = extract_single_link(issues_match.group(1))
@@ -347,11 +332,6 @@ def extract_component_from_md(md_content):
         security_reports_match = re.search(r'\* Assignee for Security Reports:(.*?)(?=\* Authority|\* Assignee|\* Unit-specific|$)', full_text, re.DOTALL)
         if security_reports_match:
             auth_data['security_reports'] = extract_single_link(security_reports_match.group(1))
-        
-        # Security Issues
-        security_issues_match = re.search(r'\* Assignee for Security Issues:(.*?)(?=\* Authority|\* Assignee|\* Unit-specific|$)', full_text, re.DOTALL)
-        if security_issues_match:
-            auth_data['security_issues'] = extract_single_link(security_issues_match.group(1))
         
         # Guidelines - wird später basierend auf folder_name gesetzt
         guidelines_match = re.search(r'\* Unit-specific Guidelines[^:]*:(.*?)(?=\[//]|$)', full_text, re.DOTALL)
@@ -675,9 +655,8 @@ def all_authorities_none(auth_data):
         is_none_or_empty(auth_data.get('code')) and
         is_none_or_empty(auth_data.get('test_cases')) and
         is_none_or_empty(auth_data.get('assign_authorities')) and
-        is_none_or_empty(auth_data.get('tester')) and
-        is_none_or_empty(auth_data.get('security_reports')) and
-        is_none_or_empty(auth_data.get('security_issues'))
+        is_none_or_empty(auth_data.get('issues')) and
+        is_none_or_empty(auth_data.get('security_reports'))
     )
 
 def format_authorities(auth_data, is_unmaintained=False):
@@ -688,10 +667,8 @@ def format_authorities(auth_data, is_unmaintained=False):
             'code': 'NONE',
             'test_cases': 'NONE',
             'assign_authorities': 'NONE',
-            'tester': 'NONE',
             'issues': 'NONE',
             'security_reports': 'NONE',
-            'security_issues': 'NONE',
             'guidelines': None  # Keine Guidelines für unmaintained
         }
     
@@ -710,24 +687,20 @@ def format_authorities(auth_data, is_unmaintained=False):
         'code': format_list(auth_data.get('code', [])),
         'test_cases': format_list(auth_data.get('test_cases', [])),
         'assign_authorities': format_list(auth_data.get('assign_authorities', [])),
-        'tester': auth_data.get('tester') or None,
         'issues': auth_data.get('issues'),
         'security_reports': auth_data.get('security_reports'),
-        'security_issues': auth_data.get('security_issues'),
         'guidelines': auth_data.get('guidelines')
     }
     
     # Wenn alle formatierten Werte None sind, setze sie auf 'NONE'
-    if all(formatted.get(k) is None for k in ['conceptual', 'code', 'test_cases', 'assign_authorities', 'tester', 'issues', 'security_reports', 'security_issues']):
+    if all(formatted.get(k) is None for k in ['conceptual', 'code', 'test_cases', 'assign_authorities', 'issues', 'security_reports']):
         formatted.update({
             'conceptual': 'NONE',
             'code': 'NONE',
             'test_cases': 'NONE',
             'assign_authorities': 'NONE',
-            'tester': 'NONE',
             'issues': 'NONE',
-            'security_reports': 'NONE',
-            'security_issues': 'NONE'
+            'security_reports': 'NONE'
         })
     
     return formatted
@@ -813,10 +786,8 @@ def format_component_section(component_name, folders, authorities_dict, is_unmai
 * Authority to Sign off on Code Changes: {formatted['code'] or 'NONE'}
 * Authority to Curate Test Cases: {formatted['test_cases'] or 'NONE'}
 * Authority to (De-)Assign Authorities: {formatted['assign_authorities'] or 'NONE'}
-* Tester: {formatted['tester'] or 'NONE'}
 * Assignee for Issues: {formatted['issues'] or 'NONE'}
-* Assignee for Security Reports: {formatted['security_reports'] or 'NONE'}
-* Assignee for Security Issues: {formatted['security_issues'] or 'NONE'}"""
+* Assignee for Security Reports: {formatted['security_reports'] or 'NONE'}"""
         
         # Füge Guidelines nur hinzu, wenn vorhanden
         if formatted['guidelines']:
@@ -854,10 +825,8 @@ def format_component_section(component_name, folders, authorities_dict, is_unmai
 * Authority to Sign off on Code Changes: {formatted['code'] or 'NONE'}
 * Authority to Curate Test Cases: {formatted['test_cases'] or 'NONE'}
 * Authority to (De-)Assign Authorities: {formatted['assign_authorities'] or 'NONE'}
-* Tester: {formatted['tester'] or 'NONE'}
 * Assignee for Issues: {formatted['issues'] or 'NONE'}
-* Assignee for Security Reports: {formatted['security_reports'] or 'NONE'}
-* Assignee for Security Issues: {formatted['security_issues'] or 'NONE'}"""
+* Assignee for Security Reports: {formatted['security_reports'] or 'NONE'}"""
             
             # Füge Guidelines nur hinzu, wenn vorhanden
             if formatted['guidelines']:
@@ -1064,9 +1033,7 @@ def main():
                     'code': code_changes_filtered,
                     'test_cases': [parse_user(testcase_writer)] if testcase_writer and testcase_writer.strip() else code_changes_filtered if model == 'Classic' else [],
                     'assign_authorities': code_changes_filtered if model == 'Classic' else code_changes_filtered,
-                    'tester': tester if tester and tester.strip() else None,
                     'security_reports': code_changes_filtered[0] if code_changes_filtered else None,
-                    'security_issues': code_changes_filtered[0] if code_changes_filtered else None,
                     'guidelines': None
                 }
                 # Suche nach Guidelines-Datei
@@ -1132,7 +1099,7 @@ def main():
         auth_data = authorities_dict.get(folder_name, {})
         is_unmaintained = components.get(folder_name, {}).get('is_unmaintained', False) or not components.get(folder_name, {}).get('has_json', False)
         formatted = format_authorities(auth_data, is_unmaintained)
-        for key in ['conceptual', 'code', 'test_cases', 'assign_authorities', 'tester', 'issues', 'security_reports', 'security_issues']:
+        for key in ['conceptual', 'code', 'test_cases', 'assign_authorities', 'issues', 'security_reports']:
             if formatted.get(key) == 'NONE':
                 none_count += 1
     

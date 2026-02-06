@@ -1671,7 +1671,7 @@ The following directories are currently unmaintained:
 
 The following structure is based on the [official ILIAS component structure](https://docu.ilias.de/go/wiki/wpage_1_1357).
 
-**Statistics:** 140 maintained Components, 40 unmaintained Components, 320 NONE Authority entries
+**Statistics:** 140 maintained Components, 40 unmaintained Components, 240 NONE Authority entries
 
 ### 1. [General Topics](https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#1_General_Topics)
 
@@ -1689,10 +1689,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
 * Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END DataProtection)
 
@@ -1704,10 +1702,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END PrivacySecurity)
 
@@ -1719,10 +1715,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
 * Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END TermsOfService)
 
@@ -1738,10 +1732,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [ukohnle](https://docu.ilias.de/go/usr/21855)
 * Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END WebAccessChecker)
 
@@ -1759,10 +1751,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Accessibility)
 
@@ -1781,10 +1771,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END UI)
 
@@ -1796,10 +1784,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END UIComponent)
 
@@ -1811,10 +1797,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [tfuhrer](https://docu.ilias.de/go/usr/81947)
 * Authority to (De-)Assign Authorities: [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Tester: NONE
 * Assignee for Issues: [tfuhrer](https://docu.ilias.de/go/usr/81947)
 * Assignee for Security Reports: [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Assignee for Security Issues: NONE
 * Unit-specific Guidelines, Rules, and Regulations: [Guidelines](https://github.com/ILIAS-eLearning/ILIAS/blob/trunk/components/ILIAS/UI/docs/COMMUNITY.md)
 
 [//]: # (END UICore)
@@ -1827,10 +1811,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END UI_)
 
@@ -1850,10 +1832,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Accordion)
 
@@ -1869,10 +1849,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END ActiveRecord)
 
@@ -1888,10 +1866,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END App)
 
@@ -1907,10 +1883,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Benchmark)
 
@@ -1926,10 +1900,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END CSV)
 
@@ -1945,10 +1917,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Cache)
 
@@ -1964,10 +1934,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Chart)
 
@@ -1983,10 +1951,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Cloud)
 
@@ -2000,10 +1966,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [tfuhrer](https://docu.ilias.de/go/usr/81947)
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087), [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Tester: NONE
 * Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Component)
 
@@ -2019,10 +1983,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Context)
 
@@ -2036,10 +1998,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Cron)
 
@@ -2055,10 +2015,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END DI)
 
@@ -2072,10 +2030,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [lscharmer](https://docu.ilias.de/go/usr/87863), [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: [lscharmer](https://docu.ilias.de/go/usr/87863), [mjansen](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [lscharmer](https://docu.ilias.de/go/usr/87863)
 * Assignee for Security Reports: [lscharmer](https://docu.ilias.de/go/usr/87863)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Data)
 
@@ -2089,10 +2045,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [lscharmer](https://docu.ilias.de/go/usr/87863), [mjansen](https://docu.ilias.de/go/usr/8784), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: [lscharmer](https://docu.ilias.de/go/usr/87863)
-* Tester: NONE
 * Assignee for Issues: [lscharmer](https://docu.ilias.de/go/usr/87863)
 * Assignee for Security Reports: [lscharmer](https://docu.ilias.de/go/usr/87863)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Database)
 
@@ -2106,10 +2060,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to (De-)Assign Authorities: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 
 [//]: # (END Environment)
 
@@ -2123,10 +2075,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Tester: NONE
 * Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Issues: NONE
 
 [//]: # (END EventHandling)
 
@@ -2140,10 +2090,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [skergomard](https://docu.ilias.de/goto_docu_usr_44474.html)
 * Authority to Curate Test Cases: [dstrassner](https://docu.ilias.de/goto_docu_usr_48931.html)
 * Authority to (De-)Assign Authorities: [dstrassner](https://docu.ilias.de/goto_docu_usr_48931.html)
-* Tester: NONE
 * Assignee for Issues: [dstrassner](https://docu.ilias.de/goto_docu_usr_48931.html)
 * Assignee for Security Reports: [dstrassner](https://docu.ilias.de/goto_docu_usr_48931.html)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Excel)
 
@@ -2159,10 +2107,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Exceptions)
 
@@ -2178,10 +2124,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END FileDelivery)
 
@@ -2197,10 +2141,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END FileServices)
 
@@ -2214,10 +2156,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
 
 [//]: # (END FileUpload)
 
@@ -2231,10 +2171,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
 
 [//]: # (END Filesystem)
 
@@ -2250,10 +2188,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Form)
 
@@ -2267,10 +2203,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
 
 [//]: # (END HTTP)
 
@@ -2286,10 +2220,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END History)
 
@@ -2305,10 +2237,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Http_)
 
@@ -2322,10 +2252,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
 
 [//]: # (END ResourceStorage)
 
@@ -2339,10 +2267,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fawinike](https://docu.ilias.de/go/usr/44474)
 * Authority to Curate Test Cases: [fawinike](https://docu.ilias.de/go/usr/44474)
 * Authority to (De-)Assign Authorities: [fawinike](https://docu.ilias.de/go/usr/44474)
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: [fawinike](https://docu.ilias.de/go/usr/44474)
-* Assignee for Security Issues: [fawinike](https://docu.ilias.de/go/usr/44474)
 
 [//]: # (END ILIASObject)
 
@@ -2358,10 +2284,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Imprint)
 
@@ -2377,10 +2301,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END JavaScript)
 
@@ -2394,10 +2316,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047)
 * Authority to Curate Test Cases: [rklees](https://docu.ilias.de/go/usr/34047)
 * Authority to (De-)Assign Authorities: [rklees](https://docu.ilias.de/go/usr/34047)
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: [rklees](https://docu.ilias.de/go/usr/34047)
-* Assignee for Security Issues: [rklees](https://docu.ilias.de/go/usr/34047)
 
 [//]: # (END KioskMode)
 
@@ -2411,10 +2331,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047)
 * Authority to Curate Test Cases: [rklees](https://docu.ilias.de/go/usr/34047)
 * Authority to (De-)Assign Authorities: [rklees](https://docu.ilias.de/go/usr/34047)
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: [rklees](https://docu.ilias.de/go/usr/34047)
-* Assignee for Security Issues: [rklees](https://docu.ilias.de/go/usr/34047)
 
 [//]: # (END KioskMode_)
 
@@ -2428,10 +2346,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [Zallax](https://docu.ilias.de/go/usr/101102), [sdiaz](https://docu.ilias.de/go/usr/105654), [sergiosantiago02](https://docu.ilias.de/go/usr/110174)
 * Authority to Curate Test Cases: [jcop](https://docu.ilias.de/go/usr/30511)
 * Authority to (De-)Assign Authorities: [jcop](https://docu.ilias.de/go/usr/30511)
-* Tester: NONE
 * Assignee for Issues: [jcop](https://docu.ilias.de/go/usr/30511)
 * Assignee for Security Reports: [jcop](https://docu.ilias.de/go/usr/30511)
-* Assignee for Security Issues: NONE
 
 [//]: # (END LTIConsumer)
 
@@ -2445,10 +2361,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mkunkel](https://docu.ilias.de/go/usr/115), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [ChrisPotter](https://docu.ilias.de/go/usr/90855), [keven.clausen](https://docu.ilias.de/go/usr/100316), [cknof](https://docu.ilias.de/go/usr/90890)
 * Authority to Curate Test Cases: [ChrisPotter](https://docu.ilias.de/go/usr/90855)
 * Authority to (De-)Assign Authorities: [mkunkel](https://docu.ilias.de/go/usr/115)
-* Tester: NONE
 * Assignee for Issues: [mkunkel](https://docu.ilias.de/go/usr/115)
 * Assignee for Security Reports: [mkunkel](https://docu.ilias.de/go/usr/115)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Language)
 
@@ -2462,10 +2376,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
 * Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/34047)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END LegalDocuments)
 
@@ -2479,10 +2391,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fhelfer](https://docu.ilias.de/go/usr/93367), [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Authority to Curate Test Cases: [fhelfer](https://docu.ilias.de/go/usr/93367), [tjoussen](https://docu.ilias.de/go/usr/103745), [oliver.samoila](https://docu.ilias.de/go/usr/26160)
 * Authority to (De-)Assign Authorities: [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
-* Tester: NONE
 * Assignee for Issues: [fhelfer](https://docu.ilias.de/go/usr/93367)
 * Assignee for Security Reports: [fhelfer](https://docu.ilias.de/go/usr/93367)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Like)
 
@@ -2496,10 +2406,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [nadine.bauser](https://docu.ilias.de/go/usr/34662)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Link)
 
@@ -2515,10 +2423,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Locator)
 
@@ -2532,10 +2438,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Logging)
 
@@ -2549,10 +2453,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fneumann](https://docu.ilias.de/go/usr/1560)
 * Authority to Curate Test Cases: [fneumann](https://docu.ilias.de/go/usr/1560)
 * Authority to (De-)Assign Authorities: [fneumann](https://docu.ilias.de/go/usr/1560)
-* Tester: NONE
 * Assignee for Issues: [fneumann](https://docu.ilias.de/go/usr/1560)
 * Assignee for Security Reports: [fneumann](https://docu.ilias.de/go/usr/1560)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Math)
 
@@ -2566,10 +2468,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Membership)
 
@@ -2585,10 +2485,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Migration)
 
@@ -2604,10 +2502,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Multilingualism)
 
@@ -2621,10 +2517,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END DidacticTemplate)
 
@@ -2638,10 +2532,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to (De-)Assign Authorities: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 
 [//]: # (END Password)
 
@@ -2657,10 +2549,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END PermanentLink)
 
@@ -2674,10 +2564,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [skergomard](https://docu.ilias.de/go/usr/44474)
 * Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Tester: NONE
 * Assignee for Issues: [skergomard](https://docu.ilias.de/go/usr/44474)
 * Assignee for Security Reports: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Assignee for Security Issues: NONE
 
 [//]: # (END AccessControl)
 
@@ -2693,10 +2581,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END RTE)
 
@@ -2710,10 +2596,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Refinery)
 
@@ -2727,10 +2611,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Saml)
 
@@ -2744,10 +2626,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to (De-)Assign Authorities: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
-* Assignee for Security Issues: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
 
 [//]: # (END AuthSOAP)
 
@@ -2761,10 +2641,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Tester: NONE
 * Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Issues: NONE
 
 [//]: # (END AuthShibboleth)
 
@@ -2780,10 +2658,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END StaticURL)
 
@@ -2797,10 +2673,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [BettyFromHH](https://docu.ilias.de/go/usr/96573), [rotegras](https://docu.ilias.de/go/usr/88399), [padvincenzo](https://docu.ilias.de/go/usr/87189)
 * Authority to Curate Test Cases: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
 * Authority to (De-)Assign Authorities: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
-* Tester: NONE
 * Assignee for Issues: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
 * Assignee for Security Reports: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Style)
 
@@ -2816,10 +2690,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Table)
 
@@ -2833,10 +2705,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
 * Authority to Curate Test Cases: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
 * Authority to (De-)Assign Authorities: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
-* Tester: NONE
 * Assignee for Issues: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
 * Assignee for Security Reports: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Tree)
 
@@ -2852,10 +2722,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Utilities)
 
@@ -2871,10 +2739,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Verification)
 
@@ -2888,10 +2754,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [rschenk](https://docu.ilias.de/go/usr/18065)
 * Authority to Curate Test Cases: [rschenk](https://docu.ilias.de/go/usr/18065)
 * Authority to (De-)Assign Authorities: [rschenk (Databay AG)](https://docu.ilias.de/go/usr/18065)
-* Tester: NONE
 * Assignee for Issues: [rschenk](https://docu.ilias.de/go/usr/18065)
 * Assignee for Security Reports: [rschenk](https://docu.ilias.de/go/usr/18065)
-* Assignee for Security Issues: NONE
 
 [//]: # (END VirusScanner)
 
@@ -2905,10 +2769,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: fschmid
 * Authority to Curate Test Cases: fschmid
 * Authority to (De-)Assign Authorities: fschmid
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: fschmid
-* Assignee for Security Issues: fschmid
 
 [//]: # (END WOPI)
 
@@ -2922,10 +2784,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [githamo](https://docu.ilias.de/go/usr/115389), [sKarki999](https://docu.ilias.de/go/usr/112949)
 * Authority to Curate Test Cases: [sKarki999](https://docu.ilias.de/go/usr/112949)
 * Authority to (De-)Assign Authorities: [TimoScheuer](https://docu.ilias.de/go/usr/102976)
-* Tester: NONE
 * Assignee for Issues: [sKarki999](https://docu.ilias.de/go/usr/112949)
 * Assignee for Security Reports: [sKarki999](https://docu.ilias.de/go/usr/112949)
-* Assignee for Security Issues: NONE
 
 [//]: # (END WebServices)
 
@@ -2941,10 +2801,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Xml)
 
@@ -2960,10 +2818,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END jQuery)
 
@@ -2979,10 +2835,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END setup_)
 
@@ -2998,10 +2852,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END soap)
 
@@ -3022,10 +2874,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [tjoussen](https://docu.ilias.de/go/usr/103745), [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: [tjoussen (Databay AG)](https://docu.ilias.de/go/usr/103745)
-* Tester: NONE
 * Assignee for Issues: [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Assignee for Security Reports: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Assignee for Security Issues: NONE
 
 [//]: # (END BackgroundTasks)
 
@@ -3037,10 +2887,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [tjoussen](https://docu.ilias.de/go/usr/103745), [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: [tjoussen (Databay AG)](https://docu.ilias.de/go/usr/103745)
-* Tester: NONE
 * Assignee for Issues: [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Assignee for Security Reports: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Assignee for Security Issues: NONE
 
 [//]: # (END BackgroundTasks_)
 
@@ -3056,10 +2904,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fhelfer](https://docu.ilias.de/go/usr/93367), [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [fhelfer](https://docu.ilias.de/go/usr/93367)
 * Assignee for Security Reports: [fhelfer](https://docu.ilias.de/go/usr/93367)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Badge)
 
@@ -3073,10 +2919,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Calendar)
 
@@ -3090,10 +2934,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784), [ChrisPotter](https://docu.ilias.de/go/usr/90855)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Certificate)
 
@@ -3107,10 +2949,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [cludolf](https://docu.ilias.de/go/usr/97658), [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [cludolf](https://docu.ilias.de/go/usr/97658)
-* Tester: NONE
 * Assignee for Issues: [cludolf](https://docu.ilias.de/go/usr/97658)
 * Assignee for Security Reports: [cludolf](https://docu.ilias.de/go/usr/97658)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Skill)
 
@@ -3124,10 +2964,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Contact)
 
@@ -3141,10 +2979,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [iszmais](https://docu.ilias.de/go/usr/65630), [lscharmer](https://docu.ilias.de/go/usr/87863), [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [iszmais (Databay AG)](https://docu.ilias.de/go/usr/65630), [lscharmer (Databay AG)](https://docu.ilias.de/go/usr/87863)
-* Tester: NONE
 * Assignee for Issues: [iszmais](https://docu.ilias.de/go/usr/65630)
 * Assignee for Security Reports: [iszmais](https://docu.ilias.de/go/usr/65630)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Dashboard)
 
@@ -3163,10 +2999,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
 * Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
 * Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Tester: NONE
 * Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
 * Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Assignee for Security Issues: NONE
 
 [//]: # (END RemoteCategory)
 
@@ -3178,10 +3012,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
 * Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
 * Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Tester: NONE
 * Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
 * Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Assignee for Security Issues: NONE
 
 [//]: # (END RemoteCourse)
 
@@ -3193,10 +3025,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
 * Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
 * Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Tester: NONE
 * Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
 * Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Assignee for Security Issues: NONE
 
 [//]: # (END RemoteFile)
 
@@ -3208,10 +3038,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
 * Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
 * Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Tester: NONE
 * Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
 * Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Assignee for Security Issues: NONE
 
 [//]: # (END RemoteGlossary)
 
@@ -3223,10 +3051,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
 * Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
 * Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Tester: NONE
 * Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
 * Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Assignee for Security Issues: NONE
 
 [//]: # (END RemoteGroup)
 
@@ -3238,10 +3064,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
 * Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
 * Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Tester: NONE
 * Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
 * Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Assignee for Security Issues: NONE
 
 [//]: # (END RemoteLearningModule)
 
@@ -3253,10 +3077,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
 * Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
 * Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Tester: NONE
 * Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
 * Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Assignee for Security Issues: NONE
 
 [//]: # (END RemoteTest)
 
@@ -3268,10 +3090,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
 * Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
 * Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Tester: NONE
 * Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
 * Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Assignee for Security Issues: NONE
 
 [//]: # (END RemoteWiki)
 
@@ -3287,10 +3107,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [Fabian](https://docu.ilias.de/go/usr/27631)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Export)
 
@@ -3304,10 +3122,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Tester: NONE
 * Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Issues: NONE
 
 [//]: # (END GlobalScreen)
 
@@ -3321,10 +3137,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END COPage)
 
@@ -3338,10 +3152,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END InfoScreen)
 
@@ -3355,10 +3167,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END LearningHistory)
 
@@ -3372,10 +3182,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Tester: NONE
 * Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Issues: NONE
 
 [//]: # (END MainMenu)
 
@@ -3389,10 +3197,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [keven.clausen](https://docu.ilias.de/go/usr/100316), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
 * Authority to Curate Test Cases: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
 * Authority to (De-)Assign Authorities: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
-* Tester: NONE
 * Assignee for Issues: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
 * Assignee for Security Reports: [keven.clausen](https://docu.ilias.de/go/usr/100316)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Maps)
 
@@ -3411,10 +3217,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
 * Authority to Curate Test Cases: [Alexandra Tödt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END ADT)
 
@@ -3426,10 +3230,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
 * Authority to Curate Test Cases: [Alexandra Tödt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END AdvancedMetaData)
 
@@ -3441,10 +3243,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
 * Authority to Curate Test Cases: [Alexandra Tödt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END MetaData)
 
@@ -3460,10 +3260,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [skaiser](https://docu.ilias.de/go/usr/17260)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Notes)
 
@@ -3477,10 +3275,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Help)
 
@@ -3494,10 +3290,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [maalers](https://docu.ilias.de/go/usr/119188)
 * Authority to Curate Test Cases: [wischniak](https://docu.ilias.de/go/usr/21896)
 * Authority to (De-)Assign Authorities: [maalers](https://docu.ilias.de/go/usr/119188)
-* Tester: NONE
 * Assignee for Issues: [maalers](https://docu.ilias.de/go/usr/119188)
 * Assignee for Security Reports: [maalers](https://docu.ilias.de/go/usr/119188)
-* Assignee for Security Issues: NONE
 
 [//]: # (END OrgUnit)
 
@@ -3516,10 +3310,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END PersonalWorkspace)
 
@@ -3531,10 +3323,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END WorkspaceFolder)
 
@@ -3546,10 +3336,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END WorkspaceRootFolder)
 
@@ -3565,10 +3353,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Portfolio)
 
@@ -3582,10 +3368,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Conditions)
 
@@ -3599,10 +3383,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fhelfer](https://docu.ilias.de/go/usr/93367)
 * Authority to Curate Test Cases: [fhelfer](https://docu.ilias.de/go/usr/93367), [oliver.samoila](https://docu.ilias.de/go/usr/26160)
 * Authority to (De-)Assign Authorities: [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
-* Tester: NONE
 * Assignee for Issues: [fhelfer](https://docu.ilias.de/go/usr/93367)
 * Assignee for Security Reports: [fhelfer](https://docu.ilias.de/go/usr/93367)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Rating)
 
@@ -3616,10 +3398,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Search)
 
@@ -3633,10 +3413,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [tschmitz](https://docu.ilias.de/go/usr/92591)
 * Authority to Curate Test Cases: [tschmitz](https://docu.ilias.de/go/usr/92591)
 * Authority to (De-)Assign Authorities: [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Tester: NONE
 * Assignee for Issues: [tschmitz](https://docu.ilias.de/go/usr/92591)
 * Assignee for Security Reports: [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Assignee for Security Issues: NONE
 
 [//]: # (END MyStaff)
 
@@ -3650,10 +3428,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Tracking)
 
@@ -3667,10 +3443,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [skaiser](https://docu.ilias.de/go/usr/17260)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Tagging)
 
@@ -3684,10 +3458,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Tasks)
 
@@ -3701,10 +3473,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Taxonomy)
 
@@ -3718,10 +3488,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [skergomard](https://docu.ilias.de/go/usr/44474)
 * Authority to Curate Test Cases: [skergomard](https://docu.ilias.de/go/usr/44474)
 * Authority to (De-)Assign Authorities: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Tester: NONE
 * Assignee for Issues: [skergomard](https://docu.ilias.de/go/usr/44474)
 * Assignee for Security Reports: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Assignee for Security Issues: NONE
 
 [//]: # (END User)
 
@@ -3735,10 +3503,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Tester: NONE
 * Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Issues: NONE
 
 [//]: # (END WebDAV)
 
@@ -3752,10 +3518,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Awareness)
 
@@ -3776,10 +3540,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Category)
 
@@ -3791,10 +3553,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END CategoryReference)
 
@@ -3806,10 +3566,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Container)
 
@@ -3821,10 +3579,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END ContainerReference)
 
@@ -3836,10 +3592,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Folder)
 
@@ -3851,10 +3605,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Repository)
 
@@ -3866,10 +3618,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END RootFolder)
 
@@ -3890,10 +3640,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Course)
 
@@ -3905,10 +3653,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END CourseReference)
 
@@ -3929,10 +3675,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Group)
 
@@ -3944,10 +3688,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END GroupReference)
 
@@ -3963,10 +3705,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Authority to Curate Test Cases: [oliver.samoila](https://docu.ilias.de/go/usr/26160), [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Authority to (De-)Assign Authorities: [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
-* Tester: NONE
 * Assignee for Issues: [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Assignee for Security Reports: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Assignee for Security Issues: NONE
 
 [//]: # (END ItemGroup)
 
@@ -3980,10 +3720,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [keven.clausen](https://docu.ilias.de/go/usr/100316), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
 * Authority to Curate Test Cases: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
 * Authority to (De-)Assign Authorities: [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
-* Tester: NONE
 * Assignee for Issues: [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
 * Assignee for Security Reports: [keven.clausen](https://docu.ilias.de/go/usr/100316)
-* Assignee for Security Issues: NONE
 
 [//]: # (END LearningSequence)
 
@@ -3997,10 +3735,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Session)
 
@@ -4019,10 +3755,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [maalers](https://docu.ilias.de/go/usr/119188)
 * Authority to Curate Test Cases: [maalers](https://docu.ilias.de/go/usr/119188)
 * Authority to (De-)Assign Authorities: [maalers](https://docu.ilias.de/go/usr/119188)
-* Tester: NONE
 * Assignee for Issues: [maalers](https://docu.ilias.de/go/usr/119188)
 * Assignee for Security Reports: [maalers](https://docu.ilias.de/go/usr/119188)
-* Assignee for Security Issues: NONE
 
 [//]: # (END StudyProgramme)
 
@@ -4034,10 +3768,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [maalers](https://docu.ilias.de/go/usr/119188)
 * Authority to Curate Test Cases: [maalers](https://docu.ilias.de/go/usr/119188)
 * Authority to (De-)Assign Authorities: [maalers](https://docu.ilias.de/go/usr/119188)
-* Tester: NONE
 * Assignee for Issues: [maalers](https://docu.ilias.de/go/usr/119188)
 * Assignee for Security Reports: [maalers](https://docu.ilias.de/go/usr/119188)
-* Assignee for Security Issues: NONE
 
 [//]: # (END StudyProgrammeReference)
 
@@ -4057,10 +3789,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END AdministrativeNotification)
 
@@ -4079,10 +3809,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [mbecker](https://docu.ilias.de/go/usr/27266)
 * Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Chatroom)
 
@@ -4094,10 +3822,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [mbecker](https://docu.ilias.de/go/usr/27266)
 * Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Notifications)
 
@@ -4109,10 +3835,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [mbecker](https://docu.ilias.de/go/usr/27266)
 * Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END OnScreenChat)
 
@@ -4133,10 +3857,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Forum)
 
@@ -4148,10 +3870,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Html)
 
@@ -4167,10 +3887,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Mail)
 
@@ -4184,10 +3902,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Authority to Curate Test Cases: [tjoussen](https://docu.ilias.de/go/usr/103745), [oliver.samoila](https://docu.ilias.de/go/usr/26160)
 * Authority to (De-)Assign Authorities: [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
-* Tester: NONE
 * Assignee for Issues: [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Assignee for Security Reports: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Assignee for Security Issues: NONE
 
 [//]: # (END News)
 
@@ -4201,10 +3917,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Feeds)
 
@@ -4218,10 +3932,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [iszmais](https://docu.ilias.de/go/usr/65630)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784), [iszmais](https://docu.ilias.de/go/usr/65630)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Notification)
 
@@ -4237,10 +3949,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [maalers](https://docu.ilias.de/go/usr/119188)
 * Authority to Curate Test Cases: [maalers](https://docu.ilias.de/go/usr/119188)
 * Authority to (De-)Assign Authorities: [maalers](https://docu.ilias.de/go/usr/119188)
-* Tester: NONE
 * Assignee for Issues: [maalers](https://docu.ilias.de/go/usr/119188)
 * Assignee for Security Reports: [maalers](https://docu.ilias.de/go/usr/119188)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Bibliographic)
 
@@ -4254,10 +3964,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Blog)
 
@@ -4271,10 +3979,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Authority to Curate Test Cases: [simon.lowe](https://docu.ilias.de/go/usr/79091), [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Authority to (De-)Assign Authorities: [simon.lowe (Databay AG)](https://docu.ilias.de/go/usr/79091), [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
-* Tester: NONE
 * Assignee for Issues: [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Assignee for Security Reports: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Assignee for Security Issues: NONE
 
 [//]: # (END BookingManager)
 
@@ -4288,10 +3994,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END ContentPage)
 
@@ -4305,10 +4009,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [iszmais](https://docu.ilias.de/go/usr/65630)
 * Authority to Curate Test Cases: [oliver.samoila](https://docu.ilias.de/go/usr/26160)
 * Authority to (De-)Assign Authorities: [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
-* Tester: NONE
 * Assignee for Issues: [iszmais](https://docu.ilias.de/go/usr/65630)
 * Assignee for Security Reports: [iszmais](https://docu.ilias.de/go/usr/65630)
-* Assignee for Security Issues: NONE
 
 [//]: # (END DataCollection)
 
@@ -4322,10 +4024,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Tester: NONE
 * Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Issues: NONE
 
 [//]: # (END File)
 
@@ -4339,10 +4039,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Glossary)
 
@@ -4356,10 +4054,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [Zallax](https://docu.ilias.de/go/usr/101102), [sdiaz](https://docu.ilias.de/go/usr/105654), [smeyer](https://docu.ilias.de/goto_docu_usr_191.html), [sergiosantiago02](https://docu.ilias.de/go/usr/110174)
 * Authority to Curate Test Cases: [jcop](https://docu.ilias.de/go/usr/30511)
 * Authority to (De-)Assign Authorities: [jcop](https://docu.ilias.de/go/usr/30511)
-* Tester: NONE
 * Assignee for Issues: [jcop](https://docu.ilias.de/go/usr/30511)
 * Assignee for Security Reports: [jcop](https://docu.ilias.de/go/usr/30511)
-* Assignee for Security Issues: NONE
 
 [//]: # (END LTIProvider)
 
@@ -4373,10 +4069,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mbecker](https://docu.ilias.de/go/usr/27266)
 * Authority to Curate Test Cases: [mbecker](https://docu.ilias.de/go/usr/27266)
 * Authority to (De-)Assign Authorities: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Tester: NONE
 * Assignee for Issues: [mbecker](https://docu.ilias.de/go/usr/27266)
 * Assignee for Security Reports: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Assignee for Security Issues: NONE
 
 [//]: # (END HTMLLearningModule)
 
@@ -4390,10 +4084,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [Balliel](https://docu.ilias.de/go/usr/18365)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END LearningModule)
 
@@ -4412,10 +4104,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [qualitus.dahme](https://docu.ilias.de/go/usr/99160), [qualitus.hartwig](https://docu.ilias.de/go/usr/104063)
 * Authority to Curate Test Cases: [emix](https://docu.ilias.de/go/usr/57311)
 * Authority to (De-)Assign Authorities: [wischniak](https://docu.ilias.de/go/usr/21896)
-* Tester: NONE
 * Assignee for Issues: [wischniak](https://docu.ilias.de/go/usr/21896)
 * Assignee for Security Reports: [wischniak](https://docu.ilias.de/go/usr/21896)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Scorm2004)
 
@@ -4427,10 +4117,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [qualitus.dahme](https://docu.ilias.de/go/usr/99160), [qualitus.hartwig](https://docu.ilias.de/go/usr/104063)
 * Authority to Curate Test Cases: [emix](https://docu.ilias.de/go/usr/57311)
 * Authority to (De-)Assign Authorities: [wischniak](https://docu.ilias.de/go/usr/21896)
-* Tester: NONE
 * Assignee for Issues: [wischniak](https://docu.ilias.de/go/usr/21896)
 * Assignee for Security Reports: [wischniak](https://docu.ilias.de/go/usr/21896)
-* Assignee for Security Issues: NONE
 
 [//]: # (END ScormAicc)
 
@@ -4451,10 +4139,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END MediaObjects)
 
@@ -4466,10 +4152,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END MediaPool)
 
@@ -4485,10 +4169,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [berggold](https://docu.ilias.de/go/usr/22199)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END MediaCast)
 
@@ -4502,10 +4184,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [nadine.bauser](https://docu.ilias.de/go/usr/34662)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END WebResource)
 
@@ -4519,10 +4199,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Wiki)
 
@@ -4536,10 +4214,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [ukohnle](https://docu.ilias.de/go/usr/21855)
 * Authority to Curate Test Cases: [ukohnle](https://docu.ilias.de/go/usr/21855)
 * Authority to (De-)Assign Authorities: [ukohnle](https://docu.ilias.de/go/usr/21855)
-* Tester: NONE
 * Assignee for Issues: [ukohnle](https://docu.ilias.de/go/usr/21855)
 * Assignee for Security Reports: [ukohnle](https://docu.ilias.de/go/usr/21855)
-* Assignee for Security Issues: NONE
 
 [//]: # (END CmiXapi)
 
@@ -4555,10 +4231,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [tschmitz](https://docu.ilias.de/go/usr/92591)
 * Authority to Curate Test Cases: [tschmitz](https://docu.ilias.de/go/usr/92591)
 * Authority to (De-)Assign Authorities: [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Tester: NONE
 * Assignee for Issues: [tschmitz](https://docu.ilias.de/go/usr/92591)
 * Assignee for Security Reports: [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Assignee for Security Issues: NONE
 
 [//]: # (END EmployeeTalk)
 
@@ -4572,10 +4246,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Tester: NONE
 * Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Exercise)
 
@@ -4589,10 +4261,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mbecker](https://docu.ilias.de/go/usr/27266)
 * Authority to Curate Test Cases: [mbecker](https://docu.ilias.de/go/usr/27266)
 * Authority to (De-)Assign Authorities: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Tester: NONE
 * Assignee for Issues: [mbecker](https://docu.ilias.de/go/usr/27266)
 * Assignee for Security Reports: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Assignee for Security Issues: NONE
 
 [//]: # (END IndividualAssessment)
 
@@ -4606,10 +4276,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
 * Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Poll)
 
@@ -4628,10 +4296,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [sergiosant02](https://docu.ilias.de/go/usr/110174), [abrahammordev](https://docu.ilias.de/go/usr/110909), [juanma1331](https://docu.ilias.de/go/usr/107249)
 * Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
 * Authority to (De-)Assign Authorities: [jcopado](https://docu.ilias.de/go/usr/30511)
-* Tester: NONE
 * Assignee for Issues: [jcopado](https://docu.ilias.de/go/usr/30511)
 * Assignee for Security Reports: [jcopado](https://docu.ilias.de/go/usr/30511)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Survey)
 
@@ -4643,10 +4309,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [sergiosant02](https://docu.ilias.de/go/usr/110174), [abrahammordev](https://docu.ilias.de/go/usr/110909), [juanma1331](https://docu.ilias.de/go/usr/107249)
 * Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
 * Authority to (De-)Assign Authorities: [jcopado](https://docu.ilias.de/go/usr/30511)
-* Tester: NONE
 * Assignee for Issues: [jcopado](https://docu.ilias.de/go/usr/30511)
 * Assignee for Security Reports: [jcopado](https://docu.ilias.de/go/usr/30511)
-* Assignee for Security Issues: NONE
 
 [//]: # (END SurveyQuestionPool)
 
@@ -4667,10 +4331,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mbecker](https://docu.ilias.de/go/usr/27266), [skergomard](https://docu.ilias.de/go/usr/44474), [dstrassner](https://docu.ilias.de/go/usr/48931), [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Authority to Curate Test Cases: [dstrassner](https://docu.ilias.de/go/usr/48931)
 * Authority to (De-)Assign Authorities: [dstrassner](https://docu.ilias.de/go/usr/48931)
-* Tester: NONE
 * Assignee for Issues: [dstrassner](https://docu.ilias.de/go/usr/48931)
 * Assignee for Security Reports: [dstrassner](https://docu.ilias.de/go/usr/48931)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Test)
 
@@ -4682,10 +4344,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mbecker](https://docu.ilias.de/go/usr/27266), [skergomard](https://docu.ilias.de/go/usr/44474), [dstrassner](https://docu.ilias.de/go/usr/48931), [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Authority to Curate Test Cases: [dstrassner](https://docu.ilias.de/go/usr/48931)
 * Authority to (De-)Assign Authorities: [dstrassner](https://docu.ilias.de/go/usr/48931)
-* Tester: NONE
 * Assignee for Issues: [dstrassner](https://docu.ilias.de/go/usr/48931)
 * Assignee for Security Reports: [dstrassner](https://docu.ilias.de/go/usr/48931)
-* Assignee for Security Issues: NONE
 
 [//]: # (END TestQuestionPool)
 
@@ -4708,10 +4368,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fneumann](https://docu.ilias.de/go/usr/1560), [lscharmer](https://docu.ilias.de/go/usr/87863)
 * Authority to Curate Test Cases: [fneumann](https://docu.ilias.de/go/usr/1560), [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [fneumann (Databay AG)](https://docu.ilias.de/go/usr/1560), [lscharmer (Databay AG)](https://docu.ilias.de/go/usr/87863)
-* Tester: NONE
 * Assignee for Issues: [fneumann](https://docu.ilias.de/go/usr/1560)
 * Assignee for Security Reports: [fneumann](https://docu.ilias.de/go/usr/1560)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Administration)
 
@@ -4723,10 +4381,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [fneumann](https://docu.ilias.de/go/usr/1560), [lscharmer](https://docu.ilias.de/go/usr/87863)
 * Authority to Curate Test Cases: [fneumann](https://docu.ilias.de/go/usr/1560), [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [fneumann (Databay AG)](https://docu.ilias.de/go/usr/1560), [lscharmer (Databay AG)](https://docu.ilias.de/go/usr/87863)
-* Tester: NONE
 * Assignee for Issues: [fneumann](https://docu.ilias.de/go/usr/1560)
 * Assignee for Security Reports: [fneumann](https://docu.ilias.de/go/usr/1560)
-* Assignee for Security Issues: NONE
 
 [//]: # (END SystemFolder)
 
@@ -4747,10 +4403,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END AuthApache)
 
@@ -4762,10 +4416,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Authentication)
 
@@ -4777,10 +4429,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Init)
 
@@ -4792,10 +4442,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END LDAP)
 
@@ -4807,10 +4455,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END OpenIdConnect)
 
@@ -4822,10 +4468,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Tester: NONE
 * Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Issues: NONE
 
 [//]: # (END Registration)
 
@@ -4843,10 +4487,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: NONE
 * Authority to Curate Test Cases: NONE
 * Authority to (De-)Assign Authorities: NONE
-* Tester: NONE
 * Assignee for Issues: NONE
 * Assignee for Security Reports: NONE
-* Assignee for Security Issues: NONE
 
 [//]: # (END Setup)
 
@@ -4860,10 +4502,8 @@ The following structure is based on the [official ILIAS component structure](htt
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Tester: NONE
 * Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Issues: NONE
 
 [//]: # (END SystemCheck)
 
