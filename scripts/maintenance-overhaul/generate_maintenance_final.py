@@ -854,11 +854,18 @@ def main():
     base_path = Path(__file__).parent.parent.parent
     components_path = base_path / "components" / "ILIAS"
     maintenance_md_path = base_path / "docs" / "development" / "maintenance.md"
+    maintenance_old_path = base_path / "docs" / "development" / "maintenance_old.md"
     output_path = base_path / "docs" / "development" / "maintenance.md"
     
-    # Lese bestehende maintenance.md
-    with open(maintenance_md_path, 'r', encoding='utf-8') as f:
-        md_content = f.read()
+    # Lese bestehende maintenance.md ODER maintenance_old.md (falls vorhanden, hat Vorrang)
+    if maintenance_old_path.exists():
+        print(f"Using maintenance_old.md as primary source for authorities")
+        with open(maintenance_old_path, 'r', encoding='utf-8') as f:
+            md_content = f.read()
+    else:
+        print(f"Using maintenance.md as source for authorities")
+        with open(maintenance_md_path, 'r', encoding='utf-8') as f:
+            md_content = f.read()
     
     # Extrahiere Einleitung (alles vor "## Current Maintainerships")
     # Entferne doppelte "Current Maintainerships" falls vorhanden
