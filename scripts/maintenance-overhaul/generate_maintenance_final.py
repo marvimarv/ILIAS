@@ -22,6 +22,19 @@ ILIAS_CATEGORIES = {
     9: "Administration"
 }
 
+# Feature Wiki URLs für jede Kategorie
+FEATURE_WIKI_URLS = {
+    1: "https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#1_General_Topics",
+    2: "https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#2_Accessibility_Usability_and_User_Interface",
+    3: "https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#3_ILIAS_core",
+    4: "https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#4_General_Services",
+    5: "https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#5_Container_Objects",
+    6: "https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#6_Communication_and_Syndication",
+    7: "https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#7_Learning_and_Content_Objects",
+    8: "https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#8_Evaluation_Feedback_and_Testing",
+    9: "https://docu.ilias.de/ilias.php?baseClass=ilwikihandlergui&cmdNode=14x:rn:150&cmdClass=ilWikiPageGUI&cmd=preview&ref_id=1357&page=Overview#9_Administration"
+}
+
 # ILIAS Unterkomponenten-Mapping (von Komponentenname zu Kategorie)
 # Diese Liste basiert auf der ILIAS-Dokumentation
 ILIAS_SUBCOMPONENTS = {
@@ -656,7 +669,9 @@ def format_authorities(auth_data, is_unmaintained=False):
 
 def format_component_section(component_name, folders, authorities_dict, is_unmaintained=False):
     """Formatiere eine Komponenten-Sektion"""
-    folders_str = ', '.join([f'`{f}`' for f in sorted(folders)])
+    # Mache Component-Ordner anklickbar (Links zu GitHub)
+    github_base = "https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS"
+    folders_str = ', '.join([f'[`{f}`]({github_base}/{f})' for f in sorted(folders)])
     
     # Erstelle Kommentar-Namen für die Komponente (verwende ersten folder oder component_name)
     comment_name = folders[0] if folders else component_name.replace(' ', '').replace('&', '').replace(',', '')
@@ -737,7 +752,7 @@ def format_component_section(component_name, folders, authorities_dict, is_unmai
         return '\n'.join(sections)
 
 def main():
-    base_path = Path(__file__).parent.parent
+    base_path = Path(__file__).parent.parent.parent
     components_path = base_path / "components" / "ILIAS"
     maintenance_md_path = base_path / "docs" / "development" / "maintenance.md"
     output_path = base_path / "docs" / "development" / "maintenance.md"
@@ -905,19 +920,34 @@ def main():
     maintained_count = sum(1 for c in components.values() if c['has_json'])
     unmaintained_count = len(components) - maintained_count
     
+    # Zähle alle "NONE" Einträge in den Authorities
+    none_count = 0
+    # Zähle für alle Components (auch die ohne authorities_dict Eintrag)
+    for folder_name in components.keys():
+        auth_data = authorities_dict.get(folder_name, {})
+        is_unmaintained = components.get(folder_name, {}).get('is_unmaintained', False) or not components.get(folder_name, {}).get('has_json', False)
+        formatted = format_authorities(auth_data, is_unmaintained)
+        for key in ['conceptual', 'code', 'test_cases', 'assign_authorities', 'tester', 'security_reports', 'security_issues']:
+            if formatted.get(key) == 'NONE':
+                none_count += 1
+    
     # Generiere neue maintenance.md
     # Entferne "## Current Maintainerships" aus intro falls vorhanden
     intro_clean = re.sub(r'\n## Current Maintainerships\s*\n', '\n', intro.rstrip())
     output_lines = [intro_clean, "", "## Current Maintainerships", ""]
     output_lines.append(f"Die folgende Struktur basiert auf der [offiziellen ILIAS-Komponentenstruktur](https://docu.ilias.de/go/wiki/wpage_1_1357).")
     output_lines.append("")
-    output_lines.append(f"**Statistik:** {maintained_count} maintained Components, {unmaintained_count} unmaintained Components")
+    output_lines.append(f"**Statistik:** {maintained_count} maintained Components, {unmaintained_count} unmaintained Components, {none_count} NONE Authority-Einträge")
     output_lines.append("")
     
     # Sortiere Kategorien
     for cat_num in sorted(ILIAS_CATEGORIES.keys()):
         cat_name = ILIAS_CATEGORIES[cat_num]
-        output_lines.append(f"### {cat_num}. {cat_name}")
+        wiki_url = FEATURE_WIKI_URLS.get(cat_num, "")
+        if wiki_url:
+            output_lines.append(f"### {cat_num}. [{cat_name}]({wiki_url})")
+        else:
+            output_lines.append(f"### {cat_num}. {cat_name}")
         output_lines.append("")
         
         # Sortiere Komponenten alphabetisch
