@@ -669,11 +669,54 @@ def format_authorities(auth_data, is_unmaintained=False):
 
 def get_feature_wiki_link(component_name):
     """Erstelle Feature Wiki Link für eine Komponente"""
-    # Basis-URL für Feature Wiki Overview
-    base_url = "https://docu.ilias.de/go/wiki/wpage_1_1357"
-    # Erstelle einen Link zur Overview-Seite (die einzelnen Komponenten haben keine direkten Links in der HTML)
-    # Wir verlinken zur Overview-Seite, da die einzelnen Komponenten-Seiten dynamisch sind
-    return base_url
+    import urllib.parse
+    
+    # Mapping von Komponentennamen zu Wiki-Seitennamen (basierend auf HTML)
+    # Die meisten Komponentennamen entsprechen direkt dem Seitennamen, nur mit Unterstrichen statt Leerzeichen
+    # Spezielle Fälle müssen angepasst werden
+    component_to_page = {
+        "Privacy, Terms of Service and Data Protection (incl. Terms of Service)": "Privacy%2C_Terms_of_Service_and_Data_Protection",
+        "Privacy, Terms of Service and Data Protection": "Privacy%2C_Terms_of_Service_and_Data_Protection",
+        "Security (incl. Web Access Checker)": "Security",
+        "Web Services Overview: SOAP, REST, ...": "Web_Services_Overview%3A_SOAP%2C_REST%2C_...",
+        "Web Services Overview": "Web_Services_Overview%3A_SOAP%2C_REST%2C_...",
+        "ECS Interface – E-Learning Community Server": "ECS_Interface",
+        "ECS Interface": "ECS_Interface",
+        "Session (Course & Group)": "Session_%28Course_%26_Group%29",
+        "Session": "Session_%28Course_%26_Group%29",
+        "News - RSS - Webfeeds": "News_-_RSS_-_Webfeeds",
+        "News": "News_-_RSS_-_Webfeeds",
+        "Test & Assessment": "Test_%26_Assessment",
+        "Login, Auth & Registration": "Login%2C_Auth_%26_Registration",
+        "User Service (incl. Personal Profile)": "User_Service",
+        "User Service": "User_Service",
+        "User Administration": "User_Service",
+        "Who is online?": "Who_is_online%3F",
+    }
+    
+    # Prüfe ob es ein spezielles Mapping gibt
+    if component_name in component_to_page:
+        page_name = component_to_page[component_name]
+    else:
+        # Standard: Ersetze Leerzeichen durch Unterstriche und URL-encode
+        page_name = component_name.replace(' ', '_')
+        page_name = urllib.parse.quote(page_name, safe='_')
+    
+    # Erstelle URL im Format der HTML-Datei
+    base_url = "https://docu.ilias.de/ilias.php"
+    params = {
+        'baseClass': 'ilwikihandlergui',
+        'cmdNode': '14x:rn',
+        'cmdClass': 'ilobjwikigui',
+        'cmd': 'gotoPage',
+        'ref_id': '1357',
+        'page': page_name,
+        'from_page': 'Overview'
+    }
+    
+    # Erstelle Query-String
+    query_string = '&'.join([f"{k}={v}" for k, v in params.items()])
+    return f"{base_url}?{query_string}"
 
 def format_component_section(component_name, folders, authorities_dict, is_unmaintained=False):
     """Formatiere eine Komponenten-Sektion"""
