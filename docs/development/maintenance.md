@@ -88,6 +88,7 @@ assigned to PRs](https://github.com/ILIAS-eLearning/ILIAS/blob/trunk/docs/develo
 * The person/people holding the **Authority to (De-)Assign Authorities**
 coordinate assignments of authorities with the Product Manager and the Technical
 Board, who hold a vetoing power over these decisions.
+* If the person holding the **Authority to (De-)Assign Authorities** assigns a new **Authority to Curate Test Cases** the Testcase Management MUST be informed about the change.
 
 # Additional Rules and Guidelines
 * Although the first decision on new features or feature removals in a unit of
@@ -125,7 +126,6 @@ and their plans for the `Component` better.
 * If the Product Manager and the Technical Board do not veto the new assignment,
 they take the pull request for the next Jour Fixe for an announcement and merge it
 afterwards.
-* If the person holding the **Authority to (De-)Assign Authorities** assigns a new **Authority to Curate Test Cases** the Testcase Management MUST be informed about the change.
 * If you want to give up an `Authority` for a `Component`, please contact all persons
 with the `Authority to (De-)Assign Authorities` in that `Component`. If you are the
 last person holding the `Authority to (De-)Assign Authorities`, please contact
