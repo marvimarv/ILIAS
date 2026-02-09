@@ -862,6 +862,9 @@ def main():
     # Extrahiere Einleitung (alles vor "## Current Maintainerships")
     # Entferne doppelte "Current Maintainerships" falls vorhanden
     md_content_clean = re.sub(r'^## Current Maintainerships\s*\n\s*## Current Maintainerships', '## Current Maintainerships', md_content, flags=re.MULTILINE)
+    # Entferne "## Unmaintained Components" Sektion aus der Einleitung (falls vorhanden)
+    # Diese Sektion wird nicht mehr benötigt, da unmaintained Components in der Hauptliste erscheinen
+    md_content_clean = re.sub(r'\n## Unmaintained Components.*?\n## Current Maintainerships', '\n## Current Maintainerships', md_content_clean, flags=re.DOTALL)
     intro_match = re.search(r'^(.*?)## Current Maintainerships', md_content_clean, re.DOTALL)
     if intro_match:
         intro = intro_match.group(1).rstrip()
@@ -1052,13 +1055,10 @@ def main():
         component_name = folder_to_component_name.get(folder_name, folder_name)
         grouped_by_component[component_name].append(folder_name)
     
-    # Organisiere nach Kategorien
-    categories = defaultdict(lambda: defaultdict(list))
+    # Organisiere Components mit ihren Status-Informationen
+    component_list = []
     
     for component_name, folders in grouped_by_component.items():
-        # Bestimme Kategorie
-        category = get_category_for_component(component_name)
-        
         # Prüfe ob unmaintained: keine maintenance.json ODER alle Authorities sind NONE
         has_no_json = all(not components.get(f, {}).get('has_json', False) for f in folders)
         
@@ -1072,10 +1072,15 @@ def main():
         
         is_unmaintained = has_no_json or all_authorities_are_none
         
-        categories[category][component_name] = {
+        # Sortiere nach erstem Component-Ordner (alphabetisch)
+        first_folder = sorted(folders)[0] if folders else component_name
+        
+        component_list.append({
+            'component_name': component_name,
             'folders': folders,
-            'is_unmaintained': is_unmaintained
-        }
+            'is_unmaintained': is_unmaintained,
+            'sort_key': first_folder.lower()  # Für case-insensitive Sortierung
+        })
     
     # Zähle maintained und unmaintained Components
     # Ein Component ist maintained, wenn es eine maintenance.json hat UND nicht alle Authorities NONE sind
@@ -1106,51 +1111,32 @@ def main():
     # Generiere neue maintenance.md
     # Entferne "## Current Maintainerships" aus intro falls vorhanden
     intro_clean = re.sub(r'\n## Current Maintainerships\s*\n', '\n', intro.rstrip())
+    # Entferne auch "## Unmaintained Components" Sektion falls noch vorhanden (inkl. Inhalt bis zum nächsten ##)
+    intro_clean = re.sub(r'\n## Unmaintained Components.*?(?=\n##|\Z)', '', intro_clean, flags=re.DOTALL)
+    # Entferne auch Reste der Unmaintained Components Sektion (Text ohne Überschrift)
+    intro_clean = re.sub(r'\nThe following directories are currently unmaintained:.*?(?=\n##|\Z)', '', intro_clean, flags=re.DOTALL)
     output_lines = [intro_clean, "", "## Current Maintainerships", ""]
-    output_lines.append(f"The following structure is based on the [official ILIAS component structure](https://docu.ilias.de/go/wiki/wpage_1_1357).")
+    output_lines.append(f"Components are listed alphabetically by component folder name.")
     output_lines.append("")
     output_lines.append(f"**Statistics:** {maintained_count} maintained Components, {unmaintained_count} unmaintained Components, {none_count} NONE Authority entries")
     output_lines.append("")
     
-    # Sortiere Kategorien
-    for cat_num in sorted(ILIAS_CATEGORIES.keys()):
-        cat_name = ILIAS_CATEGORIES[cat_num]
-        wiki_url = FEATURE_WIKI_URLS.get(cat_num, "")
-        if wiki_url:
-            output_lines.append(f"### {cat_num}. [{cat_name}]({wiki_url})")
-        else:
-            output_lines.append(f"### {cat_num}. {cat_name}")
-        output_lines.append("")
-        
-        # Sortiere Komponenten alphabetisch
-        component_items = sorted(categories[cat_num].items())
-        
-        for component_name, data in component_items:
-            folders = data['folders']
-            is_unmaintained = data['is_unmaintained']
-            
-            section = format_component_section(
-                component_name,
-                folders,
-                authorities_dict,
-                is_unmaintained
-            )
-            output_lines.append(section)
-            output_lines.append("")
+    # Sortiere Components alphabetisch nach erstem Component-Ordner
+    component_list_sorted = sorted(component_list, key=lambda x: x['sort_key'])
     
-    # Unmaintained Components Sektion
-    unmaintained = []
-    for folder_name, data in components.items():
-        if not data.get('has_json', False):
-            unmaintained.append(folder_name)
-    
-    if unmaintained:
-        output_lines.append("## Unmaintained Components")
+    for component_data in component_list_sorted:
+        component_name = component_data['component_name']
+        folders = component_data['folders']
+        is_unmaintained = component_data['is_unmaintained']
+        
+        section = format_component_section(
+            component_name,
+            folders,
+            authorities_dict,
+            is_unmaintained
+        )
+        output_lines.append(section)
         output_lines.append("")
-        output_lines.append("The following directories are currently unmaintained:")
-        output_lines.append("")
-        for folder in sorted(unmaintained):
-            output_lines.append(f"* ILIAS/{folder}")
     
     # Schreibe neue Datei
     with open(output_path, 'w', encoding='utf-8') as f:
@@ -1159,7 +1145,7 @@ def main():
     print(f"\nGenerated maintenance.md: {output_path}")
     print(f"Total components: {len(components)}")
     print(f"Components with maintenance.json: {sum(1 for c in components.values() if c['has_json'])}")
-    print(f"Unmaintained components: {len(unmaintained)}")
+    print(f"Unmaintained components: {unmaintained_count}")
     print(f"Components from maintenance.md: {len(md_components)}")
 
 if __name__ == "__main__":
