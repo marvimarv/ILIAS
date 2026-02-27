@@ -161,6 +161,9 @@ of ILIAS. The file contains the following fields:
 * **"Authority to (De-)Assign Authorities"**:
     An array in the form [ `<username> (<userid>), <company> (<company_page>)` ]
     pointing to valid users on https://docu.ilias.de.
+* **"Tester"**:
+    An array in the form [ `<username> (<userid>), <company> (<company_page>)` ]
+    pointing to valid users on https://docu.ilias.de.
 * **"Assignee for Issues"**:
     A string in the form `<username> (<userid>), <company> (<company_page>)`
     pointing to valid users on https://docu.ilias.de.
@@ -173,7 +176,7 @@ of ILIAS. The file contains the following fields:
 
 ## Current Maintainerships
 
-Components are listed alphabetically by component folder name.
+The following section lists all components and their related authorities. The order is alphabetical by the first folder name of each component (as used in the repository). Components that span multiple folders are listed once under their main component name; the order of entries within a component block is fixed (Conceptual, Code, Test Cases, De-Assign, Assignee for Issues, Assignee for Security Reports, Tester, Unit-specific Guidelines).
 
 [//]: # (BEGIN AccessControl)
 
