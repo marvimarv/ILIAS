@@ -8,12 +8,16 @@ Eintrag in maintenance_old.md, wird maintenance.json im jeweiligen Ordner als
 Fallback genutzt.
 """
 
+import difflib
 import json
 import re
 import subprocess
 import sys
 from collections import defaultdict
 from pathlib import Path
+
+# Mindest-Ähnlichkeit (0–1) für Fuzzy-Match: Ordner ↔ Alter-Format-Block (comment_name/component_name), z. B. OpenIdConnect ↔ OpenIdConect
+FUZZY_MATCH_RATIO_THRESHOLD = 0.82
 
 # Branch -> Authority-Dateiname (Input); Ausgabe ist immer maintenance.md im jeweiligen Branch
 BRANCH_INPUT_MAP = {
@@ -295,6 +299,35 @@ def normalize_name(name):
     # Entferne häufige Sonderzeichen und normalisiere Leerzeichen
     normalized = re.sub(r'[_\s\-\.]+', '', normalized)
     return normalized
+
+
+def _fuzzy_match_folder_to_old_block(folder_name_normalized: str, old_format_blocks: list[tuple[str, list[str]]]) -> str | None:
+    """
+    Finde den besten passenden Alter-Format-Block für einen Ordner (normalisierter Name).
+    old_format_blocks: Liste von (comment_name, [normalized_candidates]) – z. B. comment_name + component_name normalisiert.
+    Nutzt SequenceMatcher-Ratio; nur ein eindeutiger Treffer oberhalb FUZZY_MATCH_RATIO_THRESHOLD wird zurückgegeben.
+    """
+    if not folder_name_normalized or not old_format_blocks:
+        return None
+    best_comment = None
+    best_ratio = FUZZY_MATCH_RATIO_THRESHOLD
+    second_ratio = 0.0
+    for comment_name, candidates in old_format_blocks:
+        block_best = 0.0
+        for c in candidates:
+            if not c:
+                continue
+            block_best = max(block_best, difflib.SequenceMatcher(None, folder_name_normalized, c).ratio())
+        if block_best > best_ratio:
+            second_ratio = best_ratio
+            best_ratio = block_best
+            best_comment = comment_name
+        elif block_best > second_ratio:
+            second_ratio = block_best
+    # Eindeutig: bester Treffer mind. 0.05 besser als der zweite
+    if best_comment is not None and (best_ratio - second_ratio) >= 0.05:
+        return best_comment
+    return best_comment if best_comment is not None and second_ratio < FUZZY_MATCH_RATIO_THRESHOLD else None
 
 def extract_component_from_md(md_content):
     """Extrahiere alle Components aus der maintenance.md"""
@@ -989,29 +1022,38 @@ def main():
         component_name = get_component_name_from_folder(folder_name, belong_to)
         folder_to_component_name[folder_name] = component_name
     
-    # Pro Ordner: MD nutzen wenn (1) Ordner in "Component Folders:" steht, oder (2) Alter-Format-Block ohne diese Zeile: comment_name = folder_name.
+    # Pro Ordner: MD nutzen wenn (1) Ordner in "Component Folders:" steht, (2) exakt/normalisiert, (3) Fuzzy-Match (Levenshtein-ähnlich).
     md_folder_to_comment = {}
+    old_format_blocks_for_fuzzy: list[tuple[str, list[str]]] = []
     for comment_name, md_data in md_components.items():
         folders_in_block = md_data.get('folders', [])
         if folders_in_block:
             for f in folders_in_block:
                 md_folder_to_comment[f] = comment_name
         else:
-            # Altes Format: Keine "Component Folders:"-Zeile → Block gilt für Ordner mit gleichem Namen wie comment_name (z. B. DataCollection)
+            # Altes Format: exakte/normalisierte Keys + später Fuzzy-Match
             if comment_name not in md_folder_to_comment:
                 md_folder_to_comment[comment_name] = comment_name
+            comp_norm = normalize_name(md_data['component_name'])
+            if comp_norm and comp_norm not in md_folder_to_comment:
+                md_folder_to_comment[comp_norm] = comment_name
+            cands = [normalize_name(comment_name), comp_norm]
+            old_format_blocks_for_fuzzy.append((comment_name, [c for c in cands if c]))
     comment_to_component = {}
     for comment_name, md_data in md_components.items():
         comment_to_component[comment_name] = md_data['component_name']
     
-    # Ordne Authorities den folders zu (nur MD wenn dieser Ordner in der MD explizit unter Component Folders steht)
+    folder_norm = None  # für Fuzzy-Lookup einmal pro folder berechnen
     for folder_name, data in components.items():
         belong_to = data.get('belong_to_component', 'None')
         component_name = folder_to_component_name.get(folder_name, folder_name)
         found_authorities = None
         
-        if folder_name in md_folder_to_comment:
-            comment_name = md_folder_to_comment[folder_name]
+        comment_name = md_folder_to_comment.get(folder_name) or md_folder_to_comment.get(normalize_name(folder_name))
+        if not comment_name and old_format_blocks_for_fuzzy:
+            folder_norm = normalize_name(folder_name)
+            comment_name = _fuzzy_match_folder_to_old_block(folder_norm, old_format_blocks_for_fuzzy)
+        if comment_name:
             found_authorities = md_components[comment_name]['authorities'].copy()
         
         # Wenn gefunden (Ordner in MD genannt), setze Authorities und suche Guidelines
@@ -1147,8 +1189,8 @@ def main():
     if 'How Authority Assignments are Stored' in intro_clean and '"Tester"' not in intro_clean:
         tester_bullet = '\n* **"Tester"**: An array in the form [ `<username> (<userid>), <company> (<company_page>)` ] pointing to valid users on https://docu.ilias.de.\n'
         intro_clean = intro_clean.replace('* **"Assignee for Issues"**:', tester_bullet + '* **"Assignee for Issues"**:', 1)
-    output_lines = [intro_clean, "", "## Current Maintainerships", ""]
-    output_lines.append(f"Components are listed alphabetically by component folder name.")
+    output_lines = [intro_clean, "", "**Sorting:** The list of components below is sorted alphabetically by component folder name. For components with multiple folders, the first folder name is used as the sort key (case-insensitive).", "", "## Current Maintainerships", ""]
+    output_lines.append("Components are listed alphabetically by component folder name. For components that span multiple folders, the sort key is the first folder name (case-insensitive).")
     output_lines.append("")
     
     # Sortiere Components alphabetisch nach erstem Component-Ordner
