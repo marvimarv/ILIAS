@@ -319,6 +319,7 @@ def extract_component_from_md(md_content):
             'conceptual': [],
             'code': [],
             'test_cases': [],
+            'tester': [],
             'assign_authorities': [],
             'issues': [],
             'security_reports': [],
@@ -345,6 +346,13 @@ def extract_component_from_md(md_content):
             raw = test_cases_match.group(1).strip().replace('\n', ' ').strip()
             links = extract_links_from_line(raw)
             auth_data['test_cases'] = links if links else ([raw] if raw else [])
+        
+        # Tester (eigenes Feld, getrennt von Authority to Curate Test Cases)
+        tester_match = re.search(r'\* Tester:(.*?)(?=\* Authority|\* Assignee|\* Unit-specific|\[//\]|$)', full_text, re.DOTALL)
+        if tester_match:
+            raw = tester_match.group(1).strip().replace('\n', ' ').strip()
+            links = extract_links_from_line(raw)
+            auth_data['tester'] = links if links else ([raw] if raw else [])
         
         # Assign Authorities
         assign_match = re.search(r'\* Authority to \(De-\)Assign Authorities:(.*?)(?=\* Authority|\* Tester|\* Assignee|\* Unit-specific|$)', full_text, re.DOTALL)
@@ -688,6 +696,7 @@ def all_authorities_none(auth_data):
         is_none_or_empty(auth_data.get('conceptual')) and
         is_none_or_empty(auth_data.get('code')) and
         is_none_or_empty(auth_data.get('test_cases')) and
+        is_none_or_empty(auth_data.get('tester')) and
         is_none_or_empty(auth_data.get('assign_authorities')) and
         is_none_or_empty(auth_data.get('issues')) and
         is_none_or_empty(auth_data.get('security_reports'))
@@ -700,6 +709,7 @@ def format_authorities(auth_data, is_unmaintained=False):
             'conceptual': 'NONE',
             'code': 'NONE',
             'test_cases': 'NONE',
+            'tester': 'NONE',
             'assign_authorities': 'NONE',
             'issues': 'NONE',
             'security_reports': 'NONE',
@@ -727,6 +737,7 @@ def format_authorities(auth_data, is_unmaintained=False):
         'conceptual': format_list(auth_data.get('conceptual', [])),
         'code': format_list(auth_data.get('code', [])),
         'test_cases': format_list(auth_data.get('test_cases', [])),
+        'tester': format_list(auth_data.get('tester', [])),
         'assign_authorities': format_list(auth_data.get('assign_authorities', [])),
         'issues': format_single_or_list(auth_data.get('issues')),
         'security_reports': format_single_or_list(auth_data.get('security_reports')),
@@ -734,11 +745,12 @@ def format_authorities(auth_data, is_unmaintained=False):
     }
     
     # Wenn alle formatierten Werte None sind, setze sie auf 'NONE'
-    if all(formatted.get(k) is None for k in ['conceptual', 'code', 'test_cases', 'assign_authorities', 'issues', 'security_reports']):
+    if all(formatted.get(k) is None for k in ['conceptual', 'code', 'test_cases', 'tester', 'assign_authorities', 'issues', 'security_reports']):
         formatted.update({
             'conceptual': 'NONE',
             'code': 'NONE',
             'test_cases': 'NONE',
+            'tester': 'NONE',
             'assign_authorities': 'NONE',
             'issues': 'NONE',
             'security_reports': 'NONE'
@@ -832,6 +844,7 @@ def format_component_section(component_name, folders, authorities_dict, is_unmai
 * Authority to Sign off on Conceptual Changes: {formatted['conceptual'] or 'NONE'}
 * Authority to Sign off on Code Changes: {formatted['code'] or 'NONE'}
 * Authority to Curate Test Cases: {formatted['test_cases'] or 'NONE'}
+* Tester: {formatted['tester'] or 'NONE'}
 * Authority to (De-)Assign Authorities: {formatted['assign_authorities'] or 'NONE'}
 * Assignee for Issues: {formatted['issues'] or 'NONE'}
 * Assignee for Security Reports: {formatted['security_reports'] or 'NONE'}"""
@@ -871,6 +884,7 @@ def format_component_section(component_name, folders, authorities_dict, is_unmai
 {status_line}* Authority to Sign off on Conceptual Changes: {formatted['conceptual'] or 'NONE'}
 * Authority to Sign off on Code Changes: {formatted['code'] or 'NONE'}
 * Authority to Curate Test Cases: {formatted['test_cases'] or 'NONE'}
+* Tester: {formatted['tester'] or 'NONE'}
 * Authority to (De-)Assign Authorities: {formatted['assign_authorities'] or 'NONE'}
 * Assignee for Issues: {formatted['issues'] or 'NONE'}
 * Assignee for Security Reports: {formatted['security_reports'] or 'NONE'}"""
@@ -975,12 +989,17 @@ def main():
         component_name = get_component_name_from_folder(folder_name, belong_to)
         folder_to_component_name[folder_name] = component_name
     
-    # Pro Ordner: Nur wenn der Ordner in der Autoritäts-MD unter "Component Folders" genannt wird, MD nutzen; sonst maintenance.json.
-    # Mapping: folder_name (wie in MD unter Component Folders) -> comment_name des Blocks
+    # Pro Ordner: MD nutzen wenn (1) Ordner in "Component Folders:" steht, oder (2) Alter-Format-Block ohne diese Zeile: comment_name = folder_name.
     md_folder_to_comment = {}
     for comment_name, md_data in md_components.items():
-        for f in md_data.get('folders', []):
-            md_folder_to_comment[f] = comment_name
+        folders_in_block = md_data.get('folders', [])
+        if folders_in_block:
+            for f in folders_in_block:
+                md_folder_to_comment[f] = comment_name
+        else:
+            # Altes Format: Keine "Component Folders:"-Zeile → Block gilt für Ordner mit gleichem Namen wie comment_name (z. B. DataCollection)
+            if comment_name not in md_folder_to_comment:
+                md_folder_to_comment[comment_name] = comment_name
     comment_to_component = {}
     for comment_name, md_data in md_components.items():
         comment_to_component[comment_name] = md_data['component_name']
@@ -1037,20 +1056,22 @@ def main():
 
                 if code_changes_filtered:
                     test_cases_list = []
-                    if tester and str(tester).strip():
-                        u = parse_user(tester)
-                        if u:
-                            test_cases_list.append(u)
                     if testcase_writer and str(testcase_writer).strip():
                         u = parse_user(testcase_writer)
-                        if u and u not in test_cases_list:
+                        if u:
                             test_cases_list.append(u)
                     if not test_cases_list and model == 'Classic':
                         test_cases_list = code_changes_filtered
+                    tester_list = []
+                    if tester and str(tester).strip():
+                        u = parse_user(tester)
+                        if u:
+                            tester_list.append(u)
                     auth_data = {
                         'conceptual': code_changes_filtered,
                         'code': code_changes_filtered,
                         'test_cases': test_cases_list,
+                        'tester': tester_list,
                         'assign_authorities': code_changes_filtered,
                         'issues': code_changes_filtered,
                         'security_reports': code_changes_filtered,
@@ -1108,7 +1129,7 @@ def main():
     for folder_name in components.keys():
         auth_data = authorities_dict.get(folder_name, {})
         formatted = format_authorities(auth_data, all_authorities_none(auth_data))
-        for key in ['conceptual', 'code', 'test_cases', 'assign_authorities', 'issues', 'security_reports']:
+        for key in ['conceptual', 'code', 'test_cases', 'tester', 'assign_authorities', 'issues', 'security_reports']:
             if formatted.get(key) == 'NONE':
                 none_count += 1
     
@@ -1122,6 +1143,10 @@ def main():
     # Entferne deutsche Einleitungstexte (sollen nicht in der Ausgabe stehen)
     intro_clean = re.sub(r'\n?Die folgende Struktur basiert auf der \[offiziellen ILIAS-Komponentenstruktur\]\([^)]+\)\.?\s*', '\n', intro_clean)
     intro_clean = re.sub(r'\n?The following structure is based on the \[official ILIAS component structure\]\([^)]+\)\.?\s*', '\n', intro_clean)
+    # Sicherstellen: Intro enthält beide Felder "Authority to Curate Test Cases" und "Tester" in "How Authority Assignments are Stored"
+    if 'How Authority Assignments are Stored' in intro_clean and '"Tester"' not in intro_clean:
+        tester_bullet = '\n* **"Tester"**: An array in the form [ `<username> (<userid>), <company> (<company_page>)` ] pointing to valid users on https://docu.ilias.de.\n'
+        intro_clean = intro_clean.replace('* **"Assignee for Issues"**:', tester_bullet + '* **"Assignee for Issues"**:', 1)
     output_lines = [intro_clean, "", "## Current Maintainerships", ""]
     output_lines.append(f"Components are listed alphabetically by component folder name.")
     output_lines.append("")
