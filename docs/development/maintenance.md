@@ -9,13 +9,12 @@ contributors.
 # Special Roles
 
 * **Product Management**: [Matthias Kunkel](https://docu.ilias.de/go/usr/115)
-* **Technical Board**: [Rob Falkenstein](https://docu.ilias.de/go/usr/63946), [Marvin Hackfort](https://docu.ilias.de/go/usr/50523), [Michael Jansen](https://docu.ilias.de/go/usr/8784), [Franziska Wandelmaier](https://docu.ilias.de/go/usr/33833), [one vacant position]
+* **Technical Board**: [Michael Jansen](https://docu.ilias.de/go/usr/8784), [Stephan Kergomard](https://docu.ilias.de/go/usr/44474), [Richard Klees](https://docu.ilias.de/go/usr/34047), [Nico Roeser](https://docu.ilias.de/go/usr/72730), [Fabian Schmid](https://docu.ilias.de/go/usr/21087)
 * **Testcase Management**: [Fabian Kruse](https://docu.ilias.de/go/usr/27631)
 * **Release Management**: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
 * **Technical Documentation**: [Ann-Christin Gruber](https://docu.ilias.de/go/usr/94025)
 * **Online Help**: [Alexandra Tödt](https://docu.ilias.de/go/usr/3139)
 
-[//]: # (BEGIN Authorities)
 # Authorities
 The ILIAS community strives to create and maintain a secure, reliable, and
 adaptable learning management. We foster participation by a diverse set of
@@ -50,7 +49,7 @@ say on new test cases and can ask for modifications. They will be the ones
 contacted if there are questions concerning the test cases for a component.
 4. **Authority to (De-)Assign Authorities**: The people listed here are
 authorised to assign and deassign other people to the authorities of a component
-They are the only ones allowed to modify the `maintenance.json` of a component.
+They are the only ones allowed to modify the `maintanance.json` of a component.
 
 Each of these authorities can be held by a different set of people. This means
 that the social organisation of different groups working on different parts of
@@ -69,8 +68,6 @@ lie with one person and the **Authority to Sign off on Code Changes** with two
 others.
 
 More will surely emerge as the optimal solution for each unit is found.
-
-[//]: # (END Authorities)
 
 # Responsibilites
 Independently of the social organisation, for each [component](https://github.com/ILIAS-eLearning/ILIAS/blob/trunk/docs/development/components-and-directories.md) the following
@@ -91,7 +88,6 @@ assigned to PRs](https://github.com/ILIAS-eLearning/ILIAS/blob/trunk/docs/develo
 * The person/people holding the **Authority to (De-)Assign Authorities**
 coordinate assignments of authorities with the Product Manager and the Technical
 Board, who hold a vetoing power over these decisions.
-* If the person holding the **Authority to (De-)Assign Authorities** assigns a new **Authority to Curate Test Cases** the Testcase Management MUST be informed about the change.
 
 # Additional Rules and Guidelines
 * Although the first decision on new features or feature removals in a unit of
@@ -139,7 +135,7 @@ open a PR against the `trunk`-branch of the [official ILIAS Repository](https://
 and tag it with `authorities`, `documentation` and `jour fixe`. The change will
 then be announced on the next Jour Fixe.
 * If a `Component` lacks an `Authority to Sign off on Code Changes` or if the holder
-of the last `Authority to Sign off on Code Changes` would like to pass the
+of the last `Authority to Sign off on Code Chagnes` would like to pass the
 responsibility over to somebody else, the `Component` is added to the agenda of
 the Jour Fixe by the Product Manager.
 
@@ -159,6 +155,9 @@ of ILIAS. The file contains the following fields:
     An array in the form [ `<username> (<userid>), <company> (<company_page>)` ]
     pointing to valid users on https://docu.ilias.de.
 * **"Authority to (De-)Assign Authorities"**:
+    An array in the form [ `<username> (<userid>), <company> (<company_page>)` ]
+    pointing to valid users on https://docu.ilias.de.
+* **"Tester"**:
     An array in the form [ `<username> (<userid>), <company> (<company_page>)` ]
     pointing to valid users on https://docu.ilias.de.
 * **"Assignee for Issues"**:
@@ -184,7 +183,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [skergomard](https://docu.ilias.de/go/usr/44474)
 * Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Assignee for Issues: [skergomard](https://docu.ilias.de/go/usr/44474)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [skergomard](https://docu.ilias.de/go/usr/44474)
 
 [//]: # (END AccessControl)
@@ -229,12 +228,12 @@ Components are listed alphabetically by component folder name.
 #### [ActiveRecord](https://docu.ilias.de/go/wiki/wpage_1_1357)
 *Component Folders:* [`ActiveRecord`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ActiveRecord)
 
-* Authority to Sign off on Conceptual Changes: [fwolf-ilias](https://docu.ilias.de/go/usr/29018)
-* Authority to Sign off on Code Changes: [fwolf-ilias](https://docu.ilias.de/go/usr/29018)
-* Authority to Curate Test Cases: MISSING
-* Authority to (De-)Assign Authorities: [fwolf-ilias](https://docu.ilias.de/go/usr/29018)
-* Assignee for Issues: [fwolf-ilias](https://docu.ilias.de/go/usr/29018)
-* Assignee for Security Reports: [fwolf-ilias](https://docu.ilias.de/go/usr/29018)
+* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
 
 [//]: # (END ActiveRecord)
 
@@ -253,7 +252,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [fneumann](https://docu.ilias.de/go/usr/1560), [lscharmer](https://docu.ilias.de/go/usr/87863)
 * Authority to Curate Test Cases: [fneumann](https://docu.ilias.de/go/usr/1560), [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [fneumann (Databay AG)](https://docu.ilias.de/go/usr/1560), [lscharmer (Databay AG)](https://docu.ilias.de/go/usr/87863)
-* Assignee for Issues: [fneumann](https://docu.ilias.de/go/usr/1560)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [fneumann](https://docu.ilias.de/go/usr/1560)
 
 [//]: # (END Administration)
@@ -266,7 +265,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [fneumann](https://docu.ilias.de/go/usr/1560), [lscharmer](https://docu.ilias.de/go/usr/87863)
 * Authority to Curate Test Cases: [fneumann](https://docu.ilias.de/go/usr/1560), [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [fneumann (Databay AG)](https://docu.ilias.de/go/usr/1560), [lscharmer (Databay AG)](https://docu.ilias.de/go/usr/87863)
-* Assignee for Issues: [fneumann](https://docu.ilias.de/go/usr/1560)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [fneumann](https://docu.ilias.de/go/usr/1560)
 
 [//]: # (END SystemFolder)
@@ -283,7 +282,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
 
 [//]: # (END AdministrativeNotification)
@@ -299,11 +298,11 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN ADT)
 
 ##### ADT
-* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Authority to Curate Test Cases: [Alexandra Tödt](https://docu.ilias.de/go/usr/3139)
+* Authority to Curate Test Cases: [daniela.weber](https://docu.ilias.de/go/usr/40672)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
 
 [//]: # (END ADT)
@@ -312,11 +311,11 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN AdvancedMetaData)
 
 ##### AdvancedMetaData
-* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Authority to Curate Test Cases: [Alexandra Tödt](https://docu.ilias.de/go/usr/3139)
+* Authority to Curate Test Cases: [daniela.weber](https://docu.ilias.de/go/usr/40672)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
 
 [//]: # (END AdvancedMetaData)
@@ -325,11 +324,11 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN MetaData)
 
 ##### MetaData
-* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Authority to Curate Test Cases: [Alexandra Tödt](https://docu.ilias.de/go/usr/3139)
+* Authority to Curate Test Cases: [daniela.weber](https://docu.ilias.de/go/usr/40672)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
 
 [//]: # (END MetaData)
@@ -396,12 +395,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN AuthApache)
 
 ##### AuthApache
-* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Conceptual Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
 
 [//]: # (END AuthApache)
 
@@ -409,12 +408,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Authentication)
 
 ##### Authentication
-* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Conceptual Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
 
 [//]: # (END Authentication)
 
@@ -422,12 +421,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN CAS)
 
 ##### CAS
-* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Conceptual Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
 
 [//]: # (END CAS)
 
@@ -435,12 +434,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Init)
 
 ##### Init
-* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Conceptual Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
 
 [//]: # (END Init)
 
@@ -448,12 +447,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN LDAP)
 
 ##### LDAP
-* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Conceptual Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
 
 [//]: # (END LDAP)
 
@@ -461,12 +460,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN OpenIdConnect)
 
 ##### OpenIdConnect
-* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Conceptual Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
 
 [//]: # (END OpenIdConnect)
 
@@ -474,12 +473,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Registration)
 
 ##### Registration
-* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Conceptual Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Curate Test Cases: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to (De-)Assign Authorities: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
 
 [//]: # (END Registration)
 
@@ -495,7 +494,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
 
 [//]: # (END AuthShibboleth)
@@ -510,7 +509,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END Awareness)
@@ -526,13 +525,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN BackgroundTasks)
 
 ##### BackgroundTasks
-* Authority to Sign off on Conceptual Changes: [tjoussen](https://docu.ilias.de/go/usr/103745), [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to Sign off on Code Changes: [tjoussen](https://docu.ilias.de/go/usr/103745), [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to Curate Test Cases: MISSING
-* Authority to (De-)Assign Authorities: [tjoussen (Databay AG)](https://docu.ilias.de/go/usr/103745)
-* Assignee for Issues: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Assignee for Security Reports: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
+* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
 
 [//]: # (END BackgroundTasks)
 
@@ -540,63 +538,31 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN BackgroundTasks_)
 
 ##### BackgroundTasks_
-* Authority to Sign off on Conceptual Changes: [tjoussen](https://docu.ilias.de/go/usr/103745), [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to Sign off on Code Changes: [tjoussen](https://docu.ilias.de/go/usr/103745), [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to Curate Test Cases: MISSING
-* Authority to (De-)Assign Authorities: [tjoussen (Databay AG)](https://docu.ilias.de/go/usr/103745)
-* Assignee for Issues: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Assignee for Security Reports: [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
 
 [//]: # (END BackgroundTasks_)
 
 
 [//]: # (END BackgroundTasks)
 
-[//]: # (BEGIN BackgroundTasks)
-
-#### [BackgroundTasks](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`BackgroundTasks`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/BackgroundTasks)
-
-* Authority to Sign off on Conceptual Changes: [tjoussen](https://docu.ilias.de/go/usr/103745), [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to Sign off on Code Changes: [tjoussen](https://docu.ilias.de/go/usr/103745), [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to Curate Test Cases: MISSING
-* Authority to (De-)Assign Authorities: [tjoussen (Databay AG)](https://docu.ilias.de/go/usr/103745)
-* Assignee for Issues: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Assignee for Security Reports: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END BackgroundTasks)
-
-
 [//]: # (BEGIN Badge)
 
 #### [Badges](https://docu.ilias.de/go/wiki/wpage_4203_1357)
 *Component Folders:* [`Badge`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Badge)
 
-* Authority to Sign off on Conceptual Changes: [fhelfer](https://docu.ilias.de/go/usr/93367)
-* Authority to Sign off on Code Changes: [fhelfer](https://docu.ilias.de/go/usr/93367), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [fhelfer](https://docu.ilias.de/go/usr/93367)
-* Assignee for Security Reports: [fhelfer](https://docu.ilias.de/go/usr/93367)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
 
 [//]: # (END Badge)
-
-
-[//]: # (BEGIN Benchmark)
-
-#### [Benchmark](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [smeyer](https://docu.ilias.de/go/usr/191)
-* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END Benchmark)
 
 
 [//]: # (BEGIN Bibliographic)
@@ -604,12 +570,12 @@ Components are listed alphabetically by component folder name.
 #### [Bibliographic List Item](https://docu.ilias.de/go/wiki/wpage_2553_1357)
 *Component Folders:* [`Bibliographic`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Bibliographic)
 
-* Authority to Sign off on Conceptual Changes: [lschmidt-tf](https://docu.ilias.de/go/usr/120143)
-* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [maalers](https://docu.ilias.de/go/usr/119188)
-* Authority to Curate Test Cases: [maalers](https://docu.ilias.de/go/usr/119188)
-* Authority to (De-)Assign Authorities: [maalers](https://docu.ilias.de/go/usr/119188)
-* Assignee for Issues: [maalers](https://docu.ilias.de/go/usr/119188)
-* Assignee for Security Reports: [maalers](https://docu.ilias.de/go/usr/119188)
+* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
 
 [//]: # (END Bibliographic)
 
@@ -640,7 +606,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END Blog)
@@ -651,12 +617,12 @@ Components are listed alphabetically by component folder name.
 #### [Booking Pool](https://docu.ilias.de/go/wiki/wpage_133_1357)
 *Component Folders:* [`BookingManager`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/BookingManager)
 
-* Authority to Sign off on Conceptual Changes: [simon.lowe](https://docu.ilias.de/go/usr/79091), [oliver.samoila](https://docu.ilias.de/go/usr/26160)
-* Authority to Sign off on Code Changes: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Curate Test Cases: [simon.lowe](https://docu.ilias.de/go/usr/79091), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to (De-)Assign Authorities: [simon.lowe (Databay AG)](https://docu.ilias.de/go/usr/79091), [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
-* Assignee for Issues: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Assignee for Security Reports: [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END BookingManager)
 
@@ -670,7 +636,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
 
 [//]: # (END Cache)
@@ -698,9 +664,9 @@ Components are listed alphabetically by component folder name.
 
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Curate Test Cases: [MISSING]
+* Authority to Curate Test Cases: [yseiler](https://docu.ilias.de/go/usr/17694)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
 
 [//]: # (END Calendar)
@@ -720,7 +686,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END Category)
@@ -733,7 +699,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END CategoryReference)
@@ -746,7 +712,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END Container)
@@ -759,7 +725,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END ContainerReference)
@@ -772,7 +738,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END Folder)
@@ -785,7 +751,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END Repository)
@@ -798,29 +764,13 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END RootFolder)
 
 
 [//]: # (END CategoryandRepository)
-
-[//]: # (BEGIN CategoryAndRepository)
-
-#### [Category, Category Reference and Repository](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
-* Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
-* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END CategoryAndRepository)
-
 
 [//]: # (BEGIN Certificate)
 
@@ -831,7 +781,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784), [ChrisPotter](https://docu.ilias.de/go/usr/90855)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
 
 [//]: # (END Certificate)
@@ -856,22 +806,6 @@ Components are listed alphabetically by component folder name.
 
 [//]: # (BEGIN Chat)
 
-#### [Chatroom](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [mbecker](https://docu.ilias.de/go/usr/27266)
-* Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
-* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END Chat)
-
-
-[//]: # (BEGIN Chat)
-
 #### [Chat](https://docu.ilias.de/go/wiki/wpage_37_1357)
 
 *Component Folders:* [`Chatroom`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Chatroom), [`OnScreenChat`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/OnScreenChat)
@@ -884,7 +818,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [mbecker](https://docu.ilias.de/go/usr/27266)
 * Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
 
 [//]: # (END Chatroom)
@@ -897,7 +831,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [mbecker](https://docu.ilias.de/go/usr/27266)
 * Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
 
 [//]: # (END OnScreenChat)
@@ -927,30 +861,14 @@ Components are listed alphabetically by component folder name.
 #### [xAPI](https://docu.ilias.de/go/wiki/wpage_2921_1357)
 *Component Folders:* [`CmiXapi`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/CmiXapi)
 
-* Authority to Sign off on Conceptual Changes: [ukohnle](https://docu.ilias.de/go/usr/21855)
-* Authority to Sign off on Code Changes: [ukohnle](https://docu.ilias.de/go/usr/21855)
-* Authority to Curate Test Cases: [ukohnle](https://docu.ilias.de/go/usr/21855)
-* Authority to (De-)Assign Authorities: [ukohnle](https://docu.ilias.de/go/usr/21855)
-* Assignee for Issues: [ukohnle](https://docu.ilias.de/go/usr/21855)
+* Authority to Sign off on Conceptual Changes: [[ukohnle](https://docu.ilias.de/go/usr/21855)
+* Authority to Sign off on Code Changes: [[ukohnle](https://docu.ilias.de/go/usr/21855)
+* Authority to Curate Test Cases: [[ukohnle](https://docu.ilias.de/go/usr/21855)
+* Authority to (De-)Assign Authorities: [[ukohnle](https://docu.ilias.de/go/usr/21855)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [ukohnle](https://docu.ilias.de/go/usr/21855)
 
 [//]: # (END CmiXapi)
-
-
-[//]: # (BEGIN Comments)
-
-#### [Comments](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Curate Test Cases: [skaiser](https://docu.ilias.de/go/usr/17260)
-* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END Comments)
 
 
 [//]: # (BEGIN Component)
@@ -958,29 +876,12 @@ Components are listed alphabetically by component folder name.
 #### [Components Framework](https://docu.ilias.de/go/wiki/wpage_7285_1357)
 *Component Folders:* [`Component`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Component)
 
-* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Authority to Curate Test Cases: [MISSING]
-* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087), [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087), [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087), [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END Component)
-
-
-[//]: # (BEGIN Component)
-
-#### [Component](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Component`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Component)
-
-* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Authority to Curate Test Cases: [MISSING]
-* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087), [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087), [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087), [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
+* Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047), [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Curate Test Cases: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to (De-)Assign Authorities: [rklees](https://docu.ilias.de/go/usr/34047)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [rklees](https://docu.ilias.de/go/usr/34047)
 
 [//]: # (END Component)
 
@@ -994,7 +895,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
 
 [//]: # (END Conditions)
@@ -1009,7 +910,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
 
 [//]: # (END Contact)
@@ -1024,25 +925,8 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END ContentPage)
-
-
-[//]: # (BEGIN ContentPage)
-
-#### [ContentPage](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`ContentPage`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ContentPage)
-
-* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
 
 [//]: # (END ContentPage)
 
@@ -1073,7 +957,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END COPage)
@@ -1108,9 +992,9 @@ Components are listed alphabetically by component folder name.
 ##### Course
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Curate Test Cases: [MISSING]
+* Authority to Curate Test Cases: [lauener](https://docu.ilias.de/go/usr/8474)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
 
 [//]: # (END Course)
@@ -1121,31 +1005,15 @@ Components are listed alphabetically by component folder name.
 ##### CourseReference
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Curate Test Cases: [MISSING]
+* Authority to Curate Test Cases: [lauener](https://docu.ilias.de/go/usr/8474)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
 
 [//]: # (END CourseReference)
 
 
 [//]: # (END CourseManagement)
-
-[//]: # (BEGIN CourseManagement)
-
-#### [Course and Course Reference](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
-* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Curate Test Cases: [MISSING]
-* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END CourseManagement)
-
 
 [//]: # (BEGIN Cron)
 
@@ -1156,26 +1024,10 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
 
 [//]: # (END Cron)
-
-
-[//]: # (BEGIN CSSAndTemplates)
-
-#### [CSS / Templates](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
-* Authority to Sign off on Code Changes: [BettyFromHH](https://docu.ilias.de/go/usr/96573), [rotegras](https://docu.ilias.de/go/usr/88399), [padvincenzo](https://docu.ilias.de/go/usr/87189)
-* Authority to Curate Test Cases: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
-* Authority to (De-)Assign Authorities: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
-* Assignee for Issues: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
-* Assignee for Security Reports: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END CSSAndTemplates)
 
 
 [//]: # (BEGIN CSV)
@@ -1204,7 +1056,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [iszmais](https://docu.ilias.de/go/usr/65630), [lscharmer](https://docu.ilias.de/go/usr/87863), [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [iszmais (Databay AG)](https://docu.ilias.de/go/usr/65630), [lscharmer (Databay AG)](https://docu.ilias.de/go/usr/87863)
-* Assignee for Issues: [iszmais](https://docu.ilias.de/go/usr/65630)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [iszmais](https://docu.ilias.de/go/usr/65630)
 
 [//]: # (END Dashboard)
@@ -1215,12 +1067,12 @@ Components are listed alphabetically by component folder name.
 #### [Data](https://docu.ilias.de/go/wiki/wpage_1_1357)
 *Component Folders:* [`Data`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Data)
 
-* Authority to Sign off on Conceptual Changes: [lscharmer](https://docu.ilias.de/go/usr/87863), [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to Sign off on Code Changes: [lscharmer](https://docu.ilias.de/go/usr/87863), [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to Curate Test Cases: [MISSING]
-* Authority to (De-)Assign Authorities: [lscharmer](https://docu.ilias.de/go/usr/87863), [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [lscharmer](https://docu.ilias.de/go/usr/87863), [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Reports: [lscharmer](https://docu.ilias.de/go/usr/87863), [mjansen](https://docu.ilias.de/go/usr/8784)
+* Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Curate Test Cases: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to (De-)Assign Authorities: [rklees](https://docu.ilias.de/go/usr/34047)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [rklees](https://docu.ilias.de/go/usr/34047)
 
 [//]: # (END Data)
 
@@ -1230,12 +1082,12 @@ Components are listed alphabetically by component folder name.
 #### [Database](https://docu.ilias.de/go/wiki/wpage_12_1357)
 *Component Folders:* [`Database`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Database)
 
-* Authority to Sign off on Conceptual Changes: [lscharmer](https://docu.ilias.de/go/usr/87863), [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to Sign off on Code Changes: [lscharmer](https://docu.ilias.de/go/usr/87863), [mjansen](https://docu.ilias.de/go/usr/8784), [smeyer](https://docu.ilias.de/go/usr/191)
-* Authority to Curate Test Cases: MISSING
-* Authority to (De-)Assign Authorities: [lscharmer](https://docu.ilias.de/go/usr/87863)
-* Assignee for Issues: [lscharmer](https://docu.ilias.de/go/usr/87863)
-* Assignee for Security Reports: [lscharmer](https://docu.ilias.de/go/usr/87863)
+* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
 
 [//]: # (END Database)
 
@@ -1249,7 +1101,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [iszmais](https://docu.ilias.de/go/usr/65630)
 * Authority to Curate Test Cases: [oliver.samoila](https://docu.ilias.de/go/usr/26160)
 * Authority to (De-)Assign Authorities: [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
-* Assignee for Issues: [iszmais](https://docu.ilias.de/go/usr/65630)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [iszmais](https://docu.ilias.de/go/usr/65630)
 
 [//]: # (END DataCollection)
@@ -1269,9 +1121,8 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
 * Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
 
 [//]: # (END DataProtection)
 
@@ -1296,30 +1147,13 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
 * Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
 
 [//]: # (END TermsOfService)
 
 
 [//]: # (END PrivacyTermsofServiceandDataProtectioninclTermsofService)
-
-[//]: # (BEGIN DataProtection)
-
-#### [Data Protection](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`DataProtection`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/DataProtection)
-
-* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
-* Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
-* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END DataProtection)
-
 
 [//]: # (BEGIN DataSet)
 
@@ -1364,26 +1198,10 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
 
 [//]: # (END DidacticTemplate)
-
-
-[//]: # (BEGIN ECSInterface)
-
-#### [ECS Interface](https://docu.ilias.de/go/wiki/wpage_1132_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
-* Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END ECSInterface)
 
 
 [//]: # (BEGIN EmployeeTalk)
@@ -1392,28 +1210,11 @@ Components are listed alphabetically by component folder name.
 *Component Folders:* [`EmployeeTalk`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/EmployeeTalk)
 
 * Authority to Sign off on Conceptual Changes: [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Authority to Sign off on Code Changes: [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to Sign off on Code Changes: [tschmitz](https://docu.ilias.de/go/usr/92591), [tfamula](https://docu.ilias.de/go/usr/58959)
 * Authority to Curate Test Cases: [tschmitz](https://docu.ilias.de/go/usr/92591)
 * Authority to (De-)Assign Authorities: [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Assignee for Issues: [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END EmployeeTalk)
-
-
-[//]: # (BEGIN EmployeeTalk)
-
-#### [EmployeeTalk](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`EmployeeTalk`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/EmployeeTalk)
-
-* Authority to Sign off on Conceptual Changes: [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Authority to Sign off on Code Changes: [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Authority to Curate Test Cases: [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Authority to (De-)Assign Authorities: [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Assignee for Issues: [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Assignee for Security Reports: [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
 
 [//]: # (END EmployeeTalk)
 
@@ -1436,14 +1237,16 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN EventHandling)
 
 #### [EventHandling](https://docu.ilias.de/go/wiki/wpage_1_1357)
+
+**Status:** Unmaintained / NONE
 *Component Folders:* [`EventHandling`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/EventHandling)
 
-* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Conceptual Changes: NONE
+* Authority to Sign off on Code Changes: NONE
+* Authority to Curate Test Cases: NONE
+* Authority to (De-)Assign Authorities: NONE
+* Assignee for Issues: NONE
+* Assignee for Security Reports: NONE
 
 [//]: # (END EventHandling)
 
@@ -1457,7 +1260,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [skergomard](https://docu.ilias.de/goto_docu_usr_44474.html)
 * Authority to Curate Test Cases: [dstrassner](https://docu.ilias.de/goto_docu_usr_48931.html)
 * Authority to (De-)Assign Authorities: [dstrassner](https://docu.ilias.de/goto_docu_usr_48931.html)
-* Assignee for Issues: [dstrassner](https://docu.ilias.de/goto_docu_usr_48931.html)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [dstrassner](https://docu.ilias.de/goto_docu_usr_48931.html)
 
 [//]: # (END Excel)
@@ -1489,7 +1292,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END Exercise)
@@ -1504,26 +1307,10 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [Fabian](https://docu.ilias.de/go/usr/27631)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
 
 [//]: # (END Export)
-
-
-[//]: # (BEGIN Favourites)
-
-#### [Favourites](https://docu.ilias.de/go/wiki/wpage_6091_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [iszmais](https://docu.ilias.de/go/usr/65630)
-* Authority to Sign off on Code Changes: [iszmais](https://docu.ilias.de/go/usr/65630)
-* Authority to Curate Test Cases: [iszmais](https://docu.ilias.de/go/usr/65630)
-* Authority to (De-)Assign Authorities: [iszmais](https://docu.ilias.de/go/usr/65630)
-* Assignee for Issues: [iszmais](https://docu.ilias.de/go/usr/65630)
-* Assignee for Security Reports: [iszmais](https://docu.ilias.de/go/usr/65630)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END Favourites)
 
 
 [//]: # (BEGIN NewsRSSWebfeeds)
@@ -1540,7 +1327,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END Feeds)
@@ -1549,13 +1336,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN News)
 
 ##### News
-* Authority to Sign off on Conceptual Changes: [oliver.samoila](https://docu.ilias.de/go/usr/26160)
-* Authority to Sign off on Code Changes: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Curate Test Cases: [tjoussen](https://docu.ilias.de/go/usr/103745), [oliver.samoila](https://docu.ilias.de/go/usr/26160)
-* Authority to (De-)Assign Authorities: [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
-* Assignee for Issues: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Assignee for Security Reports: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [Thomas.schroeder](https://docu.ilias.de/go/usr/38330)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END News)
 
@@ -1571,7 +1357,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
 
 [//]: # (END File)
@@ -1672,7 +1458,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: FH Aachen
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
 
 [//]: # (END Forum)
@@ -1685,7 +1471,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: FH Aachen
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
 
 [//]: # (END Html)
@@ -1707,9 +1493,8 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
 
 [//]: # (END GlobalCache)
 
@@ -1721,29 +1506,13 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
 
 [//]: # (END GlobalCache_)
 
 
 [//]: # (END GlobalCache)
-
-[//]: # (BEGIN GlobalCache)
-
-#### [GlobalCache](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`GlobalCache`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/GlobalCache)
-
-* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END GlobalCache)
-
 
 [//]: # (BEGIN GlobalScreenService)
 
@@ -1759,9 +1528,8 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
 
 [//]: # (END GlobalScreen)
 
@@ -1773,7 +1541,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
 
 [//]: # (END GlobalScreen_)
@@ -1781,32 +1549,16 @@ Components are listed alphabetically by component folder name.
 
 [//]: # (END GlobalScreenService)
 
-[//]: # (BEGIN GlobalScreen)
-
-#### [GlobalScreen](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`GlobalScreen`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/GlobalScreen)
-
-* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END GlobalScreen)
-
-
 [//]: # (BEGIN Glossary)
 
 #### [Glossary](https://docu.ilias.de/go/wiki/wpage_121_1357)
 *Component Folders:* [`Glossary`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Glossary)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [tfamula](https://docu.ilias.de/go/usr/58959)
 * Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END Glossary)
@@ -1824,11 +1576,10 @@ Components are listed alphabetically by component folder name.
 ##### Group
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Curate Test Cases: [MISSING]
+* Authority to Curate Test Cases: [yseiler](https://docu.ilias.de/go/usr/17694)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
 
 [//]: # (END Group)
 
@@ -1838,31 +1589,15 @@ Components are listed alphabetically by component folder name.
 ##### GroupReference
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Curate Test Cases: [MISSING]
+* Authority to Curate Test Cases: [yseiler](https://docu.ilias.de/go/usr/17694)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
 
 [//]: # (END GroupReference)
 
 
 [//]: # (END Group)
-
-[//]: # (BEGIN Group)
-
-#### [Group and Group Reference](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Group`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Group)
-
-* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
-* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Curate Test Cases: [MISSING]
-* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END Group)
-
 
 [//]: # (BEGIN Help)
 
@@ -1873,7 +1608,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END Help)
@@ -1888,7 +1623,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END History)
@@ -1899,12 +1634,12 @@ Components are listed alphabetically by component folder name.
 #### [Learning Module HTML](https://docu.ilias.de/go/wiki/wpage_135_1357)
 *Component Folders:* [`HTMLLearningModule`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/HTMLLearningModule)
 
-* Authority to Sign off on Conceptual Changes: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Authority to Sign off on Code Changes: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Authority to Curate Test Cases: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Authority to (De-)Assign Authorities: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Assignee for Issues: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Assignee for Security Reports: [mbecker](https://docu.ilias.de/go/usr/27266)
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END HTMLLearningModule)
 
@@ -1956,22 +1691,6 @@ Components are listed alphabetically by component folder name.
 [//]: # (END ILIASObject)
 
 
-[//]: # (BEGIN ILIASPageEditor)
-
-#### [COPage (aka ILIAS Page Editor)](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
-* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END ILIASPageEditor)
-
-
 [//]: # (BEGIN Imprint)
 
 #### [Imprint](https://docu.ilias.de/go/wiki/wpage_1_1357)
@@ -1994,47 +1713,14 @@ Components are listed alphabetically by component folder name.
 #### [Individual Assessment](https://docu.ilias.de/go/wiki/wpage_4226_1357)
 *Component Folders:* [`IndividualAssessment`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/IndividualAssessment)
 
-* Authority to Sign off on Conceptual Changes: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Authority to Sign off on Code Changes: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Authority to Curate Test Cases: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Authority to (De-)Assign Authorities: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Assignee for Issues: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Assignee for Security Reports: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
+* Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Curate Test Cases: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to (De-)Assign Authorities: [rklees](https://docu.ilias.de/go/usr/34047)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [rklees](https://docu.ilias.de/go/usr/34047)
 
 [//]: # (END IndividualAssessment)
-
-
-[//]: # (BEGIN IndividualAssessment)
-
-#### [IndividualAssessment](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`IndividualAssessment`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/IndividualAssessment)
-
-* Authority to Sign off on Conceptual Changes: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Authority to Sign off on Code Changes: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Authority to Curate Test Cases: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Authority to (De-)Assign Authorities: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Assignee for Issues: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Assignee for Security Reports: [mbecker](https://docu.ilias.de/go/usr/27266)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END IndividualAssessment)
-
-
-[//]: # (BEGIN InfoPage)
-
-#### [InfoScreen (aka Info Page)](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
-* Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END InfoPage)
 
 
 [//]: # (BEGIN InfoScreen)
@@ -2046,26 +1732,10 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END InfoScreen)
-
-
-[//]: # (BEGIN InitialisationService)
-
-#### [Init (aka Initialisation Service)](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to (De-)Assign Authorities: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END InitialisationService)
 
 
 [//]: # (BEGIN ItemGroup)
@@ -2073,29 +1743,12 @@ Components are listed alphabetically by component folder name.
 #### [Item Groups](https://docu.ilias.de/go/wiki/wpage_7968_1357)
 *Component Folders:* [`ItemGroup`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ItemGroup)
 
-* Authority to Sign off on Conceptual Changes: [oliver.samoila](https://docu.ilias.de/go/usr/26160)
-* Authority to Sign off on Code Changes: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Curate Test Cases: [oliver.samoila](https://docu.ilias.de/go/usr/26160), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to (De-)Assign Authorities: [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
-* Assignee for Issues: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Assignee for Security Reports: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END ItemGroup)
-
-
-[//]: # (BEGIN ItemGroup)
-
-#### [ItemGroup](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`ItemGroup`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ItemGroup)
-
-* Authority to Sign off on Conceptual Changes: [oliver.samoila](https://docu.ilias.de/go/usr/26160)
-* Authority to Sign off on Code Changes: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Curate Test Cases: [oliver.samoila](https://docu.ilias.de/go/usr/26160), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to (De-)Assign Authorities: [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
-* Assignee for Issues: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Assignee for Security Reports: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [berggold](https://docu.ilias.de/go/usr/22199)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END ItemGroup)
 
@@ -2169,30 +1822,14 @@ Components are listed alphabetically by component folder name.
 #### [Language Handling](https://docu.ilias.de/go/wiki/wpage_211_1357)
 *Component Folders:* [`Language`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Language)
 
-* Authority to Sign off on Conceptual Changes: [mkunkel](https://docu.ilias.de/go/usr/115)
-* Authority to Sign off on Code Changes: [mkunkel](https://docu.ilias.de/go/usr/115), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [ChrisPotter](https://docu.ilias.de/go/usr/90855), [keven.clausen](https://docu.ilias.de/go/usr/100316), [cknof](https://docu.ilias.de/go/usr/90890)
+* Authority to Sign off on Conceptual Changes: [kunkel](https://docu.ilias.de/go/usr/115)
+* Authority to Sign off on Code Changes: [kunkel](https://docu.ilias.de/go/usr/115), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
 * Authority to Curate Test Cases: [ChrisPotter](https://docu.ilias.de/go/usr/90855)
-* Authority to (De-)Assign Authorities: [mkunkel](https://docu.ilias.de/go/usr/115)
-* Assignee for Issues: [mkunkel](https://docu.ilias.de/go/usr/115)
-* Assignee for Security Reports: [mkunkel](https://docu.ilias.de/go/usr/115)
+* Authority to (De-)Assign Authorities: [kunkel](https://docu.ilias.de/go/usr/115)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [kunkel](https://docu.ilias.de/go/usr/115)
 
 [//]: # (END Language)
-
-
-[//]: # (BEGIN LanguageHandling)
-
-#### [Language](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [mkunkel](https://docu.ilias.de/go/usr/115)
-* Authority to Sign off on Code Changes: [mkunkel](https://docu.ilias.de/go/usr/115), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [ChrisPotter](https://docu.ilias.de/go/usr/90855), [keven.clausen](https://docu.ilias.de/go/usr/100316), [cknof](https://docu.ilias.de/go/usr/90890)
-* Authority to Curate Test Cases: [ChrisPotter](https://docu.ilias.de/go/usr/90855)
-* Authority to (De-)Assign Authorities: [mkunkel](https://docu.ilias.de/go/usr/115)
-* Assignee for Issues: [mkunkel](https://docu.ilias.de/go/usr/115)
-* Assignee for Security Reports: [mkunkel](https://docu.ilias.de/go/usr/115)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END LanguageHandling)
 
 
 [//]: # (BEGIN LearningHistory)
@@ -2204,7 +1841,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END LearningHistory)
@@ -2219,26 +1856,10 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [Balliel](https://docu.ilias.de/go/usr/18365)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END LearningModule)
-
-
-[//]: # (BEGIN LearningModuleSCORM)
-
-#### [Scorm (aka Learning Module SCORM 1.2 and 2004)](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [wischniak](https://docu.ilias.de/go/usr/21896)
-* Authority to Sign off on Code Changes: [qualitus.dahme](https://docu.ilias.de/go/usr/99160), [qualitus.hartwig](https://docu.ilias.de/go/usr/104063)
-* Authority to Curate Test Cases: [emix](https://docu.ilias.de/go/usr/57311)
-* Authority to (De-)Assign Authorities: [wischniak](https://docu.ilias.de/go/usr/21896)
-* Assignee for Issues: [wischniak](https://docu.ilias.de/go/usr/21896)
-* Assignee for Security Reports: [wischniak](https://docu.ilias.de/go/usr/21896)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END LearningModuleSCORM)
 
 
 [//]: # (BEGIN LearningSequence)
@@ -2246,12 +1867,12 @@ Components are listed alphabetically by component folder name.
 #### [Learning Sequence](https://docu.ilias.de/go/wiki/wpage_5557_1357)
 *Component Folders:* [`LearningSequence`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/LearningSequence)
 
-* Authority to Sign off on Conceptual Changes: [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
-* Authority to Sign off on Code Changes: [keven.clausen](https://docu.ilias.de/go/usr/100316), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
-* Authority to Curate Test Cases: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
-* Authority to (De-)Assign Authorities: [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
-* Assignee for Issues: [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
-* Assignee for Security Reports: [keven.clausen](https://docu.ilias.de/go/usr/100316)
+* Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Curate Test Cases: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to (De-)Assign Authorities: [rklees](https://docu.ilias.de/go/usr/34047)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [rklees](https://docu.ilias.de/go/usr/34047)
 
 [//]: # (END LearningSequence)
 
@@ -2265,25 +1886,8 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
 * Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/34047)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END LegalDocuments)
-
-
-[//]: # (BEGIN LegalDocuments)
-
-#### [Legal Documents](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`LegalDocuments`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/LegalDocuments)
-
-* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
-* Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
-* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/34047)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
 
 [//]: # (END LegalDocuments)
 
@@ -2293,12 +1897,12 @@ Components are listed alphabetically by component folder name.
 #### [Like](https://docu.ilias.de/go/wiki/wpage_1_1357)
 *Component Folders:* [`Like`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Like)
 
-* Authority to Sign off on Conceptual Changes: [oliver.samoila](https://docu.ilias.de/go/usr/26160)
-* Authority to Sign off on Code Changes: [fhelfer](https://docu.ilias.de/go/usr/93367), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Curate Test Cases: [fhelfer](https://docu.ilias.de/go/usr/93367), [tjoussen](https://docu.ilias.de/go/usr/103745), [oliver.samoila](https://docu.ilias.de/go/usr/26160)
-* Authority to (De-)Assign Authorities: [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
-* Assignee for Issues: [fhelfer](https://docu.ilias.de/go/usr/93367)
-* Assignee for Security Reports: [fhelfer](https://docu.ilias.de/go/usr/93367)
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
+* Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END Like)
 
@@ -2312,7 +1916,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [nadine.bauser](https://docu.ilias.de/go/usr/34662)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
 
 [//]: # (END Link)
@@ -2344,26 +1948,10 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
 
 [//]: # (END Logging)
-
-
-[//]: # (BEGIN LTI)
-
-#### [LTI Provider](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [sergiosantiago02](https://docu.ilias.de/go/usr/110174)
-* Authority to Sign off on Code Changes: [Zallax](https://docu.ilias.de/go/usr/101102), [sdiaz](https://docu.ilias.de/go/usr/105654), [smeyer](https://docu.ilias.de/goto_docu_usr_191.html), [sergiosantiago02](https://docu.ilias.de/go/usr/110174)
-* Authority to Curate Test Cases: [jcop](https://docu.ilias.de/go/usr/30511)
-* Authority to (De-)Assign Authorities: [jcop](https://docu.ilias.de/go/usr/30511)
-* Assignee for Issues: [jcop](https://docu.ilias.de/go/usr/30511)
-* Assignee for Security Reports: [jcop](https://docu.ilias.de/go/usr/30511)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END LTI)
 
 
 [//]: # (BEGIN LTIConsumer)
@@ -2371,11 +1959,11 @@ Components are listed alphabetically by component folder name.
 #### [LTI Consumer](https://docu.ilias.de/go/wiki/wpage_1_1357)
 *Component Folders:* [`LTIConsumer`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/LTIConsumer)
 
-* Authority to Sign off on Conceptual Changes: [sergiosantiago02](https://docu.ilias.de/go/usr/110174)
-* Authority to Sign off on Code Changes: [Zallax](https://docu.ilias.de/go/usr/101102), [sdiaz](https://docu.ilias.de/go/usr/105654), [sergiosantiago02](https://docu.ilias.de/go/usr/110174)
+* Authority to Sign off on Conceptual Changes: [jcop](https://docu.ilias.de/go/usr/30511)
+* Authority to Sign off on Code Changes: [Zallax](https://docu.ilias.de/go/usr/101102), [sdiaz](https://docu.ilias.de/go/usr/105654)
 * Authority to Curate Test Cases: [jcop](https://docu.ilias.de/go/usr/30511)
 * Authority to (De-)Assign Authorities: [jcop](https://docu.ilias.de/go/usr/30511)
-* Assignee for Issues: [jcop](https://docu.ilias.de/go/usr/30511)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [jcop](https://docu.ilias.de/go/usr/30511)
 
 [//]: # (END LTIConsumer)
@@ -2386,11 +1974,11 @@ Components are listed alphabetically by component folder name.
 #### [LTI](https://docu.ilias.de/go/wiki/wpage_4335_1357)
 *Component Folders:* [`LTIProvider`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/LTIProvider)
 
-* Authority to Sign off on Conceptual Changes: [sergiosantiago02](https://docu.ilias.de/go/usr/110174)
-* Authority to Sign off on Code Changes: [Zallax](https://docu.ilias.de/go/usr/101102), [sdiaz](https://docu.ilias.de/go/usr/105654), [smeyer](https://docu.ilias.de/goto_docu_usr_191.html), [sergiosantiago02](https://docu.ilias.de/go/usr/110174)
+* Authority to Sign off on Conceptual Changes: [jcop](https://docu.ilias.de/go/usr/30511)
+* Authority to Sign off on Code Changes: [Zallax](https://docu.ilias.de/go/usr/101102), [sdiaz](https://docu.ilias.de/go/usr/105654), [smeyer](https://docu.ilias.de/goto_docu_usr_191.html)
 * Authority to Curate Test Cases: [jcop](https://docu.ilias.de/go/usr/30511)
 * Authority to (De-)Assign Authorities: [jcop](https://docu.ilias.de/go/usr/30511)
-* Assignee for Issues: [jcop](https://docu.ilias.de/go/usr/30511)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [jcop](https://docu.ilias.de/go/usr/30511)
 
 [//]: # (END LTIProvider)
@@ -2405,7 +1993,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
 
 [//]: # (END Mail)
@@ -2420,25 +2008,8 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END MainMenu)
-
-
-[//]: # (BEGIN MainMenu)
-
-#### [MainMenu](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`MainMenu`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/MainMenu)
-
-* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to Curate Test Cases: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
 
 [//]: # (END MainMenu)
 
@@ -2448,12 +2019,12 @@ Components are listed alphabetically by component folder name.
 #### [Maps](https://docu.ilias.de/go/wiki/wpage_2909_1357)
 *Component Folders:* [`Maps`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Maps)
 
-* Authority to Sign off on Conceptual Changes: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
-* Authority to Sign off on Code Changes: [keven.clausen](https://docu.ilias.de/go/usr/100316), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
-* Authority to Curate Test Cases: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
-* Authority to (De-)Assign Authorities: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
-* Assignee for Issues: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
-* Assignee for Security Reports: [keven.clausen](https://docu.ilias.de/go/usr/100316)
+* Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Curate Test Cases: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to (De-)Assign Authorities: [rklees](https://docu.ilias.de/go/usr/34047)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [rklees](https://docu.ilias.de/go/usr/34047)
 
 [//]: # (END Maps)
 
@@ -2467,7 +2038,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [fneumann](https://docu.ilias.de/go/usr/1560)
 * Authority to Curate Test Cases: [fneumann](https://docu.ilias.de/go/usr/1560)
 * Authority to (De-)Assign Authorities: [fneumann](https://docu.ilias.de/go/usr/1560)
-* Assignee for Issues: [fneumann](https://docu.ilias.de/go/usr/1560)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [fneumann](https://docu.ilias.de/go/usr/1560)
 
 [//]: # (END Math)
@@ -2482,7 +2053,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [fneumann](https://docu.ilias.de/go/usr/1560)
 * Authority to Curate Test Cases: [fneumann](https://docu.ilias.de/go/usr/1560)
 * Authority to (De-)Assign Authorities: [fneumann](https://docu.ilias.de/go/usr/1560)
-* Assignee for Issues: [fneumann](https://docu.ilias.de/go/usr/1560)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [fneumann](https://docu.ilias.de/go/usr/1560)
 
 [//]: # (END MathJax)
@@ -2497,25 +2068,8 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [berggold](https://docu.ilias.de/go/usr/22199)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END MediaCast)
-
-
-[//]: # (BEGIN MediaCast)
-
-#### [MediaCast](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`MediaCast`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/MediaCast)
-
-* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Curate Test Cases: [berggold](https://docu.ilias.de/go/usr/22199)
-* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
 
 [//]: # (END MediaCast)
 
@@ -2534,9 +2088,8 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
 
 [//]: # (END MediaObjects)
 
@@ -2548,46 +2101,13 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
 
 [//]: # (END MediaPool)
 
 
 [//]: # (END MediaPoolsandMediaObjects)
-
-[//]: # (BEGIN MediaObjects)
-
-#### [Media Objects](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`MediaObjects`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/MediaObjects)
-
-* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
-* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END MediaObjects)
-
-
-[//]: # (BEGIN MediaPool)
-
-#### [Media Pool](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`MediaPool`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/MediaPool)
-
-* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
-* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END MediaPool)
-
 
 [//]: # (BEGIN Membership)
 
@@ -2598,7 +2118,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
 
 [//]: # (END Membership)
@@ -2643,30 +2163,14 @@ Components are listed alphabetically by component folder name.
 #### [Staff](https://docu.ilias.de/go/wiki/wpage_4829_1357)
 *Component Folders:* [`MyStaff`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/MyStaff)
 
-* Authority to Sign off on Conceptual Changes: [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Authority to Sign off on Code Changes: [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Authority to Curate Test Cases: [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Authority to (De-)Assign Authorities: [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Assignee for Issues: [tschmitz](https://docu.ilias.de/go/usr/92591)
-* Assignee for Security Reports: [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to Sign off on Conceptual Changes: [tfamula](https://docu.ilias.de/go/usr/58959)
+* Authority to Sign off on Code Changes: [tfamula](https://docu.ilias.de/go/usr/58959), [tschmitz](https://docu.ilias.de/go/usr/92591)
+* Authority to Curate Test Cases: [tfamula](https://docu.ilias.de/go/usr/58959)
+* Authority to (De-)Assign Authorities: [tfamula](https://docu.ilias.de/go/usr/58959)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [tfamula](https://docu.ilias.de/go/usr/58959)
 
 [//]: # (END MyStaff)
-
-
-[//]: # (BEGIN News)
-
-#### [News](https://docu.ilias.de/go/wiki/wpage_38_1357)
-*Component Folders:* [`News`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/News)
-
-* Authority to Sign off on Conceptual Changes: [oliver.samoila](https://docu.ilias.de/go/usr/26160)
-* Authority to Sign off on Code Changes: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Curate Test Cases: [tjoussen](https://docu.ilias.de/go/usr/103745), [oliver.samoila](https://docu.ilias.de/go/usr/26160)
-* Authority to (De-)Assign Authorities: [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
-* Assignee for Issues: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Assignee for Security Reports: [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END News)
 
 
 [//]: # (BEGIN Notes)
@@ -2678,26 +2182,10 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [skaiser](https://docu.ilias.de/go/usr/17260)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END Notes)
-
-
-[//]: # (BEGIN NotesAndComments)
-
-#### [Notes (aka Notes and Comments)](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Curate Test Cases: [skaiser](https://docu.ilias.de/go/usr/17260)
-* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END NotesAndComments)
 
 
 [//]: # (BEGIN Notification)
@@ -2705,12 +2193,12 @@ Components are listed alphabetically by component folder name.
 #### [Notification](https://docu.ilias.de/go/wiki/wpage_1_1357)
 *Component Folders:* [`Notification`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Notification)
 
-* Authority to Sign off on Conceptual Changes: [oliver.samoila](https://docu.ilias.de/go/usr/26160)
-* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/goto_docu_usr_8784.html), [iszmais](https://docu.ilias.de/goto_docu_usr_65630.html)
-* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/goto_docu_usr_8784.html), [oliver.samoila](https://docu.ilias.de/go/usr/26160), [iszmais](https://docu.ilias.de/goto_docu_usr_65630.html)
-* Authority to (De-)Assign Authorities: [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/goto_docu_usr_8784.html)
-* Assignee for Security Reports: [mjansen](https://docu.ilias.de/goto_docu_usr_8784.html)
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [iszmais](https://docu.ilias.de/go/usr/65630)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [iszmais](https://docu.ilias.de/go/usr/65630)
+* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784), [iszmais](https://docu.ilias.de/go/usr/65630)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
 
 [//]: # (END Notification)
 
@@ -2724,58 +2212,10 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [iszmais](https://docu.ilias.de/go/usr/65630)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784), [iszmais](https://docu.ilias.de/go/usr/65630)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
 
 [//]: # (END Notifications)
-
-
-[//]: # (BEGIN ObjectService)
-
-#### [Object Service](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Authority to Sign off on Code Changes: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Authority to Curate Test Cases: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Authority to (De-)Assign Authorities: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Assignee for Issues: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Assignee for Security Reports: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END ObjectService)
-
-
-[//]: # (BEGIN OnlineHelp)
-
-#### [Help (aka Online Help)](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
-* Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
-* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END OnlineHelp)
-
-
-[//]: # (BEGIN OpenIdConect)
-
-#### [Open ID Connect](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
-* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
-* Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
-* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END OpenIdConect)
 
 
 [//]: # (BEGIN OrgUnit)
@@ -2783,12 +2223,12 @@ Components are listed alphabetically by component folder name.
 #### [Organisational Units](https://docu.ilias.de/go/wiki/wpage_2265_1357)
 *Component Folders:* [`OrgUnit`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/OrgUnit)
 
-* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [lschmidt-tf](https://docu.ilias.de/go/usr/120143)
-* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [maalers](https://docu.ilias.de/go/usr/119188)
+* Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047), [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [wischniak](https://docu.ilias.de/go/usr/21896)
-* Authority to (De-)Assign Authorities: [maalers](https://docu.ilias.de/go/usr/119188)
-* Assignee for Issues: [maalers](https://docu.ilias.de/go/usr/119188)
-* Assignee for Security Reports: [maalers](https://docu.ilias.de/go/usr/119188)
+* Authority to (De-)Assign Authorities: [rklees](https://docu.ilias.de/go/usr/34047)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [rklees](https://docu.ilias.de/go/usr/34047)
 
 [//]: # (END OrgUnit)
 
@@ -2839,7 +2279,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END PersonalWorkspace)
@@ -2852,7 +2292,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END WorkspaceFolder)
@@ -2865,7 +2305,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END WorkspaceRootFolder)
@@ -2882,7 +2322,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
 * Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
 
 [//]: # (END Poll)
@@ -2897,7 +2337,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END Portfolio)
@@ -2942,30 +2382,14 @@ Components are listed alphabetically by component folder name.
 #### [Rating](https://docu.ilias.de/go/wiki/wpage_2784_1357)
 *Component Folders:* [`Rating`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Rating)
 
-* Authority to Sign off on Conceptual Changes: [oliver.samoila](https://docu.ilias.de/go/usr/26160)
-* Authority to Sign off on Code Changes: [fhelfer](https://docu.ilias.de/go/usr/93367)
-* Authority to Curate Test Cases: [fhelfer](https://docu.ilias.de/go/usr/93367), [oliver.samoila](https://docu.ilias.de/go/usr/26160)
-* Authority to (De-)Assign Authorities: [oliver.samoila (Databay AG)](https://docu.ilias.de/go/usr/26160)
-* Assignee for Issues: [fhelfer](https://docu.ilias.de/go/usr/93367)
-* Assignee for Security Reports: [fhelfer](https://docu.ilias.de/go/usr/93367)
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Curate Test Cases: [Fabian](https://docu.ilias.de/go/usr/27631)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END Rating)
-
-
-[//]: # (BEGIN RBAC)
-
-#### [RBAC / Access Control](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Authority to Sign off on Code Changes: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
-* Authority to (De-)Assign Authorities: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Assignee for Issues: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Assignee for Security Reports: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END RBAC)
 
 
 [//]: # (BEGIN Refinery)
@@ -2973,12 +2397,12 @@ Components are listed alphabetically by component folder name.
 #### [Refinery](https://docu.ilias.de/go/wiki/wpage_1_1357)
 *Component Folders:* [`Refinery`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Refinery)
 
-* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
-* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
-* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
-* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
+* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784), [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784), [rklees](https://docu.ilias.de/go/usr/34047)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
 
 [//]: # (END Refinery)
 
@@ -2993,12 +2417,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN RemoteCategory)
 
 ##### RemoteCategory
-* Authority to Sign off on Conceptual Changes: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
-* Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Authority to Sign off on Conceptual Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Authority to Sign off on Code Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Authority to Curate Test Cases: [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
+* Authority to (De-)Assign Authorities: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
 
 [//]: # (END RemoteCategory)
 
@@ -3006,12 +2430,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN RemoteCourse)
 
 ##### RemoteCourse
-* Authority to Sign off on Conceptual Changes: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
-* Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Authority to Sign off on Conceptual Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Authority to Sign off on Code Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Authority to Curate Test Cases: [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
+* Authority to (De-)Assign Authorities: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
 
 [//]: # (END RemoteCourse)
 
@@ -3019,12 +2443,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN RemoteFile)
 
 ##### RemoteFile
-* Authority to Sign off on Conceptual Changes: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
-* Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Authority to Sign off on Conceptual Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Authority to Sign off on Code Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Authority to Curate Test Cases: [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
+* Authority to (De-)Assign Authorities: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
 
 [//]: # (END RemoteFile)
 
@@ -3032,12 +2456,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN RemoteGlossary)
 
 ##### RemoteGlossary
-* Authority to Sign off on Conceptual Changes: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
-* Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Authority to Sign off on Conceptual Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Authority to Sign off on Code Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Authority to Curate Test Cases: [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
+* Authority to (De-)Assign Authorities: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
 
 [//]: # (END RemoteGlossary)
 
@@ -3045,12 +2469,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN RemoteGroup)
 
 ##### RemoteGroup
-* Authority to Sign off on Conceptual Changes: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
-* Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Authority to Sign off on Conceptual Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Authority to Sign off on Code Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Authority to Curate Test Cases: [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
+* Authority to (De-)Assign Authorities: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
 
 [//]: # (END RemoteGroup)
 
@@ -3058,12 +2482,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN RemoteLearningModule)
 
 ##### RemoteLearningModule
-* Authority to Sign off on Conceptual Changes: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
-* Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Authority to Sign off on Conceptual Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Authority to Sign off on Code Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Authority to Curate Test Cases: [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
+* Authority to (De-)Assign Authorities: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
 
 [//]: # (END RemoteLearningModule)
 
@@ -3071,12 +2495,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN RemoteTest)
 
 ##### RemoteTest
-* Authority to Sign off on Conceptual Changes: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
-* Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Authority to Sign off on Conceptual Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Authority to Sign off on Code Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Authority to Curate Test Cases: [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
+* Authority to (De-)Assign Authorities: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
 
 [//]: # (END RemoteTest)
 
@@ -3084,12 +2508,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN RemoteWiki)
 
 ##### RemoteWiki
-* Authority to Sign off on Conceptual Changes: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Authority to Sign off on Code Changes: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Authority to Curate Test Cases: [jheim](https://docu.ilias.de/go/usr/40167), [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
-* Authority to (De-)Assign Authorities: [bogen](https://docu.ilias.de/go/usr/13815), [mglaubitz](https://docu.ilias.de/go/usr/28309)
-* Assignee for Issues: [sdyhr](https://docu.ilias.de/go/usr/102107)
-* Assignee for Security Reports: [sdyhr](https://docu.ilias.de/go/usr/102107)
+* Authority to Sign off on Conceptual Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Authority to Sign off on Code Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Authority to Curate Test Cases: [SIG CampusConnect und ECS(A)](https://docu.ilias.de/go/grp/7893)
+* Authority to (De-)Assign Authorities: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492)
 
 [//]: # (END RemoteWiki)
 
@@ -3137,7 +2561,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
 
 [//]: # (END Saml)
@@ -3154,10 +2578,10 @@ Components are listed alphabetically by component folder name.
 
 ##### Scorm2004
 * Authority to Sign off on Conceptual Changes: [wischniak](https://docu.ilias.de/go/usr/21896)
-* Authority to Sign off on Code Changes: [qualitus.dahme](https://docu.ilias.de/go/usr/99160), [qualitus.hartwig](https://docu.ilias.de/go/usr/104063)
-* Authority to Curate Test Cases: [emix](https://docu.ilias.de/go/usr/57311)
+* Authority to Sign off on Code Changes: [qualitus.dahme](https://docu.ilias.de/go/usr/99160)
+* Authority to Curate Test Cases: [tim.fehske](https://docu.ilias.de/go/usr/101255)
 * Authority to (De-)Assign Authorities: [wischniak](https://docu.ilias.de/go/usr/21896)
-* Assignee for Issues: [wischniak](https://docu.ilias.de/go/usr/21896)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [wischniak](https://docu.ilias.de/go/usr/21896)
 
 [//]: # (END Scorm2004)
@@ -3167,10 +2591,10 @@ Components are listed alphabetically by component folder name.
 
 ##### ScormAicc
 * Authority to Sign off on Conceptual Changes: [wischniak](https://docu.ilias.de/go/usr/21896)
-* Authority to Sign off on Code Changes: [qualitus.dahme](https://docu.ilias.de/go/usr/99160), [qualitus.hartwig](https://docu.ilias.de/go/usr/104063)
-* Authority to Curate Test Cases: [emix](https://docu.ilias.de/go/usr/57311)
+* Authority to Sign off on Code Changes: [qualitus.dahme](https://docu.ilias.de/go/usr/99160)
+* Authority to Curate Test Cases: [tim.fehske](https://docu.ilias.de/go/usr/101255)
 * Authority to (De-)Assign Authorities: [wischniak](https://docu.ilias.de/go/usr/21896)
-* Assignee for Issues: [wischniak](https://docu.ilias.de/go/usr/21896)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [wischniak](https://docu.ilias.de/go/usr/21896)
 
 [//]: # (END ScormAicc)
@@ -3187,7 +2611,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
 
 [//]: # (END Search)
@@ -3200,27 +2624,10 @@ Components are listed alphabetically by component folder name.
 
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
-* Authority to Curate Test Cases: [MISSING]
+* Authority to Curate Test Cases: [yseiler](https://docu.ilias.de/go/usr/17694)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END Session)
-
-
-[//]: # (BEGIN Session)
-
-#### [Session](https://docu.ilias.de/go/wiki/wpage_2172_1357)
-*Component Folders:* [`Session`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Session)
-
-* Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
-* Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
-* Authority to Curate Test Cases: [MISSING]
-* Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
 
 [//]: # (END Session)
 
@@ -3230,12 +2637,12 @@ Components are listed alphabetically by component folder name.
 #### [Setup](https://docu.ilias.de/go/wiki/wpage_40_1357)
 *Component Folders:* [`Setup`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Setup)
 
-* Authority to Sign off on Conceptual Changes: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to Sign off on Code Changes: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047)
 * Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
-* Authority to (De-)Assign Authorities: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Issues: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Reports: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to (De-)Assign Authorities: [rklees](https://docu.ilias.de/go/usr/34047)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [rklees](https://docu.ilias.de/go/usr/34047)
 
 [//]: # (END Setup)
 
@@ -3245,12 +2652,12 @@ Components are listed alphabetically by component folder name.
 #### [setup_](https://docu.ilias.de/go/wiki/wpage_1_1357)
 *Component Folders:* [`setup_`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/setup_)
 
-* Authority to Sign off on Conceptual Changes: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to Sign off on Code Changes: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047)
 * Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
-* Authority to (De-)Assign Authorities: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Issues: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Reports: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to (De-)Assign Authorities: [rklees](https://docu.ilias.de/go/usr/34047)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [rklees](https://docu.ilias.de/go/usr/34047)
 
 [//]: # (END setup_)
 
@@ -3260,12 +2667,12 @@ Components are listed alphabetically by component folder name.
 #### [Competence Management](https://docu.ilias.de/go/wiki/wpage_1161_1357)
 *Component Folders:* [`Skill`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Skill)
 
-* Authority to Sign off on Conceptual Changes: [cludolf](https://docu.ilias.de/go/usr/97658)
-* Authority to Sign off on Code Changes: [cludolf](https://docu.ilias.de/go/usr/97658), [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Conceptual Changes: [tfamula](https://docu.ilias.de/go/usr/58959)
+* Authority to Sign off on Code Changes: [tfamula](https://docu.ilias.de/go/usr/58959), [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [atoedt](https://docu.ilias.de/go/usr/3139)
-* Authority to (De-)Assign Authorities: [cludolf](https://docu.ilias.de/go/usr/97658)
-* Assignee for Issues: [cludolf](https://docu.ilias.de/go/usr/97658)
-* Assignee for Security Reports: [cludolf](https://docu.ilias.de/go/usr/97658)
+* Authority to (De-)Assign Authorities: [tfamula](https://docu.ilias.de/go/usr/58959)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [tfamula](https://docu.ilias.de/go/usr/58959)
 
 [//]: # (END Skill)
 
@@ -3329,12 +2736,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN StudyProgramme)
 
 ##### StudyProgramme
-* Authority to Sign off on Conceptual Changes: [lschmidt-tf](https://docu.ilias.de/go/usr/120143)
-* Authority to Sign off on Code Changes: [maalers](https://docu.ilias.de/go/usr/119188)
-* Authority to Curate Test Cases: [maalers](https://docu.ilias.de/go/usr/119188)
-* Authority to (De-)Assign Authorities: [maalers](https://docu.ilias.de/go/usr/119188)
-* Assignee for Issues: [maalers](https://docu.ilias.de/go/usr/119188)
-* Assignee for Security Reports: [maalers](https://docu.ilias.de/go/usr/119188)
+* Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047), [shecken](https://docu.ilias.de/go/usr/45419)
+* Authority to Curate Test Cases: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to (De-)Assign Authorities: [rklees](https://docu.ilias.de/go/usr/34047)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [rklees](https://docu.ilias.de/go/usr/34047)
 
 [//]: # (END StudyProgramme)
 
@@ -3342,12 +2749,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN StudyProgrammeReference)
 
 ##### StudyProgrammeReference
-* Authority to Sign off on Conceptual Changes: [lschmidt-tf](https://docu.ilias.de/go/usr/120143)
-* Authority to Sign off on Code Changes: [maalers](https://docu.ilias.de/go/usr/119188)
-* Authority to Curate Test Cases: [maalers](https://docu.ilias.de/go/usr/119188)
-* Authority to (De-)Assign Authorities: [maalers](https://docu.ilias.de/go/usr/119188)
-* Assignee for Issues: [maalers](https://docu.ilias.de/go/usr/119188)
-* Assignee for Security Reports: [maalers](https://docu.ilias.de/go/usr/119188)
+* Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047), [shecken](https://docu.ilias.de/go/usr/45419)
+* Authority to Curate Test Cases: [rklees](https://docu.ilias.de/go/usr/34047)
+* Authority to (De-)Assign Authorities: [rklees](https://docu.ilias.de/go/usr/34047)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [rklees](https://docu.ilias.de/go/usr/34047)
 
 [//]: # (END StudyProgrammeReference)
 
@@ -3359,12 +2766,12 @@ Components are listed alphabetically by component folder name.
 #### [Style](https://docu.ilias.de/go/wiki/wpage_1_1357)
 *Component Folders:* [`Style`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Style)
 
-* Authority to Sign off on Conceptual Changes: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
-* Authority to Sign off on Code Changes: [BettyFromHH](https://docu.ilias.de/go/usr/96573), [rotegras](https://docu.ilias.de/go/usr/88399), [padvincenzo](https://docu.ilias.de/go/usr/87189)
-* Authority to Curate Test Cases: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
-* Authority to (De-)Assign Authorities: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
-* Assignee for Issues: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
-* Assignee for Security Reports: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
+* Authority to Sign off on Conceptual Changes: [yvseiler](https://docu.ilias.de/go/usr/17694), [catenglaender](https://docu.ilias.de/go/usr/79291)
+* Authority to Sign off on Code Changes: [amstutz](https://docu.ilias.de/go/usr/26468), [catenglaender](https://docu.ilias.de/go/usr/79291)
+* Authority to Curate Test Cases: [amstutz](https://docu.ilias.de/go/usr/26468), [yvseiler](https://docu.ilias.de/go/usr/17694)
+* Authority to (De-)Assign Authorities: [amstutz](https://docu.ilias.de/go/usr/26468)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [amstutz](https://docu.ilias.de/go/usr/26468)
 
 [//]: # (END Style)
 
@@ -3379,12 +2786,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Survey)
 
 ##### Survey
-* Authority to Sign off on Conceptual Changes: [sergiosant02](https://docu.ilias.de/go/usr/110174)
-* Authority to Sign off on Code Changes: [sergiosant02](https://docu.ilias.de/go/usr/110174), [abrahammordev](https://docu.ilias.de/go/usr/110909), [juanma1331](https://docu.ilias.de/go/usr/107249)
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
-* Authority to (De-)Assign Authorities: [jcopado](https://docu.ilias.de/go/usr/30511)
-* Assignee for Issues: [jcopado](https://docu.ilias.de/go/usr/30511)
-* Assignee for Security Reports: [jcopado](https://docu.ilias.de/go/usr/30511)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END Survey)
 
@@ -3392,12 +2799,12 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN SurveyQuestionPool)
 
 ##### SurveyQuestionPool
-* Authority to Sign off on Conceptual Changes: [sergiosant02](https://docu.ilias.de/go/usr/110174)
-* Authority to Sign off on Code Changes: [sergiosant02](https://docu.ilias.de/go/usr/110174), [abrahammordev](https://docu.ilias.de/go/usr/110909), [juanma1331](https://docu.ilias.de/go/usr/107249)
+* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
+* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [ezenzen](https://docu.ilias.de/go/usr/42910)
-* Authority to (De-)Assign Authorities: [jcopado](https://docu.ilias.de/go/usr/30511)
-* Assignee for Issues: [jcopado](https://docu.ilias.de/go/usr/30511)
-* Assignee for Security Reports: [jcopado](https://docu.ilias.de/go/usr/30511)
+* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END SurveyQuestionPool)
 
@@ -3413,7 +2820,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
 
 [//]: # (END SystemCheck)
@@ -3445,7 +2852,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [skaiser](https://docu.ilias.de/go/usr/17260)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END Tagging)
@@ -3460,25 +2867,8 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END Tasks)
-
-
-[//]: # (BEGIN Tasks)
-
-#### [Tasks](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Tasks`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Tasks)
-
-* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Curate Test Cases: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
 
 [//]: # (END Tasks)
 
@@ -3492,43 +2882,10 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: Tested separately in each module that supports taxonomies
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
 
 [//]: # (END Taxonomy)
-
-
-[//]: # (BEGIN Taxonomy)
-
-#### [Taxonomy](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Taxonomy`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Taxonomy)
-
-* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Curate Test Cases: Tested separately in each module that supports taxonomies
-* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END Taxonomy)
-
-
-[//]: # (BEGIN TermsOfService)
-
-#### [TermsOfService (aka Terms of Services)](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`TermsOfService`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/TermsOfService)
-
-* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
-* Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
-* Authority to (De-)Assign Authorities: [mjansen (Databay AG)](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END TermsOfService)
 
 
 [//]: # (BEGIN TestAssessment)
@@ -3542,10 +2899,10 @@ Components are listed alphabetically by component folder name.
 
 ##### Test
 * Authority to Sign off on Conceptual Changes: [dstrassner](https://docu.ilias.de/go/usr/48931)
-* Authority to Sign off on Code Changes: [mbecker](https://docu.ilias.de/go/usr/27266), [skergomard](https://docu.ilias.de/go/usr/44474), [dstrassner](https://docu.ilias.de/go/usr/48931), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Sign off on Code Changes: [mbecker](https://docu.ilias.de/go/usr/27266), [skergomard](https://docu.ilias.de/go/usr/44474), [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Authority to Curate Test Cases: [dstrassner](https://docu.ilias.de/go/usr/48931)
 * Authority to (De-)Assign Authorities: [dstrassner](https://docu.ilias.de/go/usr/48931)
-* Assignee for Issues: [dstrassner](https://docu.ilias.de/go/usr/48931)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [dstrassner](https://docu.ilias.de/go/usr/48931)
 
 [//]: # (END Test)
@@ -3555,32 +2912,16 @@ Components are listed alphabetically by component folder name.
 
 ##### TestQuestionPool
 * Authority to Sign off on Conceptual Changes: [dstrassner](https://docu.ilias.de/go/usr/48931)
-* Authority to Sign off on Code Changes: [mbecker](https://docu.ilias.de/go/usr/27266), [skergomard](https://docu.ilias.de/go/usr/44474), [dstrassner](https://docu.ilias.de/go/usr/48931), [tjoussen](https://docu.ilias.de/go/usr/103745)
+* Authority to Sign off on Code Changes: [mbecker](https://docu.ilias.de/go/usr/27266), [skergomard](https://docu.ilias.de/go/usr/44474), [tjoussen](https://docu.ilias.de/go/usr/103745)
 * Authority to Curate Test Cases: [dstrassner](https://docu.ilias.de/go/usr/48931)
 * Authority to (De-)Assign Authorities: [dstrassner](https://docu.ilias.de/go/usr/48931)
-* Assignee for Issues: [dstrassner](https://docu.ilias.de/go/usr/48931)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [dstrassner](https://docu.ilias.de/go/usr/48931)
 
 [//]: # (END TestQuestionPool)
 
 
 [//]: # (END TestAssessment)
-
-[//]: # (BEGIN TestAndAssessment)
-
-#### [Test and TestQuestionPool (aka Test & Assessment)](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [dstrassner](https://docu.ilias.de/go/usr/48931)
-* Authority to Sign off on Code Changes: [mbecker](https://docu.ilias.de/go/usr/27266), [skergomard](https://docu.ilias.de/go/usr/44474), [dstrassner](https://docu.ilias.de/go/usr/48931), [tjoussen](https://docu.ilias.de/go/usr/103745)
-* Authority to Curate Test Cases: [dstrassner](https://docu.ilias.de/go/usr/48931)
-* Authority to (De-)Assign Authorities: [dstrassner](https://docu.ilias.de/go/usr/48931)
-* Assignee for Issues: [dstrassner](https://docu.ilias.de/go/usr/48931)
-* Assignee for Security Reports: [dstrassner](https://docu.ilias.de/go/usr/48931)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END TestAndAssessment)
-
 
 [//]: # (BEGIN Tracking)
 
@@ -3591,7 +2932,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
 
 [//]: # (END Tracking)
@@ -3606,7 +2947,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
 * Authority to Curate Test Cases: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
 * Authority to (De-)Assign Authorities: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
-* Assignee for Issues: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
 
 [//]: # (END Tree)
@@ -3671,9 +3012,9 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: [tfuhrer](https://docu.ilias.de/go/usr/81947)
 * Authority to (De-)Assign Authorities: [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Assignee for Issues: [tfuhrer](https://docu.ilias.de/go/usr/81947)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
+* Unit-specific Guidelines, Rules, and Regulations: [Guidelines](https://github.com/ILIAS-eLearning/ILIAS/blob/trunk/components/ILIAS/UI/docs/COMMUNITY.md)
 
 [//]: # (END UICore)
 
@@ -3694,22 +3035,6 @@ Components are listed alphabetically by component folder name.
 
 [//]: # (END UserInterface)
 
-[//]: # (BEGIN UICore)
-
-#### [UICore](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`UICore`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/UICore)
-
-* Authority to Sign off on Conceptual Changes: [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Authority to Sign off on Code Changes: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to Curate Test Cases: [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Authority to (De-)Assign Authorities: [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Assignee for Issues: [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Assignee for Security Reports: [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END UICore)
-
-
 [//]: # (BEGIN User)
 
 #### [User Service](https://docu.ilias.de/go/wiki/wpage_332_1357)
@@ -3719,26 +3044,10 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [skergomard](https://docu.ilias.de/go/usr/44474)
 * Authority to Curate Test Cases: [skergomard](https://docu.ilias.de/go/usr/44474)
 * Authority to (De-)Assign Authorities: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Assignee for Issues: [skergomard](https://docu.ilias.de/go/usr/44474)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [skergomard](https://docu.ilias.de/go/usr/44474)
 
 [//]: # (END User)
-
-
-[//]: # (BEGIN UserService)
-
-#### [User (aka User Service)](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Authority to Sign off on Code Changes: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Authority to Curate Test Cases: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Authority to (De-)Assign Authorities: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Assignee for Issues: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Assignee for Security Reports: [skergomard](https://docu.ilias.de/go/usr/44474)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END UserService)
 
 
 [//]: # (BEGIN Utilities)
@@ -3784,25 +3093,8 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [rschenk](https://docu.ilias.de/go/usr/18065)
 * Authority to Curate Test Cases: [rschenk](https://docu.ilias.de/go/usr/18065)
 * Authority to (De-)Assign Authorities: [rschenk (Databay AG)](https://docu.ilias.de/go/usr/18065)
-* Assignee for Issues: [rschenk](https://docu.ilias.de/go/usr/18065)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [rschenk](https://docu.ilias.de/go/usr/18065)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END VirusScanner)
-
-
-[//]: # (BEGIN VirusScanner)
-
-#### [Virus Scanner](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`VirusScanner`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/VirusScanner)
-
-* Authority to Sign off on Conceptual Changes: [rschenk](https://docu.ilias.de/go/usr/18065)
-* Authority to Sign off on Code Changes: [rschenk](https://docu.ilias.de/go/usr/18065)
-* Authority to Curate Test Cases: [rschenk](https://docu.ilias.de/go/usr/18065)
-* Authority to (De-)Assign Authorities: [rschenk (Databay AG)](https://docu.ilias.de/go/usr/18065)
-* Assignee for Issues: [rschenk](https://docu.ilias.de/go/usr/18065)
-* Assignee for Security Reports: [rschenk](https://docu.ilias.de/go/usr/18065)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
 
 [//]: # (END VirusScanner)
 
@@ -3812,29 +3104,12 @@ Components are listed alphabetically by component folder name.
 #### [Security (incl. Web Access Checker)](https://docu.ilias.de/go/wiki/wpage_866_1357)
 *Component Folders:* [`WebAccessChecker`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/WebAccessChecker)
 
-* Authority to Sign off on Conceptual Changes: [fwolf-ilias](https://docu.ilias.de/go/usr/29018)
-* Authority to Sign off on Code Changes: [fwolf-ilias](https://docu.ilias.de/go/usr/29018), [ukohnle](https://docu.ilias.de/go/usr/21855)
+* Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [ukohnle](https://docu.ilias.de/go/usr/21855)
 * Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
-* Authority to (De-)Assign Authorities: [fwolf-ilias](https://docu.ilias.de/go/usr/29018)
-* Assignee for Issues: [fwolf-ilias](https://docu.ilias.de/go/usr/29018)
-* Assignee for Security Reports: [fwolf-ilias](https://docu.ilias.de/go/usr/29018)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END WebAccessChecker)
-
-
-[//]: # (BEGIN WebAccessChecker)
-
-#### [Web Access Checker](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`WebAccessChecker`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/WebAccessChecker)
-
-* Authority to Sign off on Conceptual Changes: [fwolf-ilias](https://docu.ilias.de/go/usr/29018)
-* Authority to Sign off on Code Changes: [fwolf-ilias](https://docu.ilias.de/go/usr/29018), [ukohnle](https://docu.ilias.de/go/usr/21855)
-* Authority to Curate Test Cases: [AUTHOR MISSING](https://docu.ilias.de/go/pg/64423_4793)
-* Authority to (De-)Assign Authorities: [fwolf-ilias](https://docu.ilias.de/go/usr/29018)
-* Assignee for Issues: [fwolf-ilias](https://docu.ilias.de/go/usr/29018)
-* Assignee for Security Reports: [fwolf-ilias](https://docu.ilias.de/go/usr/29018)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
+* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
 
 [//]: # (END WebAccessChecker)
 
@@ -3847,27 +3122,11 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Curate Test Cases: NONE
-* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Issues: [fschmid](https://docu.ilias.de/go/usr/21087)
+* Authority to (De-)Assign Authorities: [fschmid](https://docu.ilias.de/go/usr/21087), [fschmid](https://docu.ilias.de/go/usr/70029)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [fschmid](https://docu.ilias.de/go/usr/21087)
 
 [//]: # (END WebDAV)
-
-
-[//]: # (BEGIN WebFeed)
-
-#### [Feed (aka Web Feeds)](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
-* Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
-* Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END WebFeed)
 
 
 [//]: # (BEGIN WebResource)
@@ -3879,7 +3138,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Curate Test Cases: [nadine.bauser](https://docu.ilias.de/go/usr/34662)
 * Authority to (De-)Assign Authorities: [smeyer](https://docu.ilias.de/go/usr/191)
-* Assignee for Issues: [smeyer](https://docu.ilias.de/go/usr/191)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [smeyer](https://docu.ilias.de/go/usr/191)
 
 [//]: # (END WebResource)
@@ -3890,30 +3149,14 @@ Components are listed alphabetically by component folder name.
 #### [Web Services Overview: SOAP, REST, ...](https://docu.ilias.de/go/wiki/wpage_186_1357)
 *Component Folders:* [`WebServices`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/WebServices)
 
-* Authority to Sign off on Conceptual Changes: [githamo](https://docu.ilias.de/go/usr/115389)
-* Authority to Sign off on Code Changes: [githamo](https://docu.ilias.de/go/usr/115389), [sKarki999](https://docu.ilias.de/go/usr/112949)
-* Authority to Curate Test Cases: [sKarki999](https://docu.ilias.de/go/usr/112949)
-* Authority to (De-)Assign Authorities: [TimoScheuer](https://docu.ilias.de/go/usr/102976)
-* Assignee for Issues: [sKarki999](https://docu.ilias.de/go/usr/112949)
-* Assignee for Security Reports: [sKarki999](https://docu.ilias.de/go/usr/112949)
+* Authority to Sign off on Conceptual Changes: [Jephte](https://docu.ilias.de/go/usr/70542)
+* Authority to Sign off on Code Changes: [Jephte](https://docu.ilias.de/go/usr/70542)
+* Authority to Curate Test Cases: [Jephte](https://docu.ilias.de/go/usr/70542)
+* Authority to (De-)Assign Authorities: [Jephte](https://docu.ilias.de/go/usr/70542)
+* Assignee for Issues: NONE
+* Assignee for Security Reports: [Jephte](https://docu.ilias.de/go/usr/70542)
 
 [//]: # (END WebServices)
-
-
-[//]: # (BEGIN Webservices)
-
-#### [Webservices](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [githamo](https://docu.ilias.de/go/usr/115389)
-* Authority to Sign off on Code Changes: [githamo](https://docu.ilias.de/go/usr/115389), [sKarki999](https://docu.ilias.de/go/usr/112949)
-* Authority to Curate Test Cases: [sKarki999](https://docu.ilias.de/go/usr/112949)
-* Authority to (De-)Assign Authorities: [TimoScheuer](https://docu.ilias.de/go/usr/102976)
-* Assignee for Issues: [sKarki999](https://docu.ilias.de/go/usr/112949)
-* Assignee for Security Reports: [sKarki999](https://docu.ilias.de/go/usr/112949)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END Webservices)
 
 
 [//]: # (BEGIN Wiki)
@@ -3925,7 +3168,7 @@ Components are listed alphabetically by component folder name.
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Curate Test Cases: n.n., Uni Köln
 * Authority to (De-)Assign Authorities: [akill](https://docu.ilias.de/go/usr/149)
-* Assignee for Issues: [akill](https://docu.ilias.de/go/usr/149)
+* Assignee for Issues: NONE
 * Assignee for Security Reports: [akill](https://docu.ilias.de/go/usr/149)
 
 [//]: # (END Wiki)
@@ -3944,22 +3187,6 @@ Components are listed alphabetically by component folder name.
 * Assignee for Security Reports: fschmid
 
 [//]: # (END WOPI)
-
-
-[//]: # (BEGIN xAPIAndcmi5)
-
-#### [xAPI/cmi5](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* *(no dedicated folder in repository)*
-
-* Authority to Sign off on Conceptual Changes: [ukohnle](https://docu.ilias.de/go/usr/21855)
-* Authority to Sign off on Code Changes: [ukohnle](https://docu.ilias.de/go/usr/21855)
-* Authority to Curate Test Cases: [ukohnle](https://docu.ilias.de/go/usr/21855)
-* Authority to (De-)Assign Authorities: [ukohnle](https://docu.ilias.de/go/usr/21855)
-* Assignee for Issues: [ukohnle](https://docu.ilias.de/go/usr/21855)
-* Assignee for Security Reports: [ukohnle](https://docu.ilias.de/go/usr/21855)
-* Unit-specific Guidelines, Rules, and Regulations: [LINK MISSING]('')
-
-[//]: # (END xAPIAndcmi5)
 
 
 [//]: # (BEGIN Xml)
