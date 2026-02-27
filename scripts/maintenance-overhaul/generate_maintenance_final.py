@@ -369,11 +369,20 @@ def extract_component_from_md(md_content):
                 auth_data['guidelines'] = extracted
             # Wenn LINK MISSING, wird es später durch Suche ersetzt oder entfernt
         
+        # Ordner aus "Component Folders:" extrahieren – nur wenn dieser Block einen Ordner nennt, gilt er für diesen Ordner
+        folders_in_block = []
+        component_folders_match = re.search(r'\*Component Folders\s*\*:\s*(.*?)(?=\n\* |\n\n|$)', content, re.DOTALL)
+        if component_folders_match and '(no dedicated folder' not in component_folders_match.group(1):
+            # Format: [`FolderName`](url) oder [`FolderName`](url), ...
+            for m in re.finditer(r'\[`([^`]+)`\]\([^)]+\)', component_folders_match.group(1)):
+                folders_in_block.append(m.group(1))
+        
         components[comment_name] = {
             'component_name': component_name,
             'component_name_normalized': normalize_name(component_name),
             'comment_name_normalized': normalize_name(comment_name),
-            'authorities': auth_data
+            'authorities': auth_data,
+            'folders': folders_in_block,
         }
     
     return components
@@ -966,86 +975,27 @@ def main():
         component_name = get_component_name_from_folder(folder_name, belong_to)
         folder_to_component_name[folder_name] = component_name
     
-    # Authorities: immer aus maintenance_old.md; nur wenn dort kein Eintrag für den Ordner existiert, Fallback aus maintenance.json.
-    # Mapping: folder_name -> authorities
-    # Erstelle Mapping von comment_name zu component_name
+    # Pro Ordner: Nur wenn der Ordner in der Autoritäts-MD unter "Component Folders" genannt wird, MD nutzen; sonst maintenance.json.
+    # Mapping: folder_name (wie in MD unter Component Folders) -> comment_name des Blocks
+    md_folder_to_comment = {}
+    for comment_name, md_data in md_components.items():
+        for f in md_data.get('folders', []):
+            md_folder_to_comment[f] = comment_name
     comment_to_component = {}
     for comment_name, md_data in md_components.items():
-        component_name = md_data['component_name']
-        comment_to_component[comment_name] = component_name
+        comment_to_component[comment_name] = md_data['component_name']
     
-    # Ordne Authorities den folders zu
+    # Ordne Authorities den folders zu (nur MD wenn dieser Ordner in der MD explizit unter Component Folders steht)
     for folder_name, data in components.items():
         belong_to = data.get('belong_to_component', 'None')
         component_name = folder_to_component_name.get(folder_name, folder_name)
-        
-        # Suche in md_components nach passendem Eintrag
-        # Priorität: 1. belong_to_component (normalisiert), 2. component_name (normalisiert), 3. folder_name (normalisiert)
         found_authorities = None
         
-        # Normalisiere Suchbegriffe
-        belong_to_normalized = normalize_name(belong_to) if belong_to and belong_to != 'None' else ""
-        component_name_normalized = normalize_name(component_name)
-        folder_name_normalized = normalize_name(folder_name)
+        if folder_name in md_folder_to_comment:
+            comment_name = md_folder_to_comment[folder_name]
+            found_authorities = md_components[comment_name]['authorities'].copy()
         
-        # 1. Exakt zuerst: comment_name == folder_name (z. B. Notification/Notifications; überschreibt veraltetes belong_to)
-        if folder_name in md_components:
-            found_authorities = md_components[folder_name]['authorities'].copy()
-        
-        # 2. belong_to_component aus maintenance.json (nur wenn kein exakter Treffer)
-        if not found_authorities and belong_to_normalized:
-            for comment_name, md_data in md_components.items():
-                md_component_normalized = md_data.get('component_name_normalized', normalize_name(md_data['component_name']))
-                md_comment_normalized = md_data.get('comment_name_normalized', normalize_name(comment_name))
-                if (md_component_normalized == belong_to_normalized or 
-                    md_comment_normalized == belong_to_normalized or
-                    md_data['component_name'].lower().strip() == belong_to.lower().strip() or
-                    comment_name.lower().strip() == belong_to.lower().strip()):
-                    found_authorities = md_data['authorities'].copy()
-                    break
-        # 3. Plural/Singular: comment_name = folder_name + "s" (z. B. AdministrativeNotification → AdministrativeNotifications)
-        if not found_authorities and (folder_name + "s") in md_components:
-            found_authorities = md_components[folder_name + "s"]['authorities'].copy()
-        if not found_authorities and folder_name.endswith("s") and folder_name[:-1] in md_components:
-            found_authorities = md_components[folder_name[:-1]]['authorities'].copy()
-        
-        # 4. Wenn nicht gefunden, versuche über component_name (normalisiert und exakt)
-        if not found_authorities:
-            for comment_name, md_data in md_components.items():
-                md_component_normalized = md_data.get('component_name_normalized', normalize_name(md_data['component_name']))
-                if (md_data['component_name'].lower().strip() == component_name.lower().strip() or
-                    md_component_normalized == component_name_normalized):
-                    found_authorities = md_data['authorities'].copy()
-                    break
-        
-        # 5. Wenn nicht gefunden, versuche über comment_name (falls gleich folder_name) – Redundanz für Klarheit
-        if not found_authorities and folder_name in md_components:
-            found_authorities = md_components[folder_name]['authorities'].copy()
-        
-        # 6. Wenn nicht gefunden, versuche über normalisierten comment_name
-        if not found_authorities:
-            for comment_name, md_data in md_components.items():
-                md_comment_normalized = md_data.get('comment_name_normalized', normalize_name(comment_name))
-                if (comment_name.lower().strip() == folder_name.lower().strip() or
-                    md_comment_normalized == folder_name_normalized):
-                    found_authorities = md_data['authorities'].copy()
-                    break
-        
-        # 7. Wenn immer noch nicht gefunden, versuche Teilstring-Matching (falls folder_name Teil von component_name ist oder umgekehrt)
-        if not found_authorities:
-            for comment_name, md_data in md_components.items():
-                md_component_name = md_data['component_name'].lower().strip()
-                md_comment_name = comment_name.lower().strip()
-                search_component = component_name.lower().strip()
-                search_folder = folder_name.lower().strip()
-                
-                # Prüfe ob einer der Namen im anderen enthalten ist (mindestens 3 Zeichen für sinnvolle Matches)
-                if (len(search_folder) >= 3 and (search_folder in md_component_name or search_folder in md_comment_name)) or \
-                   (len(search_component) >= 3 and (search_component in md_component_name or search_component in md_comment_name)):
-                    found_authorities = md_data['authorities'].copy()
-                    break
-        
-        # Wenn gefunden, setze Authorities und suche Guidelines
+        # Wenn gefunden (Ordner in MD genannt), setze Authorities und suche Guidelines
         if found_authorities:
             # Suche nach Guidelines-Datei (auch für unmaintained Components)
             guidelines_link = find_guidelines_file(folder_name, component_name, base_path)
@@ -1086,10 +1036,21 @@ def main():
                 code_changes_filtered = [c for c in code_changes if c and str(c).strip()]
 
                 if code_changes_filtered:
+                    test_cases_list = []
+                    if tester and str(tester).strip():
+                        u = parse_user(tester)
+                        if u:
+                            test_cases_list.append(u)
+                    if testcase_writer and str(testcase_writer).strip():
+                        u = parse_user(testcase_writer)
+                        if u and u not in test_cases_list:
+                            test_cases_list.append(u)
+                    if not test_cases_list and model == 'Classic':
+                        test_cases_list = code_changes_filtered
                     auth_data = {
                         'conceptual': code_changes_filtered,
                         'code': code_changes_filtered,
-                        'test_cases': [parse_user(testcase_writer)] if testcase_writer and testcase_writer.strip() else (code_changes_filtered if model == 'Classic' else []),
+                        'test_cases': test_cases_list,
                         'assign_authorities': code_changes_filtered,
                         'issues': code_changes_filtered,
                         'security_reports': code_changes_filtered,
