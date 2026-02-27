@@ -177,7 +177,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN AccessControl)
 
 #### [RBAC and Permissions](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`AccessControl`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/AccessControl)
+*Component Folders:* [`AccessControl`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/AccessControl)
 
 * Authority to Sign off on Conceptual Changes: [skergomard](https://docu.ilias.de/go/usr/44474)
 * Authority to Sign off on Code Changes: [skergomard](https://docu.ilias.de/go/usr/44474)
@@ -194,7 +194,7 @@ Components are listed alphabetically by component folder name.
 #### [Accessibility](https://docu.ilias.de/go/wiki/wpage_30_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Accessibility`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Accessibility)
+*Component Folders:* [`Accessibility`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Accessibility)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -211,7 +211,7 @@ Components are listed alphabetically by component folder name.
 #### [Accordion](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Accordion`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Accordion)
+*Component Folders:* [`Accordion`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Accordion)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -226,7 +226,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN ActiveRecord)
 
 #### [ActiveRecord](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`ActiveRecord`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ActiveRecord)
+*Component Folders:* [`ActiveRecord`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/ActiveRecord)
 
 * Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
@@ -242,7 +242,7 @@ Components are listed alphabetically by component folder name.
 
 #### [Administration](https://docu.ilias.de/go/wiki/wpage_246_1357)
 
-*Component Folders:* [`Administration`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Administration), [`SystemFolder`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/SystemFolder)
+*Component Folders:* [`Administration`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Administration), [`SystemFolder`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/SystemFolder)
 
 
 [//]: # (BEGIN Administration)
@@ -276,7 +276,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN AdministrativeNotification)
 
 #### [Administrative Notifications](https://docu.ilias.de/go/wiki/wpage_7290_1357)
-*Component Folders:* [`AdministrativeNotification`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/AdministrativeNotification)
+*Component Folders:* [`AdministrativeNotification`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/AdministrativeNotification)
 
 * Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
@@ -292,7 +292,7 @@ Components are listed alphabetically by component folder name.
 
 #### [Metadata](https://docu.ilias.de/go/wiki/wpage_973_1357)
 
-*Component Folders:* [`ADT`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ADT), [`AdvancedMetaData`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/AdvancedMetaData), [`MetaData`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/MetaData)
+*Component Folders:* [`ADT`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/ADT), [`AdvancedMetaData`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/AdvancedMetaData), [`MetaData`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/MetaData)
 
 
 [//]: # (BEGIN ADT)
@@ -341,7 +341,7 @@ Components are listed alphabetically by component folder name.
 #### [AdvancedEditing](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`AdvancedEditing`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/AdvancedEditing)
+*Component Folders:* [`AdvancedEditing`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/AdvancedEditing)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -358,7 +358,7 @@ Components are listed alphabetically by component folder name.
 #### [App](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`App`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/App)
+*Component Folders:* [`App`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/App)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -373,7 +373,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN AssessmentQuestion)
 
 #### [AssessmentQuestion](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`AssessmentQuestion`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/AssessmentQuestion)
+*Component Folders:* [`AssessmentQuestion`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/AssessmentQuestion)
 
 * Authority to Sign off on Conceptual Changes: [dstrassner](https://docu.ilias.de/go/usr/48931), [mbecker](https://docu.ilias.de/go/usr/27266)
 * Authority to Sign off on Code Changes: [dstrassner](https://docu.ilias.de/go/usr/48931), [mbecker](https://docu.ilias.de/go/usr/27266)
@@ -389,7 +389,7 @@ Components are listed alphabetically by component folder name.
 
 #### [Login, Auth & Registration](https://docu.ilias.de/go/wiki/wpage_19_1357)
 
-*Component Folders:* [`AuthApache`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/AuthApache), [`Authentication`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Authentication), [`CAS`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/CAS), [`Init`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Init), [`LDAP`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/LDAP), [`OpenIdConnect`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/OpenIdConnect), [`Registration`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Registration)
+*Component Folders:* [`AuthApache`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/AuthApache), [`Authentication`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Authentication), [`CAS`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/CAS), [`Init`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Init), [`LDAP`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/LDAP), [`OpenIdConnect`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/OpenIdConnect), [`Registration`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Registration)
 
 
 [//]: # (BEGIN AuthApache)
@@ -488,7 +488,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN AuthShibboleth)
 
 #### [Shibboleth Authentication](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`AuthShibboleth`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/AuthShibboleth)
+*Component Folders:* [`AuthShibboleth`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/AuthShibboleth)
 
 * Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
@@ -503,7 +503,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Awareness)
 
 #### [Who is online?](https://docu.ilias.de/go/wiki/wpage_293_1357)
-*Component Folders:* [`Awareness`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Awareness)
+*Component Folders:* [`Awareness`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Awareness)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -519,7 +519,7 @@ Components are listed alphabetically by component folder name.
 
 #### [Background Tasks](https://docu.ilias.de/go/wiki/wpage_4383_1357)
 
-*Component Folders:* [`BackgroundTasks`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/BackgroundTasks), [`BackgroundTasks_`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/BackgroundTasks_)
+*Component Folders:* [`BackgroundTasks`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/BackgroundTasks), [`BackgroundTasks_`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/BackgroundTasks_)
 
 
 [//]: # (BEGIN BackgroundTasks)
@@ -553,7 +553,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Badge)
 
 #### [Badges](https://docu.ilias.de/go/wiki/wpage_4203_1357)
-*Component Folders:* [`Badge`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Badge)
+*Component Folders:* [`Badge`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Badge)
 
 * Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
@@ -568,7 +568,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Bibliographic)
 
 #### [Bibliographic List Item](https://docu.ilias.de/go/wiki/wpage_2553_1357)
-*Component Folders:* [`Bibliographic`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Bibliographic)
+*Component Folders:* [`Bibliographic`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Bibliographic)
 
 * Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
@@ -585,7 +585,7 @@ Components are listed alphabetically by component folder name.
 #### [Block](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Block`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Block)
+*Component Folders:* [`Block`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Block)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -600,7 +600,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Blog)
 
 #### [Blog](https://docu.ilias.de/go/wiki/wpage_1448_1357)
-*Component Folders:* [`Blog`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Blog)
+*Component Folders:* [`Blog`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Blog)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -615,7 +615,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN BookingManager)
 
 #### [Booking Pool](https://docu.ilias.de/go/wiki/wpage_133_1357)
-*Component Folders:* [`BookingManager`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/BookingManager)
+*Component Folders:* [`BookingManager`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/BookingManager)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -630,7 +630,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Cache)
 
 #### [Cache](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Cache`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Cache)
+*Component Folders:* [`Cache`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Cache)
 
 * Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
@@ -645,7 +645,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Cache_)
 
 #### [Cache_](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Cache_`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Cache_)
+*Component Folders:* [`Cache_`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Cache_)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -660,7 +660,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Calendar)
 
 #### [Calendar](https://docu.ilias.de/go/wiki/wpage_23_1357)
-*Component Folders:* [`Calendar`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Calendar)
+*Component Folders:* [`Calendar`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Calendar)
 
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [akill](https://docu.ilias.de/go/usr/149)
@@ -676,7 +676,7 @@ Components are listed alphabetically by component folder name.
 
 #### [Category and Repository](https://docu.ilias.de/go/wiki/wpage_106_1357)
 
-*Component Folders:* [`Category`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Category), [`CategoryReference`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/CategoryReference), [`Container`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Container), [`ContainerReference`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ContainerReference), [`Folder`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Folder), [`Repository`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Repository), [`RootFolder`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RootFolder)
+*Component Folders:* [`Category`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Category), [`CategoryReference`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/CategoryReference), [`Container`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Container), [`ContainerReference`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/ContainerReference), [`Folder`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Folder), [`Repository`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Repository), [`RootFolder`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/RootFolder)
 
 
 [//]: # (BEGIN Category)
@@ -775,7 +775,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Certificate)
 
 #### [Certificate](https://docu.ilias.de/go/wiki/wpage_66_1357)
-*Component Folders:* [`Certificate`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Certificate)
+*Component Folders:* [`Certificate`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Certificate)
 
 * Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
@@ -792,7 +792,7 @@ Components are listed alphabetically by component folder name.
 #### [Chart](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Chart`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Chart)
+*Component Folders:* [`Chart`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Chart)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -808,7 +808,7 @@ Components are listed alphabetically by component folder name.
 
 #### [Chat](https://docu.ilias.de/go/wiki/wpage_37_1357)
 
-*Component Folders:* [`Chatroom`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Chatroom), [`OnScreenChat`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/OnScreenChat)
+*Component Folders:* [`Chatroom`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Chatroom), [`OnScreenChat`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/OnScreenChat)
 
 
 [//]: # (BEGIN Chatroom)
@@ -844,7 +844,7 @@ Components are listed alphabetically by component folder name.
 #### [Cloud](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Cloud`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Cloud)
+*Component Folders:* [`Cloud`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Cloud)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -859,7 +859,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN CmiXapi)
 
 #### [xAPI](https://docu.ilias.de/go/wiki/wpage_2921_1357)
-*Component Folders:* [`CmiXapi`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/CmiXapi)
+*Component Folders:* [`CmiXapi`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/CmiXapi)
 
 * Authority to Sign off on Conceptual Changes: [[ukohnle](https://docu.ilias.de/go/usr/21855)
 * Authority to Sign off on Code Changes: [[ukohnle](https://docu.ilias.de/go/usr/21855)
@@ -874,7 +874,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Component)
 
 #### [Components Framework](https://docu.ilias.de/go/wiki/wpage_7285_1357)
-*Component Folders:* [`Component`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Component)
+*Component Folders:* [`Component`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Component)
 
 * Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
 * Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047), [fschmid](https://docu.ilias.de/go/usr/21087)
@@ -889,7 +889,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Conditions)
 
 #### [Precondition Handling](https://docu.ilias.de/go/wiki/wpage_126_1357)
-*Component Folders:* [`Conditions`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Conditions)
+*Component Folders:* [`Conditions`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Conditions)
 
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
@@ -904,7 +904,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Contact)
 
 #### [Contacts](https://docu.ilias.de/go/wiki/wpage_3740_1357)
-*Component Folders:* [`Contact`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Contact)
+*Component Folders:* [`Contact`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Contact)
 
 * Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
@@ -919,7 +919,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN ContentPage)
 
 #### [Content Page](https://docu.ilias.de/go/wiki/wpage_5369_1357)
-*Component Folders:* [`ContentPage`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ContentPage)
+*Component Folders:* [`ContentPage`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/ContentPage)
 
 * Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
@@ -936,7 +936,7 @@ Components are listed alphabetically by component folder name.
 #### [Context](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Context`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Context)
+*Component Folders:* [`Context`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Context)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -951,7 +951,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN COPage)
 
 #### [ILIAS Page Editor](https://docu.ilias.de/go/wiki/wpage_2141_1357)
-*Component Folders:* [`COPage`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/COPage)
+*Component Folders:* [`COPage`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/COPage)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -968,7 +968,7 @@ Components are listed alphabetically by component folder name.
 #### [CopyWizard](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`CopyWizard`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/CopyWizard)
+*Component Folders:* [`CopyWizard`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/CopyWizard)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -984,7 +984,7 @@ Components are listed alphabetically by component folder name.
 
 #### [Course Management](https://docu.ilias.de/go/wiki/wpage_13_1357)
 
-*Component Folders:* [`Course`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Course), [`CourseReference`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/CourseReference)
+*Component Folders:* [`Course`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Course), [`CourseReference`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/CourseReference)
 
 
 [//]: # (BEGIN Course)
@@ -1018,7 +1018,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Cron)
 
 #### [Cron Service](https://docu.ilias.de/go/wiki/wpage_2357_1357)
-*Component Folders:* [`Cron`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Cron)
+*Component Folders:* [`Cron`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Cron)
 
 * Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
@@ -1035,7 +1035,7 @@ Components are listed alphabetically by component folder name.
 #### [CSV](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`CSV`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/CSV)
+*Component Folders:* [`CSV`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/CSV)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -1050,7 +1050,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Dashboard)
 
 #### [Dashboard](https://docu.ilias.de/go/wiki/wpage_6092_1357)
-*Component Folders:* [`Dashboard`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Dashboard)
+*Component Folders:* [`Dashboard`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Dashboard)
 
 * Authority to Sign off on Conceptual Changes: [iszmais](https://docu.ilias.de/go/usr/65630), [lscharmer](https://docu.ilias.de/go/usr/87863)
 * Authority to Sign off on Code Changes: [iszmais](https://docu.ilias.de/go/usr/65630), [lscharmer](https://docu.ilias.de/go/usr/87863), [fschmid](https://docu.ilias.de/go/usr/21087)
@@ -1065,7 +1065,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Data)
 
 #### [Data](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Data`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Data)
+*Component Folders:* [`Data`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Data)
 
 * Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
 * Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047)
@@ -1080,7 +1080,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Database)
 
 #### [Database](https://docu.ilias.de/go/wiki/wpage_12_1357)
-*Component Folders:* [`Database`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Database)
+*Component Folders:* [`Database`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Database)
 
 * Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [smeyer](https://docu.ilias.de/go/usr/191)
@@ -1095,7 +1095,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN DataCollection)
 
 #### [Data Collection](https://docu.ilias.de/go/wiki/wpage_2340_1357)
-*Component Folders:* [`DataCollection`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/DataCollection)
+*Component Folders:* [`DataCollection`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/DataCollection)
 
 * Authority to Sign off on Conceptual Changes: [oliver.samoila](https://docu.ilias.de/go/usr/26160)
 * Authority to Sign off on Code Changes: [iszmais](https://docu.ilias.de/go/usr/65630)
@@ -1111,7 +1111,7 @@ Components are listed alphabetically by component folder name.
 
 #### [Privacy, Terms of Service and Data Protection (incl. Terms of Service)](https://docu.ilias.de/go/wiki/wpage_4995_1357)
 
-*Component Folders:* [`DataProtection`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/DataProtection), [`PrivacySecurity`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/PrivacySecurity), [`TermsOfService`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/TermsOfService)
+*Component Folders:* [`DataProtection`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/DataProtection), [`PrivacySecurity`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/PrivacySecurity), [`TermsOfService`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/TermsOfService)
 
 
 [//]: # (BEGIN DataProtection)
@@ -1160,7 +1160,7 @@ Components are listed alphabetically by component folder name.
 #### [DataSet](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`DataSet`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/DataSet)
+*Component Folders:* [`DataSet`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/DataSet)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -1177,7 +1177,7 @@ Components are listed alphabetically by component folder name.
 #### [DI](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`DI`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/DI)
+*Component Folders:* [`DI`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/DI)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -1192,7 +1192,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN DidacticTemplate)
 
 #### [Didactic Templates](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`DidacticTemplate`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/DidacticTemplate)
+*Component Folders:* [`DidacticTemplate`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/DidacticTemplate)
 
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
@@ -1207,7 +1207,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN EmployeeTalk)
 
 #### [Employee Talk](https://docu.ilias.de/go/wiki/wpage_7784_1357)
-*Component Folders:* [`EmployeeTalk`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/EmployeeTalk)
+*Component Folders:* [`EmployeeTalk`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/EmployeeTalk)
 
 * Authority to Sign off on Conceptual Changes: [tschmitz](https://docu.ilias.de/go/usr/92591)
 * Authority to Sign off on Code Changes: [tschmitz](https://docu.ilias.de/go/usr/92591), [tfamula](https://docu.ilias.de/go/usr/58959)
@@ -1222,7 +1222,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Environment)
 
 #### [Environment](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Environment`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Environment)
+*Component Folders:* [`Environment`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Environment)
 
 * Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
@@ -1239,7 +1239,7 @@ Components are listed alphabetically by component folder name.
 #### [EventHandling](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`EventHandling`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/EventHandling)
+*Component Folders:* [`EventHandling`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/EventHandling)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -1254,7 +1254,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Excel)
 
 #### [Excel](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Excel`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Excel)
+*Component Folders:* [`Excel`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Excel)
 
 * Authority to Sign off on Conceptual Changes: [dstrassner](https://docu.ilias.de/goto_docu_usr_48931.html)
 * Authority to Sign off on Code Changes: [skergomard](https://docu.ilias.de/goto_docu_usr_44474.html)
@@ -1271,7 +1271,7 @@ Components are listed alphabetically by component folder name.
 #### [Exceptions](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Exceptions`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Exceptions)
+*Component Folders:* [`Exceptions`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Exceptions)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -1286,7 +1286,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Exercise)
 
 #### [Exercise](https://docu.ilias.de/go/wiki/wpage_28_1357)
-*Component Folders:* [`Exercise`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Exercise)
+*Component Folders:* [`Exercise`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Exercise)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -1301,7 +1301,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Export)
 
 #### [Export](https://docu.ilias.de/go/wiki/wpage_91_1357)
-*Component Folders:* [`Export`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Export)
+*Component Folders:* [`Export`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Export)
 
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
@@ -1317,7 +1317,7 @@ Components are listed alphabetically by component folder name.
 
 #### [News - RSS - Webfeeds](https://docu.ilias.de/go/wiki/wpage_38_1357)
 
-*Component Folders:* [`Feeds`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Feeds), [`News`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/News)
+*Component Folders:* [`Feeds`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Feeds), [`News`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/News)
 
 
 [//]: # (BEGIN Feeds)
@@ -1351,7 +1351,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN File)
 
 #### [File](https://docu.ilias.de/go/wiki/wpage_4_1357)
-*Component Folders:* [`File`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/File)
+*Component Folders:* [`File`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/File)
 
 * Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
@@ -1368,7 +1368,7 @@ Components are listed alphabetically by component folder name.
 #### [FileDelivery](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`FileDelivery`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/FileDelivery)
+*Component Folders:* [`FileDelivery`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/FileDelivery)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -1385,7 +1385,7 @@ Components are listed alphabetically by component folder name.
 #### [FileServices](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`FileServices`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/FileServices)
+*Component Folders:* [`FileServices`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/FileServices)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -1400,7 +1400,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Filesystem)
 
 #### [Filesystem](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Filesystem`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Filesystem)
+*Component Folders:* [`Filesystem`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Filesystem)
 
 * Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
@@ -1415,7 +1415,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN FileUpload)
 
 #### [FileUpload](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`FileUpload`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/FileUpload)
+*Component Folders:* [`FileUpload`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/FileUpload)
 
 * Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
@@ -1432,7 +1432,7 @@ Components are listed alphabetically by component folder name.
 #### [Form](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Form`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Form)
+*Component Folders:* [`Form`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Form)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -1448,7 +1448,7 @@ Components are listed alphabetically by component folder name.
 
 #### [Forum](https://docu.ilias.de/go/wiki/wpage_35_1357)
 
-*Component Folders:* [`Forum`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Forum), [`Html`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Html)
+*Component Folders:* [`Forum`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Forum), [`Html`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Html)
 
 
 [//]: # (BEGIN Forum)
@@ -1483,7 +1483,7 @@ Components are listed alphabetically by component folder name.
 
 #### [Global Cache](https://docu.ilias.de/go/wiki/wpage_6435_1357)
 
-*Component Folders:* [`GlobalCache`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/GlobalCache), [`GlobalCache_`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/GlobalCache_)
+*Component Folders:* [`GlobalCache`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/GlobalCache), [`GlobalCache_`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/GlobalCache_)
 
 
 [//]: # (BEGIN GlobalCache)
@@ -1518,7 +1518,7 @@ Components are listed alphabetically by component folder name.
 
 #### [Global Screen Service](https://docu.ilias.de/go/wiki/wpage_6079_1357)
 
-*Component Folders:* [`GlobalScreen`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/GlobalScreen), [`GlobalScreen_`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/GlobalScreen_)
+*Component Folders:* [`GlobalScreen`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/GlobalScreen), [`GlobalScreen_`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/GlobalScreen_)
 
 
 [//]: # (BEGIN GlobalScreen)
@@ -1552,7 +1552,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Glossary)
 
 #### [Glossary](https://docu.ilias.de/go/wiki/wpage_121_1357)
-*Component Folders:* [`Glossary`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Glossary)
+*Component Folders:* [`Glossary`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Glossary)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [tfamula](https://docu.ilias.de/go/usr/58959)
@@ -1568,7 +1568,7 @@ Components are listed alphabetically by component folder name.
 
 #### [Group](https://docu.ilias.de/go/wiki/wpage_39_1357)
 
-*Component Folders:* [`Group`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Group), [`GroupReference`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/GroupReference)
+*Component Folders:* [`Group`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Group), [`GroupReference`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/GroupReference)
 
 
 [//]: # (BEGIN Group)
@@ -1602,7 +1602,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Help)
 
 #### [Online Help](https://docu.ilias.de/go/wiki/wpage_415_1357)
-*Component Folders:* [`Help`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Help)
+*Component Folders:* [`Help`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Help)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
@@ -1617,7 +1617,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN History)
 
 #### [History](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`History`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/History)
+*Component Folders:* [`History`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/History)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -1632,7 +1632,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN HTMLLearningModule)
 
 #### [Learning Module HTML](https://docu.ilias.de/go/wiki/wpage_135_1357)
-*Component Folders:* [`HTMLLearningModule`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/HTMLLearningModule)
+*Component Folders:* [`HTMLLearningModule`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/HTMLLearningModule)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -1647,7 +1647,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN HTTP)
 
 #### [HTTP](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`HTTP`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/HTTP)
+*Component Folders:* [`HTTP`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/HTTP)
 
 * Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
@@ -1664,7 +1664,7 @@ Components are listed alphabetically by component folder name.
 #### [Http_](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Http_`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Http_)
+*Component Folders:* [`Http_`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Http_)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -1679,7 +1679,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN ILIASObject)
 
 #### [ILIASObject](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`ILIASObject`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ILIASObject)
+*Component Folders:* [`ILIASObject`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/ILIASObject)
 
 * Authority to Sign off on Conceptual Changes: [fawinike](https://docu.ilias.de/go/usr/44474)
 * Authority to Sign off on Code Changes: [fawinike](https://docu.ilias.de/go/usr/44474)
@@ -1696,7 +1696,7 @@ Components are listed alphabetically by component folder name.
 #### [Imprint](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Imprint`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Imprint)
+*Component Folders:* [`Imprint`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Imprint)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -1711,7 +1711,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN IndividualAssessment)
 
 #### [Individual Assessment](https://docu.ilias.de/go/wiki/wpage_4226_1357)
-*Component Folders:* [`IndividualAssessment`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/IndividualAssessment)
+*Component Folders:* [`IndividualAssessment`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/IndividualAssessment)
 
 * Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
 * Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047)
@@ -1726,7 +1726,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN InfoScreen)
 
 #### [Info Page](https://docu.ilias.de/go/wiki/wpage_2095_1357)
-*Component Folders:* [`InfoScreen`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/InfoScreen)
+*Component Folders:* [`InfoScreen`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/InfoScreen)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
@@ -1741,7 +1741,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN ItemGroup)
 
 #### [Item Groups](https://docu.ilias.de/go/wiki/wpage_7968_1357)
-*Component Folders:* [`ItemGroup`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ItemGroup)
+*Component Folders:* [`ItemGroup`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/ItemGroup)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -1758,7 +1758,7 @@ Components are listed alphabetically by component folder name.
 #### [JavaScript](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`JavaScript`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/JavaScript)
+*Component Folders:* [`JavaScript`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/JavaScript)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -1775,7 +1775,7 @@ Components are listed alphabetically by component folder name.
 #### [jQuery](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`jQuery`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/jQuery)
+*Component Folders:* [`jQuery`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/jQuery)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -1790,7 +1790,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN KioskMode)
 
 #### [KioskMode](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`KioskMode`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/KioskMode)
+*Component Folders:* [`KioskMode`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/KioskMode)
 
 * Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
 * Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047)
@@ -1805,7 +1805,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN KioskMode_)
 
 #### [KioskMode_](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`KioskMode_`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/KioskMode_)
+*Component Folders:* [`KioskMode_`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/KioskMode_)
 
 * Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
 * Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047)
@@ -1820,7 +1820,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Language)
 
 #### [Language Handling](https://docu.ilias.de/go/wiki/wpage_211_1357)
-*Component Folders:* [`Language`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Language)
+*Component Folders:* [`Language`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Language)
 
 * Authority to Sign off on Conceptual Changes: [kunkel](https://docu.ilias.de/go/usr/115)
 * Authority to Sign off on Code Changes: [kunkel](https://docu.ilias.de/go/usr/115), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
@@ -1835,7 +1835,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN LearningHistory)
 
 #### [Learning History](https://docu.ilias.de/go/wiki/wpage_5454_1357)
-*Component Folders:* [`LearningHistory`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/LearningHistory)
+*Component Folders:* [`LearningHistory`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/LearningHistory)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -1850,7 +1850,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN LearningModule)
 
 #### [Learning Module ILIAS](https://docu.ilias.de/go/wiki/wpage_33_1357)
-*Component Folders:* [`LearningModule`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/LearningModule)
+*Component Folders:* [`LearningModule`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/LearningModule)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -1865,7 +1865,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN LearningSequence)
 
 #### [Learning Sequence](https://docu.ilias.de/go/wiki/wpage_5557_1357)
-*Component Folders:* [`LearningSequence`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/LearningSequence)
+*Component Folders:* [`LearningSequence`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/LearningSequence)
 
 * Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
 * Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047)
@@ -1880,7 +1880,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN LegalDocuments)
 
 #### [LegalDocuments](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`LegalDocuments`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/LegalDocuments)
+*Component Folders:* [`LegalDocuments`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/LegalDocuments)
 
 * Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [lscharmer](https://docu.ilias.de/go/usr/87863)
@@ -1895,7 +1895,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Like)
 
 #### [Like](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Like`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Like)
+*Component Folders:* [`Like`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Like)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149), [smeyer](https://docu.ilias.de/go/usr/191)
@@ -1910,7 +1910,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Link)
 
 #### [Link](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Link`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Link)
+*Component Folders:* [`Link`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Link)
 
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
@@ -1927,7 +1927,7 @@ Components are listed alphabetically by component folder name.
 #### [Locator](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Locator`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Locator)
+*Component Folders:* [`Locator`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Locator)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -1942,7 +1942,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Logging)
 
 #### [Logging](https://docu.ilias.de/go/wiki/wpage_148_1357)
-*Component Folders:* [`Logging`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Logging)
+*Component Folders:* [`Logging`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Logging)
 
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
@@ -1957,7 +1957,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN LTIConsumer)
 
 #### [LTI Consumer](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`LTIConsumer`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/LTIConsumer)
+*Component Folders:* [`LTIConsumer`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/LTIConsumer)
 
 * Authority to Sign off on Conceptual Changes: [jcop](https://docu.ilias.de/go/usr/30511)
 * Authority to Sign off on Code Changes: [Zallax](https://docu.ilias.de/go/usr/101102), [sdiaz](https://docu.ilias.de/go/usr/105654)
@@ -1972,7 +1972,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN LTIProvider)
 
 #### [LTI](https://docu.ilias.de/go/wiki/wpage_4335_1357)
-*Component Folders:* [`LTIProvider`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/LTIProvider)
+*Component Folders:* [`LTIProvider`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/LTIProvider)
 
 * Authority to Sign off on Conceptual Changes: [jcop](https://docu.ilias.de/go/usr/30511)
 * Authority to Sign off on Code Changes: [Zallax](https://docu.ilias.de/go/usr/101102), [sdiaz](https://docu.ilias.de/go/usr/105654), [smeyer](https://docu.ilias.de/goto_docu_usr_191.html)
@@ -1987,7 +1987,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Mail)
 
 #### [Mail](https://docu.ilias.de/go/wiki/wpage_36_1357)
-*Component Folders:* [`Mail`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Mail)
+*Component Folders:* [`Mail`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Mail)
 
 * Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
@@ -2002,7 +2002,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN MainMenu)
 
 #### [Main Menu](https://docu.ilias.de/go/wiki/wpage_6549_1357)
-*Component Folders:* [`MainMenu`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/MainMenu)
+*Component Folders:* [`MainMenu`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/MainMenu)
 
 * Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
@@ -2017,7 +2017,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Maps)
 
 #### [Maps](https://docu.ilias.de/go/wiki/wpage_2909_1357)
-*Component Folders:* [`Maps`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Maps)
+*Component Folders:* [`Maps`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Maps)
 
 * Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
 * Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047)
@@ -2032,7 +2032,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Math)
 
 #### [Math](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Math`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Math)
+*Component Folders:* [`Math`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Math)
 
 * Authority to Sign off on Conceptual Changes: [fneumann](https://docu.ilias.de/go/usr/1560)
 * Authority to Sign off on Code Changes: [fneumann](https://docu.ilias.de/go/usr/1560)
@@ -2047,7 +2047,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN MathJax)
 
 #### [MathJax](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`MathJax`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/MathJax)
+*Component Folders:* [`MathJax`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/MathJax)
 
 * Authority to Sign off on Conceptual Changes: [fneumann](https://docu.ilias.de/go/usr/1560)
 * Authority to Sign off on Code Changes: [fneumann](https://docu.ilias.de/go/usr/1560)
@@ -2062,7 +2062,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN MediaCast)
 
 #### [Mediacast](https://docu.ilias.de/go/wiki/wpage_258_1357)
-*Component Folders:* [`MediaCast`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/MediaCast)
+*Component Folders:* [`MediaCast`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/MediaCast)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -2078,7 +2078,7 @@ Components are listed alphabetically by component folder name.
 
 #### [Media Pools and Media Objects](https://docu.ilias.de/go/wiki/wpage_83_1357)
 
-*Component Folders:* [`MediaObjects`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/MediaObjects), [`MediaPool`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/MediaPool)
+*Component Folders:* [`MediaObjects`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/MediaObjects), [`MediaPool`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/MediaPool)
 
 
 [//]: # (BEGIN MediaObjects)
@@ -2112,7 +2112,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Membership)
 
 #### [Membership](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Membership`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Membership)
+*Component Folders:* [`Membership`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Membership)
 
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
@@ -2129,7 +2129,7 @@ Components are listed alphabetically by component folder name.
 #### [Migration](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Migration`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Migration)
+*Component Folders:* [`Migration`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Migration)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -2146,7 +2146,7 @@ Components are listed alphabetically by component folder name.
 #### [Multilingualism](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Multilingualism`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Multilingualism)
+*Component Folders:* [`Multilingualism`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Multilingualism)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -2161,7 +2161,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN MyStaff)
 
 #### [Staff](https://docu.ilias.de/go/wiki/wpage_4829_1357)
-*Component Folders:* [`MyStaff`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/MyStaff)
+*Component Folders:* [`MyStaff`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/MyStaff)
 
 * Authority to Sign off on Conceptual Changes: [tfamula](https://docu.ilias.de/go/usr/58959)
 * Authority to Sign off on Code Changes: [tfamula](https://docu.ilias.de/go/usr/58959), [tschmitz](https://docu.ilias.de/go/usr/92591)
@@ -2176,7 +2176,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Notes)
 
 #### [Notes and Comments](https://docu.ilias.de/go/wiki/wpage_31_1357)
-*Component Folders:* [`Notes`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Notes)
+*Component Folders:* [`Notes`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Notes)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -2191,7 +2191,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Notification)
 
 #### [Notification](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Notification`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Notification)
+*Component Folders:* [`Notification`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Notification)
 
 * Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [iszmais](https://docu.ilias.de/go/usr/65630)
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [iszmais](https://docu.ilias.de/go/usr/65630)
@@ -2206,7 +2206,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Notifications)
 
 #### [Notifications](https://docu.ilias.de/go/wiki/wpage_1754_1357)
-*Component Folders:* [`Notifications`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Notifications)
+*Component Folders:* [`Notifications`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Notifications)
 
 * Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [iszmais](https://docu.ilias.de/go/usr/65630)
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [iszmais](https://docu.ilias.de/go/usr/65630)
@@ -2221,7 +2221,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN OrgUnit)
 
 #### [Organisational Units](https://docu.ilias.de/go/wiki/wpage_2265_1357)
-*Component Folders:* [`OrgUnit`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/OrgUnit)
+*Component Folders:* [`OrgUnit`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/OrgUnit)
 
 * Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
 * Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047), [fschmid](https://docu.ilias.de/go/usr/21087)
@@ -2236,7 +2236,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Password)
 
 #### [Password](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Password`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Password)
+*Component Folders:* [`Password`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Password)
 
 * Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
@@ -2253,7 +2253,7 @@ Components are listed alphabetically by component folder name.
 #### [Permanent Links](https://docu.ilias.de/go/wiki/wpage_575_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`PermanentLink`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/PermanentLink)
+*Component Folders:* [`PermanentLink`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/PermanentLink)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -2269,7 +2269,7 @@ Components are listed alphabetically by component folder name.
 
 #### [Personal and Shared Resources](https://docu.ilias.de/go/wiki/wpage_1338_1357)
 
-*Component Folders:* [`PersonalWorkspace`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/PersonalWorkspace), [`WorkspaceFolder`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/WorkspaceFolder), [`WorkspaceRootFolder`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/WorkspaceRootFolder)
+*Component Folders:* [`PersonalWorkspace`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/PersonalWorkspace), [`WorkspaceFolder`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/WorkspaceFolder), [`WorkspaceRootFolder`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/WorkspaceRootFolder)
 
 
 [//]: # (BEGIN PersonalWorkspace)
@@ -2316,7 +2316,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Poll)
 
 #### [Poll](https://docu.ilias.de/go/wiki/wpage_2590_1357)
-*Component Folders:* [`Poll`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Poll)
+*Component Folders:* [`Poll`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Poll)
 
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191), [tschmitz](https://docu.ilias.de/go/usr/92591)
@@ -2331,7 +2331,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Portfolio)
 
 #### [Portfolio](https://docu.ilias.de/go/wiki/wpage_353_1357)
-*Component Folders:* [`Portfolio`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Portfolio)
+*Component Folders:* [`Portfolio`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Portfolio)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -2348,7 +2348,7 @@ Components are listed alphabetically by component folder name.
 #### [QTI](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`QTI`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/QTI)
+*Component Folders:* [`QTI`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/QTI)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -2365,7 +2365,7 @@ Components are listed alphabetically by component folder name.
 #### [Randomization](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Randomization`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Randomization)
+*Component Folders:* [`Randomization`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Randomization)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -2380,7 +2380,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Rating)
 
 #### [Rating](https://docu.ilias.de/go/wiki/wpage_2784_1357)
-*Component Folders:* [`Rating`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Rating)
+*Component Folders:* [`Rating`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Rating)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -2395,7 +2395,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Refinery)
 
 #### [Refinery](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Refinery`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Refinery)
+*Component Folders:* [`Refinery`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Refinery)
 
 * Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [rklees](https://docu.ilias.de/go/usr/34047)
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [rklees](https://docu.ilias.de/go/usr/34047)
@@ -2411,7 +2411,7 @@ Components are listed alphabetically by component folder name.
 
 #### [ECS Interface – E-Learning Community Server](https://docu.ilias.de/go/wiki/wpage_1132_1357)
 
-*Component Folders:* [`RemoteCategory`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RemoteCategory), [`RemoteCourse`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RemoteCourse), [`RemoteFile`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RemoteFile), [`RemoteGlossary`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RemoteGlossary), [`RemoteGroup`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RemoteGroup), [`RemoteLearningModule`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RemoteLearningModule), [`RemoteTest`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RemoteTest), [`RemoteWiki`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RemoteWiki)
+*Component Folders:* [`RemoteCategory`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/RemoteCategory), [`RemoteCourse`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/RemoteCourse), [`RemoteFile`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/RemoteFile), [`RemoteGlossary`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/RemoteGlossary), [`RemoteGroup`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/RemoteGroup), [`RemoteLearningModule`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/RemoteLearningModule), [`RemoteTest`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/RemoteTest), [`RemoteWiki`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/RemoteWiki)
 
 
 [//]: # (BEGIN RemoteCategory)
@@ -2523,7 +2523,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN ResourceStorage)
 
 #### [ILIAS Resource Storage Service](https://docu.ilias.de/go/wiki/wpage_6729_1357)
-*Component Folders:* [`ResourceStorage`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ResourceStorage)
+*Component Folders:* [`ResourceStorage`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/ResourceStorage)
 
 * Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
@@ -2540,7 +2540,7 @@ Components are listed alphabetically by component folder name.
 #### [RTE](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`RTE`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/RTE)
+*Component Folders:* [`RTE`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/RTE)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -2555,7 +2555,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Saml)
 
 #### [SAML](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Saml`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Saml)
+*Component Folders:* [`Saml`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Saml)
 
 * Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
@@ -2571,7 +2571,7 @@ Components are listed alphabetically by component folder name.
 
 #### [Learning Module SCORM](https://docu.ilias.de/go/wiki/wpage_32_1357)
 
-*Component Folders:* [`Scorm2004`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Scorm2004), [`ScormAicc`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/ScormAicc)
+*Component Folders:* [`Scorm2004`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Scorm2004), [`ScormAicc`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/ScormAicc)
 
 
 [//]: # (BEGIN Scorm2004)
@@ -2605,7 +2605,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Search)
 
 #### [Search](https://docu.ilias.de/go/wiki/wpage_11_1357)
-*Component Folders:* [`Search`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Search)
+*Component Folders:* [`Search`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Search)
 
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
@@ -2620,7 +2620,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Session)
 
 #### [Session (Course & Group)](https://docu.ilias.de/go/wiki/wpage_2172_1357)
-*Component Folders:* [`Session`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Session)
+*Component Folders:* [`Session`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Session)
 
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
@@ -2635,7 +2635,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Setup)
 
 #### [Setup](https://docu.ilias.de/go/wiki/wpage_40_1357)
-*Component Folders:* [`Setup`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Setup)
+*Component Folders:* [`Setup`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Setup)
 
 * Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
 * Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047)
@@ -2650,7 +2650,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN setup_)
 
 #### [setup_](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`setup_`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/setup_)
+*Component Folders:* [`setup_`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/setup_)
 
 * Authority to Sign off on Conceptual Changes: [rklees](https://docu.ilias.de/go/usr/34047)
 * Authority to Sign off on Code Changes: [rklees](https://docu.ilias.de/go/usr/34047)
@@ -2665,7 +2665,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Skill)
 
 #### [Competence Management](https://docu.ilias.de/go/wiki/wpage_1161_1357)
-*Component Folders:* [`Skill`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Skill)
+*Component Folders:* [`Skill`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Skill)
 
 * Authority to Sign off on Conceptual Changes: [tfamula](https://docu.ilias.de/go/usr/58959)
 * Authority to Sign off on Code Changes: [tfamula](https://docu.ilias.de/go/usr/58959), [akill](https://docu.ilias.de/go/usr/149)
@@ -2682,7 +2682,7 @@ Components are listed alphabetically by component folder name.
 #### [soap](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`soap`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/soap)
+*Component Folders:* [`soap`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/soap)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -2697,7 +2697,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN SOAPAuth)
 
 #### [SOAP](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`SOAPAuth`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/SOAPAuth)
+*Component Folders:* [`SOAPAuth`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/SOAPAuth)
 
 * Authority to Sign off on Conceptual Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Sign off on Code Changes: [PerPascalSeeland](https://docu.ilias.de/go/usr/31492), [mjansen](https://docu.ilias.de/go/usr/8784)
@@ -2714,7 +2714,7 @@ Components are listed alphabetically by component folder name.
 #### [StaticURL](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`StaticURL`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/StaticURL)
+*Component Folders:* [`StaticURL`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/StaticURL)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -2730,7 +2730,7 @@ Components are listed alphabetically by component folder name.
 
 #### [Study Programme](https://docu.ilias.de/go/wiki/wpage_3391_1357)
 
-*Component Folders:* [`StudyProgramme`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/StudyProgramme), [`StudyProgrammeReference`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/StudyProgrammeReference)
+*Component Folders:* [`StudyProgramme`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/StudyProgramme), [`StudyProgrammeReference`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/StudyProgrammeReference)
 
 
 [//]: # (BEGIN StudyProgramme)
@@ -2764,7 +2764,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Style)
 
 #### [Style](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Style`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Style)
+*Component Folders:* [`Style`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Style)
 
 * Authority to Sign off on Conceptual Changes: [yvseiler](https://docu.ilias.de/go/usr/17694), [catenglaender](https://docu.ilias.de/go/usr/79291)
 * Authority to Sign off on Code Changes: [amstutz](https://docu.ilias.de/go/usr/26468), [catenglaender](https://docu.ilias.de/go/usr/79291)
@@ -2780,7 +2780,7 @@ Components are listed alphabetically by component folder name.
 
 #### [Survey](https://docu.ilias.de/go/wiki/wpage_27_1357)
 
-*Component Folders:* [`Survey`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Survey), [`SurveyQuestionPool`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/SurveyQuestionPool)
+*Component Folders:* [`Survey`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Survey), [`SurveyQuestionPool`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/SurveyQuestionPool)
 
 
 [//]: # (BEGIN Survey)
@@ -2814,7 +2814,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN SystemCheck)
 
 #### [System Check](https://docu.ilias.de/go/wiki/wpage_2093_1357)
-*Component Folders:* [`SystemCheck`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/SystemCheck)
+*Component Folders:* [`SystemCheck`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/SystemCheck)
 
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
@@ -2831,7 +2831,7 @@ Components are listed alphabetically by component folder name.
 #### [Table](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Table`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Table)
+*Component Folders:* [`Table`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Table)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -2846,7 +2846,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Tagging)
 
 #### [Tagging](https://docu.ilias.de/go/wiki/wpage_140_1357)
-*Component Folders:* [`Tagging`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Tagging)
+*Component Folders:* [`Tagging`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Tagging)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -2861,7 +2861,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Tasks)
 
 #### [Task Service](https://docu.ilias.de/go/wiki/wpage_5108_1357)
-*Component Folders:* [`Tasks`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Tasks)
+*Component Folders:* [`Tasks`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Tasks)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -2876,7 +2876,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Taxonomy)
 
 #### [Taxonomy Service](https://docu.ilias.de/go/wiki/wpage_2304_1357)
-*Component Folders:* [`Taxonomy`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Taxonomy)
+*Component Folders:* [`Taxonomy`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Taxonomy)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -2892,7 +2892,7 @@ Components are listed alphabetically by component folder name.
 
 #### [Test & Assessment](https://docu.ilias.de/go/wiki/wpage_26_1357)
 
-*Component Folders:* [`Test`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Test), [`TestQuestionPool`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/TestQuestionPool)
+*Component Folders:* [`Test`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Test), [`TestQuestionPool`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/TestQuestionPool)
 
 
 [//]: # (BEGIN Test)
@@ -2926,7 +2926,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Tracking)
 
 #### [Statistics and Learning Progress](https://docu.ilias.de/go/wiki/wpage_189_1357)
-*Component Folders:* [`Tracking`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Tracking)
+*Component Folders:* [`Tracking`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Tracking)
 
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
@@ -2941,7 +2941,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Tree)
 
 #### [Tree](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`Tree`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Tree)
+*Component Folders:* [`Tree`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Tree)
 
 * Authority to Sign off on Conceptual Changes: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
 * Authority to Sign off on Code Changes: [Fabian Wolf](https://docu.ilias.de/go/usr/29018)
@@ -2958,7 +2958,7 @@ Components are listed alphabetically by component folder name.
 #### [Types](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Types`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Types)
+*Component Folders:* [`Types`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Types)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -2974,7 +2974,7 @@ Components are listed alphabetically by component folder name.
 
 #### [User Interface](https://docu.ilias.de/go/wiki/wpage_29_1357)
 
-*Component Folders:* [`UI`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/UI), [`UIComponent`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/UIComponent), [`UICore`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/UICore), [`UI_`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/UI_)
+*Component Folders:* [`UI`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/UI), [`UIComponent`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/UIComponent), [`UICore`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/UICore), [`UI_`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/UI_)
 
 
 [//]: # (BEGIN UI)
@@ -3038,7 +3038,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN User)
 
 #### [User Service](https://docu.ilias.de/go/wiki/wpage_332_1357)
-*Component Folders:* [`User`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/User)
+*Component Folders:* [`User`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/User)
 
 * Authority to Sign off on Conceptual Changes: [skergomard](https://docu.ilias.de/go/usr/44474)
 * Authority to Sign off on Code Changes: [skergomard](https://docu.ilias.de/go/usr/44474)
@@ -3055,7 +3055,7 @@ Components are listed alphabetically by component folder name.
 #### [Utilities](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Utilities`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Utilities)
+*Component Folders:* [`Utilities`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Utilities)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -3072,7 +3072,7 @@ Components are listed alphabetically by component folder name.
 #### [Verification](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Verification`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Verification)
+*Component Folders:* [`Verification`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Verification)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
@@ -3087,7 +3087,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN VirusScanner)
 
 #### [VirusScanner](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`VirusScanner`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/VirusScanner)
+*Component Folders:* [`VirusScanner`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/VirusScanner)
 
 * Authority to Sign off on Conceptual Changes: [rschenk](https://docu.ilias.de/go/usr/18065)
 * Authority to Sign off on Code Changes: [rschenk](https://docu.ilias.de/go/usr/18065)
@@ -3102,7 +3102,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN WebAccessChecker)
 
 #### [Security (incl. Web Access Checker)](https://docu.ilias.de/go/wiki/wpage_866_1357)
-*Component Folders:* [`WebAccessChecker`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/WebAccessChecker)
+*Component Folders:* [`WebAccessChecker`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/WebAccessChecker)
 
 * Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087), [ukohnle](https://docu.ilias.de/go/usr/21855)
@@ -3117,7 +3117,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN WebDAV)
 
 #### [WebDAV](https://docu.ilias.de/go/wiki/wpage_5484_1357)
-*Component Folders:* [`WebDAV`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/WebDAV)
+*Component Folders:* [`WebDAV`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/WebDAV)
 
 * Authority to Sign off on Conceptual Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
 * Authority to Sign off on Code Changes: [fschmid](https://docu.ilias.de/go/usr/21087)
@@ -3132,7 +3132,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN WebResource)
 
 #### [Weblink](https://docu.ilias.de/go/wiki/wpage_1420_1357)
-*Component Folders:* [`WebResource`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/WebResource)
+*Component Folders:* [`WebResource`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/WebResource)
 
 * Authority to Sign off on Conceptual Changes: [smeyer](https://docu.ilias.de/go/usr/191)
 * Authority to Sign off on Code Changes: [smeyer](https://docu.ilias.de/go/usr/191)
@@ -3147,7 +3147,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN WebServices)
 
 #### [Web Services Overview: SOAP, REST, ...](https://docu.ilias.de/go/wiki/wpage_186_1357)
-*Component Folders:* [`WebServices`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/WebServices)
+*Component Folders:* [`WebServices`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/WebServices)
 
 * Authority to Sign off on Conceptual Changes: [Jephte](https://docu.ilias.de/go/usr/70542)
 * Authority to Sign off on Code Changes: [Jephte](https://docu.ilias.de/go/usr/70542)
@@ -3162,7 +3162,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN Wiki)
 
 #### [Wiki](https://docu.ilias.de/go/wiki/wpage_34_1357)
-*Component Folders:* [`Wiki`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Wiki)
+*Component Folders:* [`Wiki`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Wiki)
 
 * Authority to Sign off on Conceptual Changes: [akill](https://docu.ilias.de/go/usr/149)
 * Authority to Sign off on Code Changes: [akill](https://docu.ilias.de/go/usr/149)
@@ -3177,7 +3177,7 @@ Components are listed alphabetically by component folder name.
 [//]: # (BEGIN WOPI)
 
 #### [WOPI](https://docu.ilias.de/go/wiki/wpage_1_1357)
-*Component Folders:* [`WOPI`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/WOPI)
+*Component Folders:* [`WOPI`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/WOPI)
 
 * Authority to Sign off on Conceptual Changes: fschmid
 * Authority to Sign off on Code Changes: fschmid
@@ -3194,7 +3194,7 @@ Components are listed alphabetically by component folder name.
 #### [Xml](https://docu.ilias.de/go/wiki/wpage_1_1357)
 
 **Status:** Unmaintained / NONE
-*Component Folders:* [`Xml`](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Xml)
+*Component Folders:* [`Xml`](https://github.com/ILIAS-eLearning/ILIAS/tree/release_10/components/ILIAS/Xml)
 
 * Authority to Sign off on Conceptual Changes: NONE
 * Authority to Sign off on Code Changes: NONE
