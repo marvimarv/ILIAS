@@ -72,7 +72,7 @@ function base()
 
     $lightcol = $df->color('#00ff00');
     $darkcol = $df->color('#00aa00');
-    $forecol = $df->color('#d4190b');
+    $forecol = $df->color('#990000');
 
     $buffer[] = '<hr>with fix colors:<br>';
     $tag = $tag->withBackgroundColor($lightcol);
