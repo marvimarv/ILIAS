@@ -8708,6 +8708,8 @@ dcl#:#dcl_file#:#Datei-Upload
 dcl#:#dcl_file_desc#:#Möglichkeit zum Hochladen einer Datei. Die hochgeladene Datei kann direkt aus der Datensammlung heruntergeladen werden.
 dcl#:#dcl_file_format_description#:#Die Import-Datei muss im Excel-Format .xlsx vorliegen, mit den zu importierenden Daten im ersten Tabellenblatt. In der ersten Zeile müssen die exakten Titel der Felder stehen, in den folgenden Zeilen die Werte der zu importierenden Einträge. Es wird empfohlen, jeden Import zuerst zu simulieren. Für den Import von mehrfachen Einträgen bei Auswahl- und Referenzfeldern werden Semikolon und/oder Komma als Trenner akzeptiert.
 dcl#:#dcl_file_not_readable#:#Die Datei konnte nicht gelesen werden. Bitte verwenden Sie das .xlsx-Dateiformat.
+dcl#:#dcl_filename_max_length_hint#:#Bitte verwenden Sie einen Dateinamen mit höchstens ca. 80 Zeichen.
+dcl#:#dcl_filename_too_long#:#Der Dateiname ist zu lang. Die maximale Länge für diesen Upload beträgt %s Zeichen.
 dcl#:#dcl_filter#:#Im Filter verfügbar
 dcl#:#dcl_filter_changeable#:#Filter änderbar
 dcl#:#dcl_formula#:#Formel

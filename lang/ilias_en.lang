@@ -8709,6 +8709,8 @@ dcl#:#dcl_file#:#File Upload
 dcl#:#dcl_file_desc#:#Allow the upload of a file which can then be downloaded directly from the data collection.
 dcl#:#dcl_file_format_description#:#The file needs to be an excel .XLSX file with the data you want to import on the first sheet. In the first row there have to be exactly the names of the fields (case sensitive) you want to import and in the following rows you can add the values. It is strongly recommended to simulate your import first. When importing reference or selection fields with multi selection, commas and/or semicolons can be used as delimiters.
 dcl#:#dcl_file_not_readable#:#The file could not be read. Please make sure to upload an XLSX file.
+dcl#:#dcl_filename_max_length_hint#:#Please use a filename with at most around 80 characters.
+dcl#:#dcl_filename_too_long#:#The filename is too long. The maximum length for this upload is %s characters.
 dcl#:#dcl_filter#:#Available in filter
 dcl#:#dcl_filter_changeable#:#Filter changeable
 dcl#:#dcl_formula#:#Formula

@@ -50,6 +50,9 @@ class ilDclFileFieldRepresentation extends ilDclBaseFieldRepresentation
 
         $this->setupInputField($input, $this->getField());
 
+        $hint = $this->lng->txt('dcl_filename_max_length_hint');
+        $input->setInfo($input->getInfo() ? $input->getInfo() . '<br>' . $hint : $hint);
+
         //WORKAROUND
         // If field is from type file: if it's required but already has a value it is no longer required as the old value is taken as default without the form knowing about it.
         if ($record_id !== null && $record->getId()) {

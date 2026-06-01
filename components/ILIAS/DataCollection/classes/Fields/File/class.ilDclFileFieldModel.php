@@ -67,4 +67,36 @@ class ilDclFileFieldModel extends ilDclBaseFieldModel
             return explode(',', str_replace(' ', '', $types));
         }
     }
+
+    public function checkValidityFromForm(ilPropertyFormGUI &$form, ?int $record_id = null): void
+    {
+        $post_var = 'field_' . $this->getId();
+        $upload = $_FILES[$post_var] ?? null;
+
+        if (is_array($upload)
+            && isset($upload['name'])
+            && is_string($upload['name'])
+            && $upload['name'] !== ''
+        ) {
+            $ascii_name = ilFileUtils::getASCIIFilename($upload['name']);
+            $mime = is_string($upload['type'] ?? null) ? $upload['type'] : 'application/octet-stream';
+
+            $overhead = strlen(session_id())
+                + 32                                                // md5 ilfilehash
+                + strlen($post_var)
+                + strlen(str_replace('/', '~~', $mime))
+                + (6 * strlen('~~'));                               // six separators in the temp filename
+            $safety_margin = 16;
+            $max_name_bytes = 255 - $overhead - $safety_margin;
+
+            if ($max_name_bytes > 0 && strlen($ascii_name) > $max_name_bytes) {
+                throw new ilDclInputException(
+                    ilDclInputException::FILENAME_TOO_LONG,
+                    (string) $max_name_bytes
+                );
+            }
+        }
+
+        parent::checkValidityFromForm($form, $record_id);
+    }
 }

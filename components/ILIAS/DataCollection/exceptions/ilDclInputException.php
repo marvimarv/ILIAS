@@ -25,16 +25,19 @@ class ilDclInputException extends ilException
     public const REGEX_EXCEPTION = 2;
     public const UNIQUE_EXCEPTION = 3;
     public const NOT_URL = 4;
+    public const FILENAME_TOO_LONG = 5;
     public const REGEX_CONFIG_EXCEPTION = 8;
     protected ilLanguage $lng;
     protected int $exception_type;
+    protected ?string $extra = null;
 
-    public function __construct(int $exception_type)
+    public function __construct(int $exception_type, ?string $extra = null)
     {
         global $DIC;
         $this->lng = $DIC->language();
 
         $this->exception_type = $exception_type;
+        $this->extra = $extra;
         parent::__construct($this->__toString(), $exception_type);
     }
 
@@ -58,6 +61,8 @@ class ilDclInputException extends ilException
                 return $this->lng->txt('dcl_unique_exception');
             case self::NOT_URL:
                 return $this->lng->txt('dcl_noturl_exception');
+            case self::FILENAME_TOO_LONG:
+                return sprintf($this->lng->txt('dcl_filename_too_long'), $this->extra ?? '');
             default:
                 return $this->lng->txt('dcl_unknown_exception');
         }
