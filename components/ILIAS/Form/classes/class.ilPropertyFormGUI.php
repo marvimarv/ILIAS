@@ -897,10 +897,17 @@ class ilPropertyFormGUI extends ilFormGUI
             ilFileUtils::createDirectory($temp_path);
         }
 
-        ilFileUtils::moveUploadedFile($a_tmp_name, $tmp_file_name, $temp_path . "/" . $tmp_file_name);
-
         /** @var ilFileInputGUI $file_input */
         $file_input = $this->getItemByPostVar($a_field);
+
+        if (!ilFileUtils::moveUploadedFile($a_tmp_name, $tmp_file_name, $temp_path . "/" . $tmp_file_name)) {
+            // Surface the silent failure instead of rendering a confirmation page
+            // whose subsequent POST would crash with "Undefined array key" because
+            // the temp file is not on disk. See Mantis #47856.
+            $file_input->setAlert($this->lng->txt('form_msg_file_could_not_be_stored'));
+            return;
+        }
+
         $file_input->setPending($a_name);
         $this->kept_uploads[] = $a_tmp_name;
     }
