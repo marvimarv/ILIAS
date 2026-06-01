@@ -255,6 +255,23 @@ class ilFileInputGUI extends ilSubEnabledFormPropertyGUI implements ilToolbarIte
             }
         }
 
+        // validate filename length to prevent the silent failure in
+        // ilPropertyFormGUI::keepFileUpload() when the composed temp filename
+        // (session_id ~~ ilfilehash ~~ field ~~ idx ~~ idx2 ~~ mime ~~ name)
+        // exceeds the 255-byte filesystem filename limit. See Mantis #47854.
+        if ($_FILES[$this->getPostVar()]["tmp_name"] != "") {
+            $max_name_bytes = $this->getFilenameMaxByteLength(
+                (string) $_FILES[$this->getPostVar()]["type"]
+            );
+            $ascii_name = ilFileUtils::getASCIIFilename($_FILES[$this->getPostVar()]["name"]);
+            if ($max_name_bytes > 0 && strlen($ascii_name) > $max_name_bytes) {
+                $this->setAlert(
+                    sprintf($this->lng->txt("form_msg_file_filename_too_long"), (string) $max_name_bytes)
+                );
+                return false;
+            }
+        }
+
         $file_name = $this->str('file_name');
         if ($file_name === "") {
             $file_name = $_FILES[$this->getPostVar()]["name"];
@@ -266,7 +283,37 @@ class ilFileInputGUI extends ilSubEnabledFormPropertyGUI implements ilToolbarIte
 
     public function getInput(): array
     {
-        return $_FILES[$this->getPostVar()];
+        return $_FILES[$this->getPostVar()] ?? [];
+    }
+
+    public function getInfo(): string
+    {
+        $info = parent::getInfo();
+        $hint = $this->lng->txt("form_filename_max_length_hint");
+        if ($hint !== "" && strpos($hint, "form_filename_max_length_hint") === false
+            && strpos($info, $hint) === false
+        ) {
+            $info = $info !== "" ? $info . "<br>" . $hint : $hint;
+        }
+        return $info;
+    }
+
+    /**
+     * Compute the maximum allowed filename byte length for this input, given
+     * the upload's mime type. Mirrors the temp-filename composition used in
+     * ilPropertyFormGUI::keepFileUpload() so the validation matches the real
+     * filesystem constraint exactly. Returns 0 if no headroom is available
+     * (in which case validation should not reject — fail-open by design).
+     */
+    protected function getFilenameMaxByteLength(string $mime): int
+    {
+        $overhead = strlen(session_id())
+            + 32                                                    // md5 ilfilehash
+            + strlen($this->getPostVar())
+            + strlen(str_replace('/', '~~', $mime !== '' ? $mime : 'application/octet-stream'))
+            + (6 * strlen('~~'));                                   // six separators
+        $safety_margin = 16;
+        return max(0, 255 - $overhead - $safety_margin);
     }
 
     public function render(string $a_mode = ""): string
