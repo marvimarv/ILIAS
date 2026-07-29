@@ -629,23 +629,6 @@ Components are listed alphabetically by their folder name in `components/ILIAS/`
 [//]: # (END Chatroom)
 
 
-[//]: # (BEGIN Cloud)
-
-#### [Cloud](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Cloud)
-
-**Status:** Unmaintained / NONE
-
-*Belongs to:* Cloud
-
-* Authority to Sign off on Conceptual Changes: NONE
-* Authority to Sign off on Code Changes: NONE
-* Authority to Curate Test Cases: NONE
-* Authority to (De-)Assign Authorities: NONE
-* Assignee for Issues: NONE
-* Assignee for Security Reports: NONE
-
-[//]: # (END Cloud)
-
 
 [//]: # (BEGIN CmiXapi)
 
@@ -2636,23 +2619,6 @@ Components are listed alphabetically by their folder name in `components/ILIAS/`
 
 [//]: # (END SystemCheck)
 
-
-[//]: # (BEGIN SystemFolder)
-
-#### [SystemFolder](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/SystemFolder)
-
-**Status:** Unmaintained / NONE
-
-*Belongs to:* SystemFolder
-
-* Authority to Sign off on Conceptual Changes: NONE
-* Authority to Sign off on Code Changes: NONE
-* Authority to Curate Test Cases: NONE
-* Authority to (De-)Assign Authorities: NONE
-* Assignee for Issues: NONE
-* Assignee for Security Reports: NONE
-
-[//]: # (END SystemFolder)
 
 
 [//]: # (BEGIN Table)
