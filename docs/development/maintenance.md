@@ -1336,7 +1336,7 @@ Components are listed alphabetically by their folder name in `components/ILIAS/`
 
 #### [Html](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Html)
 
-*Belongs to:* [Forum](https://docu.ilias.de/go/wiki/wpage_35_1357)
+*Belongs to:* [Security (incl. Web Access Checker)](https://docu.ilias.de/go/wiki/wpage_866_1357)
 
 * Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
 * Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
