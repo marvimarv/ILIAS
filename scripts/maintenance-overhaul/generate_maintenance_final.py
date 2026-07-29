@@ -845,7 +845,6 @@ def format_folder_section(folder_name, belongs_to_name, auth_data, is_unmaintain
 * Authority to Sign off on Conceptual Changes: {formatted['conceptual'] or 'NONE'}
 * Authority to Sign off on Code Changes: {formatted['code'] or 'NONE'}
 * Authority to Curate Test Cases: {formatted['test_cases'] or 'NONE'}
-* Tester: {formatted['tester'] or 'NONE'}
 * Authority to (De-)Assign Authorities: {formatted['assign_authorities'] or 'NONE'}
 * Assignee for Issues: {formatted['issues'] or 'NONE'}
 * Assignee for Security Reports: {formatted['security_reports'] or 'NONE'}"""
@@ -952,9 +951,8 @@ def _clean_intro(intro_text):
     t = re.sub(r'\nThe following directories are currently unmaintained:.*?(?=\n##|\Z)', '', t, flags=re.DOTALL)
     t = re.sub(r'\n?Die folgende Struktur basiert auf der \[offiziellen ILIAS-Komponentenstruktur\]\([^)]+\)\.?\s*', '\n', t)
     t = re.sub(r'\n?The following structure is based on the \[official ILIAS component structure\]\([^)]+\)\.?\s*', '\n', t)
-    if 'How Authority Assignments are Stored' in t and '"Tester"' not in t:
-        bullet = '\n* **"Tester"**: An array in the form [ `<username> (<userid>), <company> (<company_page>)` ] pointing to valid users on https://docu.ilias.de.\n'
-        t = t.replace('* **"Assignee for Issues"**:', bullet + '* **"Assignee for Issues"**:', 1)
+    # Tester wird nicht mehr ausgegeben (TB-Entscheidung Juli 2026): Bullet aus dem Intro entfernen
+    t = re.sub(r'\n\* \*\*"Tester"\*\*:[^\n]*\n', '\n', t)
     return t
 
 

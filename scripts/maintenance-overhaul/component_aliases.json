@@ -6,6 +6,7 @@
     "AdministrativeNotification": "AdministrativeNotifications",
     "Context": "InitialisationService",
     "DidacticTemplate": "DidacticTemplates",
+    "Init": "InitialisationService",
     "StudyProgrammeReference": "StudyProgramme"
   },
   "display_groups": {
@@ -17,7 +18,6 @@
     "DataProtection": "Privacy, Terms of Service and Data Protection (incl. Terms of Service)",
     "Feeds": "News - RSS - Webfeeds",
     "GlobalScreen_": "Global Screen Service",
-    "Init": "Login, Auth & Registration",
     "LDAP": "Login, Auth & Registration",
     "LTIConsumer": "LTI",
     "LTIProvider": "LTI",
