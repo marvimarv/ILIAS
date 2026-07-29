@@ -849,9 +849,6 @@ def format_folder_section(folder_name, belongs_to_name, auth_data, is_unmaintain
 * Assignee for Issues: {formatted['issues'] or 'NONE'}
 * Assignee for Security Reports: {formatted['security_reports'] or 'NONE'}"""
 
-    if formatted['guidelines']:
-        result += f"\n* Unit-specific Guidelines, Rules, and Regulations: {formatted['guidelines']}"
-
     result += f"""
 
 [//]: # (END {folder_name})
@@ -951,8 +948,9 @@ def _clean_intro(intro_text):
     t = re.sub(r'\nThe following directories are currently unmaintained:.*?(?=\n##|\Z)', '', t, flags=re.DOTALL)
     t = re.sub(r'\n?Die folgende Struktur basiert auf der \[offiziellen ILIAS-Komponentenstruktur\]\([^)]+\)\.?\s*', '\n', t)
     t = re.sub(r'\n?The following structure is based on the \[official ILIAS component structure\]\([^)]+\)\.?\s*', '\n', t)
-    # Tester wird nicht mehr ausgegeben (TB-Entscheidung Juli 2026): Bullet aus dem Intro entfernen
+    # Tester und Unit-specific Guidelines werden nicht mehr ausgegeben (TB-Entscheidungen Juli 2026)
     t = re.sub(r'\n\* \*\*"Tester"\*\*:[^\n]*\n', '\n', t)
+    t = re.sub(r'\n\* \*\*"Unit-specific Guidelines, Rules, and Regulations"\*\*:\n(?:    [^\n]*\n)+', '\n', t)
     return t
 
 

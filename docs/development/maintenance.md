@@ -150,27 +150,24 @@ corresponding [component](https://github.com/ILIAS-eLearning/ILIAS/blob/trunk/do
 of ILIAS. The file contains the following fields:
 
 * **"Authority to Sign off on Conceptual Changes"**:
-    An array in the form [ `<username> (<userid>, <company> (<company_page>)` ]
-    pointing to valid users on https://docu.ilias.de.
+    An array in the form [ `[<github-username>](<link-to-docu-profile>)` ]
+    linking the GitHub username to the corresponding profile on https://docu.ilias.de.
 * **"Authority to Sign off on Code Changes"**:
-    An array in the form [ `<username> (<userid>), <company> (<company_page>)` ]
-    pointing to valid users/companies on https://docu.ilias.de.
+    An array in the form [ `[<github-username>](<link-to-docu-profile>)` ]
+    linking the GitHub username to the corresponding profile on https://docu.ilias.de.
 * **"Authority to Curate Test Cases"**:
-    An array in the form [ `<username> (<userid>), <company> (<company_page>)` ]
-    pointing to valid users on https://docu.ilias.de.
+    An array in the form [ `[<github-username>](<link-to-docu-profile>)` ]
+    linking the GitHub username to the corresponding profile on https://docu.ilias.de.
 * **"Authority to (De-)Assign Authorities"**:
-    An array in the form [ `<username> (<userid>), <company> (<company_page>)` ]
-    pointing to valid users on https://docu.ilias.de.
+    An array in the form [ `[<github-username>](<link-to-docu-profile>)` ]
+    linking the GitHub username to the corresponding profile on https://docu.ilias.de.
 
 * **"Assignee for Issues"**:
-    A string in the form `<username> (<userid>), <company> (<company_page>)`
-    pointing to valid users on https://docu.ilias.de.
+    A string in the form `[<github-username>](<link-to-docu-profile>)`
+    linking the GitHub username to the corresponding profile on https://docu.ilias.de.
 * **"Assignee for Security Reports"**:
-    A string in the form `<username> (<userid>), <company> (<company_page>)`
-    pointing to valid users on https://docu.ilias.de.
-* **"Unit-specific Guidelines, Rules, and Regulations"**:
-    Link to a file `COMMUNITY.md` in the root of the unity in the trunk branch on
-    GitHub specifying the guidelines, rules, and regulations for collaboration.
+    A string in the form `[<github-username>](<link-to-docu-profile>)`
+    linking the GitHub username to the corresponding profile on https://docu.ilias.de.
 
 ## Current Maintainerships
 
@@ -761,21 +758,6 @@ Components are listed alphabetically by their folder name in `components/ILIAS/`
 
 [//]: # (END ContentPage)
 
-
-[//]: # (BEGIN Context)
-
-#### [Context](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/Context)
-
-*Belongs to:* Initialisation Service
-
-* Authority to Sign off on Conceptual Changes: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to Sign off on Code Changes: [mjansen](https://docu.ilias.de/go/usr/8784), [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to Curate Test Cases: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Authority to (De-)Assign Authorities: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Issues: [mjansen](https://docu.ilias.de/go/usr/8784)
-* Assignee for Security Reports: [mjansen](https://docu.ilias.de/go/usr/8784)
-
-[//]: # (END Context)
 
 
 [//]: # (BEGIN COPage)
@@ -2508,21 +2490,6 @@ Components are listed alphabetically by their folder name in `components/ILIAS/`
 [//]: # (END Setup)
 
 
-[//]: # (BEGIN setup_)
-
-#### [setup_](https://github.com/ILIAS-eLearning/ILIAS/tree/trunk/components/ILIAS/setup_)
-
-*Belongs to:* [Setup](https://docu.ilias.de/go/wiki/wpage_40_1357)
-
-* Authority to Sign off on Conceptual Changes: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to Sign off on Code Changes: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
-* Authority to Curate Test Cases: [kunkel](https://docu.ilias.de/go/usr/115)
-* Authority to (De-)Assign Authorities: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Issues: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
-* Assignee for Security Reports: [tfuhrer](https://docu.ilias.de/go/usr/81947), [fschmid](https://docu.ilias.de/go/usr/21087)
-
-[//]: # (END setup_)
-
 
 [//]: # (BEGIN Skill)
 
@@ -2618,7 +2585,6 @@ Components are listed alphabetically by their folder name in `components/ILIAS/`
 * Authority to (De-)Assign Authorities: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
 * Assignee for Issues: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
 * Assignee for Security Reports: [BettyFromHH](https://docu.ilias.de/go/usr/96573)
-* Unit-specific Guidelines, Rules, and Regulations: [Guidelines_SCSS-Coding]('https://github.com/ILIAS-eLearning/ILIAS/blob/trunk/templates/Guidelines_SCSS-Coding.md')
 
 [//]: # (END Style)
 
@@ -2847,7 +2813,6 @@ Components are listed alphabetically by their folder name in `components/ILIAS/`
 * Authority to (De-)Assign Authorities: [tfuhrer](https://docu.ilias.de/go/usr/81947), [oliver.samoila](https://docu.ilias.de/go/usr/26160)
 * Assignee for Issues: [oliver.samoila](https://docu.ilias.de/go/usr/26160)
 * Assignee for Security Reports: [oliver.samoila](https://docu.ilias.de/go/usr/26160)
-* Unit-specific Guidelines, Rules, and Regulations: [Guidelines](https://github.com/ILIAS-eLearning/ILIAS/blob/trunk/components/ILIAS/UI/docs/COMMUNITY.md)
 
 [//]: # (END UI)
 
@@ -2900,7 +2865,6 @@ Components are listed alphabetically by their folder name in `components/ILIAS/`
 * Authority to (De-)Assign Authorities: [tfuhrer](https://docu.ilias.de/go/usr/81947)
 * Assignee for Issues: [tfuhrer](https://docu.ilias.de/go/usr/81947)
 * Assignee for Security Reports: [tfuhrer](https://docu.ilias.de/go/usr/81947)
-* Unit-specific Guidelines, Rules, and Regulations: [Guidelines](https://github.com/ILIAS-eLearning/ILIAS/blob/trunk/components/ILIAS/UI/docs/COMMUNITY.md)
 
 [//]: # (END UICore)
 
