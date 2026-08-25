@@ -1504,7 +1504,7 @@ Components are listed alphabetically by their folder name in `components/ILIAS/`
 *Belongs to:* General Kiosk-Mode
 
 * Authority to Sign off on Conceptual Changes: [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
-* Authority to Sign off on Code Changes: [keven.clausen](https://docu.ilias.de/go/usr/100316), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [jeanine.auerbach](https://docu.ilias.de/go/usr/101332), [cknof](https://docu.ilias.de/go/usr/90890)
+* Authority to Sign off on Code Changes: [keven.clausen](https://docu.ilias.de/go/usr/100316), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [jeanine.auerbach](https://docu.ilias.de/go/usr/101332), [cknof](https://docu.ilias.de/go/usr/90890), [dkippKPG](https://docu.ilias.de/go/usr/120714)
 * Authority to Curate Test Cases: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
 * Authority to (De-)Assign Authorities: [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
 * Assignee for Issues: [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
@@ -1520,7 +1520,7 @@ Components are listed alphabetically by their folder name in `components/ILIAS/`
 *Belongs to:* General Kiosk-Mode
 
 * Authority to Sign off on Conceptual Changes: [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
-* Authority to Sign off on Code Changes: [keven.clausen](https://docu.ilias.de/go/usr/100316), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [jeanine.auerbach](https://docu.ilias.de/go/usr/101332), [cknof](https://docu.ilias.de/go/usr/90890)
+* Authority to Sign off on Code Changes: [keven.clausen](https://docu.ilias.de/go/usr/100316), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [jeanine.auerbach](https://docu.ilias.de/go/usr/101332), [cknof](https://docu.ilias.de/go/usr/90890), [dkippKPG](https://docu.ilias.de/go/usr/120714)
 * Authority to Curate Test Cases: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
 * Authority to (De-)Assign Authorities: [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
 * Assignee for Issues: [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
@@ -1536,7 +1536,7 @@ Components are listed alphabetically by their folder name in `components/ILIAS/`
 *Belongs to:* Language
 
 * Authority to Sign off on Conceptual Changes: [mkunkel](https://docu.ilias.de/go/usr/115)
-* Authority to Sign off on Code Changes: [mkunkel](https://docu.ilias.de/go/usr/115), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [ChrisPotter](https://docu.ilias.de/go/usr/90855), [keven.clausen](https://docu.ilias.de/go/usr/100316), [cknof](https://docu.ilias.de/go/usr/90890)
+* Authority to Sign off on Code Changes: [mkunkel](https://docu.ilias.de/go/usr/115), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [ChrisPotter](https://docu.ilias.de/go/usr/90855), [keven.clausen](https://docu.ilias.de/go/usr/100316), [cknof](https://docu.ilias.de/go/usr/90890), [dkippKPG](https://docu.ilias.de/go/usr/120714)
 * Authority to Curate Test Cases: [ChrisPotter](https://docu.ilias.de/go/usr/90855)
 * Authority to (De-)Assign Authorities: [mkunkel](https://docu.ilias.de/go/usr/115)
 * Assignee for Issues: [mkunkel](https://docu.ilias.de/go/usr/115)
@@ -1600,7 +1600,7 @@ Components are listed alphabetically by their folder name in `components/ILIAS/`
 *Belongs to:* [Learning Sequence](https://docu.ilias.de/go/wiki/wpage_5557_1357)
 
 * Authority to Sign off on Conceptual Changes: [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
-* Authority to Sign off on Code Changes: [keven.clausen](https://docu.ilias.de/go/usr/100316), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
+* Authority to Sign off on Code Changes: [keven.clausen](https://docu.ilias.de/go/usr/100316), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [jeanine.auerbach](https://docu.ilias.de/go/usr/101332), [dkippKPG](https://docu.ilias.de/go/usr/120714)
 * Authority to Curate Test Cases: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
 * Authority to (De-)Assign Authorities: [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
 * Assignee for Issues: [katrin.grosskopf](https://docu.ilias.de/go/usr/68340)
@@ -1764,7 +1764,7 @@ Components are listed alphabetically by their folder name in `components/ILIAS/`
 *Belongs to:* [Maps](https://docu.ilias.de/go/wiki/wpage_2909_1357)
 
 * Authority to Sign off on Conceptual Changes: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
-* Authority to Sign off on Code Changes: [keven.clausen](https://docu.ilias.de/go/usr/100316), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
+* Authority to Sign off on Code Changes: [keven.clausen](https://docu.ilias.de/go/usr/100316), [katrin.grosskopf](https://docu.ilias.de/go/usr/68340), [jeanine.auerbach](https://docu.ilias.de/go/usr/101332), [dkippKPG](https://docu.ilias.de/go/usr/120714)
 * Authority to Curate Test Cases: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
 * Authority to (De-)Assign Authorities: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
 * Assignee for Issues: [jeanine.auerbach](https://docu.ilias.de/go/usr/101332)
@@ -2582,7 +2582,7 @@ Components are listed alphabetically by their folder name in `components/ILIAS/`
 * Authority to Sign off on Code Changes: [abrahammordev](https://docu.ilias.de/go/usr/110909), [juanma1331](https://docu.ilias.de/go/usr/107249)
 * Authority to Curate Test Cases: [jcopado](https://docu.ilias.de/go/usr/30511)
 * Authority to (De-)Assign Authorities: [jcopado](https://docu.ilias.de/go/usr/30511)
-* Assignee for Issues: [jcopado](https://docu.ilias.de/go/usr/30511)
+* Assignee for Issues: [abrahammordev](https://docu.ilias.de/go/usr/110909)
 * Assignee for Security Reports: [jcopado](https://docu.ilias.de/go/usr/30511)
 
 [//]: # (END Survey)
@@ -2598,7 +2598,7 @@ Components are listed alphabetically by their folder name in `components/ILIAS/`
 * Authority to Sign off on Code Changes: [abrahammordev](https://docu.ilias.de/go/usr/110909), [juanma1331](https://docu.ilias.de/go/usr/107249)
 * Authority to Curate Test Cases: [jcopado](https://docu.ilias.de/go/usr/30511)
 * Authority to (De-)Assign Authorities: [jcopado](https://docu.ilias.de/go/usr/30511)
-* Assignee for Issues: [jcopado](https://docu.ilias.de/go/usr/30511)
+* Assignee for Issues: [abrahammordev](https://docu.ilias.de/go/usr/110909)
 * Assignee for Security Reports: [jcopado](https://docu.ilias.de/go/usr/30511)
 
 [//]: # (END SurveyQuestionPool)
