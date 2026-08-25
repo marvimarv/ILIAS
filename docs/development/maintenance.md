@@ -145,9 +145,9 @@ the Jour Fixe by the Product Manager.
 
 
 ## How Authority Assignments are Stored
-Authorities are tracked in `maintenance.json` files placed in the root of the
-corresponding [component](https://github.com/ILIAS-eLearning/ILIAS/blob/trunk/docs/development/components-and-directories.md)
-of ILIAS. The file contains the following fields:
+Authorities are tracked directly in this document: every
+[component](https://github.com/ILIAS-eLearning/ILIAS/blob/trunk/docs/development/components-and-directories.md)
+of ILIAS has a block in the listing below containing the following fields:
 
 * **"Authority to Sign off on Conceptual Changes"**:
     An array in the form [ `[<github-username>](<link-to-docu-profile>)` ]
