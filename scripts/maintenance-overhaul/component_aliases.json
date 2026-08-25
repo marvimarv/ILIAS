@@ -1,0 +1,43 @@
+{
+  "Booking Tool": "BookingPool",
+  "cmi5/xAPI Object": "xAPIAndcmi5",
+  "My Workspace": "PersonalAndSharedResources",
+  "folder_aliases": {
+    "AdministrativeNotification": "AdministrativeNotifications",
+    "Context": "InitialisationService",
+    "DidacticTemplate": "DidacticTemplates",
+    "Init": "InitialisationService",
+    "StudyProgrammeReference": "StudyProgramme"
+  },
+  "display_groups": {
+    "AuthApache": "Login, Auth & Registration",
+    "AuthShibboleth": "Login, Auth & Registration",
+    "Authentication": "Login, Auth & Registration",
+    "BackgroundTasks_": "Background Tasks",
+    "BookingManager": "Booking Pool",
+    "DataProtection": "Privacy, Terms of Service and Data Protection (incl. Terms of Service)",
+    "Feeds": "News - RSS - Webfeeds",
+    "GlobalScreen_": "Global Screen Service",
+    "LDAP": "Login, Auth & Registration",
+    "LTIConsumer": "LTI",
+    "LTIProvider": "LTI",
+    "MediaObjects": "Media Pools and Media Objects",
+    "MediaPool": "Media Pools and Media Objects",
+    "News": "News - RSS - Webfeeds",
+    "OpenIdConnect": "Login, Auth & Registration",
+    "PrivacySecurity": "Privacy, Terms of Service and Data Protection (incl. Terms of Service)",
+    "Registration": "Login, Auth & Registration",
+    "ResourceStorage": "ILIAS Resource Storage Service",
+    "Saml": "Login, Auth & Registration",
+    "Session": "Session (Course & Group)",
+    "TermsOfService": "Privacy, Terms of Service and Data Protection (incl. Terms of Service)",
+    "WebAccessChecker": "Security (incl. Web Access Checker)",
+    "WebServices": "Web Services Overview: SOAP, REST, ..."
+  },
+  "_skipped": [
+    "CSV",
+    "IRSS",
+    "SOAP",
+    "WOPI"
+  ]
+}
