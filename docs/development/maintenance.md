@@ -113,7 +113,9 @@ succession.
 ## Process to Change Authorities
 * To apply for an `Authority` of a `Component` that currently has a holder of the
 `Authority to (De-)Assign Authorities`, it is recommended to contact this person
-before taking the next step.
+before taking the next step. If nobody holds this `Authority` for the `Component`,
+it defaults to the Technical Board, which is then the counterpart for the steps
+below.
 * Please provide a pull request against the `trunk`-branch of the [official ILIAS Repository](https://github.com/ILIAS-eLearning/ILIAS)
 to change assignments to `Authorities` for some `Component`. Please explain in
 the comment of the pull request why this change should be made. Also shortly
@@ -143,6 +145,40 @@ then be announced on the next Jour Fixe.
 of the last `Authority to Sign off on Code Changes` would like to pass the
 responsibility over to somebody else, the `Component` is added to the agenda of
 the Jour Fixe by the Product Manager.
+* When a `Component` is put on the agenda this way, the Jour Fixe announcement
+opens a call for interest of four weeks, which ends at the second Jour Fixe
+following the announcement. The deadline is documented in the agenda.
+* Applications are sent to the Technical Board via tb@ilias.de within this
+period. Please state which `Authorities` you apply for, how much capacity you can
+commit, and whether funding or a company supports the work. Funding is not a
+precondition for applying. Applications may be made jointly by several people,
+and the `Authorities` of a `Component` may be split among them.
+* After the deadline the Technical Board decides on the assignment, and the
+result is documented as described above.
+* If nobody applies, the `Component` remains unmaintained and its pull requests
+keep the label [`Looking for Shepherd`](./contributing.md#looking-for-shepherd).
+The Technical Board notes the `Component` for the discussion about potential
+`Component` removals.
+* If a holder of an `Authority` assigned this way becomes inactive, the Product
+Manager may put the `Component` back on the agenda.
+
+## Process to Assign Authorities for New Components
+
+* A new `Component` follows the regular development process first: an entry in
+the Feature Wiki, a decision at the Jour Fixe, and funding.
+* A new `Component` is only proposed together with the people who are going to
+maintain it. The proposal states in the Feature Wiki who applies for which
+`Authorities`, and the proposers themselves apply for at least the `Authority to
+Sign off on Code Changes`. Without this the Jour Fixe does not decide on the new
+`Component`, so that no `Component` enters the code base unmaintained.
+* If you would like to suggest functionality but cannot take over a `Component`,
+please suggest it as a feature for an existing `Component` instead.
+* The Jour Fixe announcement opens the same call for interest, covering the
+`Authorities` the proposers did not apply for. Other community members may also
+apply for the `Authorities` the proposers applied for.
+* Applications and the decision follow the `Process to Change Authorities` above.
+* The `Authorities` are recorded in the pull request that adds the `Component` to
+the code base, tagged `authorities` and `documentation`.
 
 
 ## How Authority Assignments are Stored
